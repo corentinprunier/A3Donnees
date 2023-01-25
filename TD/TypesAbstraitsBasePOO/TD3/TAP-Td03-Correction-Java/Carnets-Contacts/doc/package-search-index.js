@@ -1,1 +1,0 @@
-packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"carnetcontacts"},{"l":"carnetcontacts.contacts"},{"l":"carnetcontacts.coordonnees"},{"l":"carnetcontacts.coordonnees.adresses"},{"l":"carnetcontacts.utils"}];updateSearchResults();
