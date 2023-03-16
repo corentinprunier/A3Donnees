@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="fr.ensma.a3.ia.carnetadressesdal.dao.ContactRiche"/>
+    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+    <fullyQualifiedTypeName name="fr.ensma.a3.ia.carnetadressesdal.dao.AdresseSqlDAO"/>
+    <fullyQualifiedTypeName name="java.lang.Boolean"/>
+    <fullyQualifiedTypeName name="java.sql.DatabaseMetaData"/>
+    <fullyQualifiedTypeName name="java.sql.SQLException"/>
+    <fullyQualifiedTypeName name="fr.ensma.a3.ia.carnetadressesdal.dao.ContactSqlDAO"/>
+    <fullyQualifiedTypeName name="java.sql.Statement"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="fr.ensma.a3.ia.carnetadressesdal.dao.entity.ContactEntity"/>
+    <fullyQualifiedTypeName name="fr.ensma.a3.ia.carnetadressesdal.dao.entity.AdresseEntity"/>
+    <fullyQualifiedTypeName name="fr.ensma.a3.ia.carnetadressesdal.dao.entity.ContactRiche"/>
+    <fullyQualifiedTypeName name="fr.ensma.a3.ia.carnetadressesdal.dao.Dao"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+</qualifiedTypeNameHistroy>

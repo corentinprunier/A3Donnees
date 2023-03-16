@@ -1,0 +1,26 @@
+package fr.ensma.a3.ia;
+
+import java.util.Scanner;
+
+public class App 
+{
+    public static void main( String[] args )
+    {
+
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Que voulez vous faire ?");
+		System.out.println("Pour lire le carnet de contact, écrivez contact.");
+		System.out.println("Pour lire le carnet d'adresse, écrivez adresse.");
+		System.out.println("Pour ajouter un contact, écrivez ajouter.");
+		System.out.println("Pour modifier un contact, écrivez modifier.");
+		System.out.println("Pour supprimer un contact, écrivez supprimer.");
+		
+		String str = sc.nextLine();
+		
+		if (str.compareTo("Lire le carnet de contact") == 0) {
+			
+		}
+		
+    }
+}

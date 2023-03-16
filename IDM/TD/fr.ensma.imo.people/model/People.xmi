@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<people:People
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:people="http://www.ensma.fr/imo/people"
+    xsi:schemaLocation="http://www.ensma.fr/imo/people people.ecore"
+    id="p1">
+  <person xsi:type="people:Male"
+      fullName="Brandon March"/>
+  <person xsi:type="people:Male"
+      fullName="David Sailor"/>
+  <person xsi:type="people:Male"
+      fullName="Dylan Sailor"/>
+  <person xsi:type="people:Male"
+      fullName="Jim March"/>
+  <person xsi:type="people:Male"
+      fullName="Peter Sailor"/>
+  <person xsi:type="people:Female"
+      fullName="Jackie Sailor"/>
+  <person xsi:type="people:Female"
+      fullName="Cindy March"/>
+  <person xsi:type="people:Female"
+      fullName="Kelly Sailor"/>
+  <person xsi:type="people:Female"
+      fullName="Brenda March"/>
+</people:People>

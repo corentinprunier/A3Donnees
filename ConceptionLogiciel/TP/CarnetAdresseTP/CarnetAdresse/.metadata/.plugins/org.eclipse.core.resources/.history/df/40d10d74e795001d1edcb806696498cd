@@ -1,0 +1,54 @@
+package fr.ensma.a3.ia;
+
+import java.util.List;
+import java.util.Scanner;
+
+import fr.ensma.a3.ia.carnetadressesdal.dao.ContactSqlDAO;
+import fr.ensma.a3.ia.carnetadressesdal.dao.IDao;
+import fr.ensma.a3.ia.carnetadressesdal.dao.entity.ContactEntity;
+
+public class App 
+{
+    public static void main( String[] args )
+    {
+
+		Scanner sc = new Scanner(System.in);
+		IDao<ContactEntity> persdao = new ContactSqlDAO();
+		IDao<AdresseEntity> adrdao = new AdresseSqlDAO();
+		
+		
+		System.out.println("Que voulez vous faire ?");
+		System.out.println("Pour lire le carnet de contact, écrivez contact.");
+		System.out.println("Pour lire le carnet d'adresse, écrivez adresse.");
+		System.out.println("Pour ajouter un contact, écrivez ajouter.");
+		System.out.println("Pour modifier un contact, écrivez modifier.");
+		System.out.println("Pour supprimer un contact, écrivez supprimer.");
+		
+		String str = sc.nextLine();
+		
+		
+		
+		switch(str) {
+		
+		case "contact" :
+	    	System.out.println("Éléments dans la base Contact:");
+	        List<ContactEntity> allpers = persdao.getAll();
+	        for (ContactEntity ad : allpers) {
+	            System.out.println(ad);
+	        }
+
+		case "adresse" :
+	    	System.out.println("Éléments dans la base Adresse:");
+	        List<AdresseEntity> alladr = adrdao.getAll();
+	        for (AdresseEntity ad : alladr) {
+	            System.out.println(ad);
+	        }
+			
+		case "ajouter" :
+			System.out.println("Donnez le nom du contact:");
+			ContactRiche cont = new ContactR;
+			
+		}
+		
+    }
+}

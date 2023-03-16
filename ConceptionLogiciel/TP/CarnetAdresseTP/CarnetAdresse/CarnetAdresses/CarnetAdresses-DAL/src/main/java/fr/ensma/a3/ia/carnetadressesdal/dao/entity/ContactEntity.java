@@ -1,0 +1,82 @@
+package fr.ensma.a3.ia.carnetadressesdal.dao.entity;
+
+public class ContactEntity {
+
+	private int idPers;
+	private String nom;
+	private String prenom;
+	private int idAdr = -1;
+	
+	
+	
+	public int getIdPers() {
+		return idPers;
+	}
+	
+	public void setIdPers(int idpers) {
+		this.idPers = idpers;
+	}
+	
+	public final String getNom() {
+		return nom;
+	}
+	
+	public final void setNom(String nom) {
+		this.nom = nom;
+	}
+	
+	public final String getPrenom() {
+		return prenom;
+	}
+	
+	public final void setPrenom(String prenom) {
+		this.prenom = prenom;
+	}
+	
+	public final int getIdAdr() {
+		return idAdr;
+	}
+	
+	public final void setIdAdr(int idAdr) {
+		this.idAdr = idAdr;
+	}
+	
+	
+	 @Override
+	    public String toString() {
+	        return idPers + " : " + nom + " " + prenom + " " + idAdr;
+	    }
+
+	    @Override
+	    public boolean equals(Object obj) {
+	        if (obj == null) {
+	            return false;
+	        }
+	        if (obj == this) {
+	            return true;
+	        }
+	        if (!(obj instanceof ContactEntity)) {
+	            return false;
+	        } else {
+	            ContactEntity ad = (ContactEntity) obj;
+	            if ((ad.getNom().compareTo(nom) == 0) && (ad.getPrenom().compareTo(prenom) == 0)
+	                    && (ad.getIdAdr() == idAdr)) {
+	                return true;
+	            } else {
+	                return false;
+	            }
+	        }
+	    }
+	    
+	    @Override
+	    public int hashCode() {
+	    	int hash = 1;
+	    	hash = hash*31 + (nom == null ? 0 : nom.hashCode());
+	    	hash = hash*23 + (prenom == null ? 0 : prenom.hashCode());
+	    	hash = hash*19 + idAdr;
+	    	return hash;
+	    }
+
+	
+	
+}

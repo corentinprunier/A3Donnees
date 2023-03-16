@@ -1,0 +1,7 @@
+fr/ensma/a3/ia/carnetadressesdal/dao/entity/AdresseEntity.class
+fr/ensma/a3/ia/carnetadressesdal/dao/entity/ContactEntity.class
+fr/ensma/a3/ia/carnetadressesdal/dao/ContactPoiDAO.class
+fr/ensma/a3/ia/carnetadressesdal/dao/AdressePoiDAO.class
+fr/ensma/a3/ia/carnetadressesdal/dao/IDao.class
+fr/ensma/a3/ia/carnetadressesdal/dao/AbstractPoiDAO.class
+fr/ensma/a3/ia/carnetadressesdal/App.class

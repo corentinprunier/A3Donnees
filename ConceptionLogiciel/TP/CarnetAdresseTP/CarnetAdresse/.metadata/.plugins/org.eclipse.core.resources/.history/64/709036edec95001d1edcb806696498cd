@@ -1,0 +1,4 @@
+excelpath=/carnetadr_bdd/BDD.xlsx
+
+sqlpath=/carnetadr_bdd/BDD.db
+# Attention ici sur eclipse user.dir va jusqu'à /CarnetAdresses-DAL

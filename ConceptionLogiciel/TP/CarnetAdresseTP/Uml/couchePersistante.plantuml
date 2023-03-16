@@ -1,0 +1,112 @@
+@startuml DAO
+
+
+
+package CoucheMetier {
+
+}
+
+
+
+package CouchePersistante{
+
+class DAO {
+
+}
+
+
+interface IDAO {
+    + getAll() : List<T>
+    + create(elem : T)
+    + update(elem : T)
+    + delete(elem : T)
+}
+
+
+abstract class AbstractDAO {
+    + getAll() : List<T>
+    + create(elem : T)
+    + update(elem : T)
+    + delete(elem : T)
+}
+
+
+
+package CouchePersistante.DonneesJoueurs {
+
+class JoueursDAO {
+
+}
+
+
+class JoueursEntity {
+    - id : Integer[1]
+    - pseudo : String[1]
+    - adresseMail : String[1]
+    - mdp : String[1]
+    - nbPartiesJouees : Integer[1]
+    - nbPartiesGagnees : Integer[1]
+    __
+    + JoueursEntity()
+    __
+    + getId() : Integer[1]
+    + getPseudo() : String[1]
+    + getAdresseMail() : String[1]
+    + getMdp() : String[1]
+    + getNbPartiesJouees() : Integer[1]
+    + getNbPartiesGagnees() : Integer[1]
+    + setId(Integer[1])
+    + setPseudo(String[1])
+    + setAdresseMail(String[1])
+    + setMdp(String[1])
+    + setNbPartiesJouees(Integer[1]) 
+    + setNbPartiesGagnees(Integer[1])
+}
+
+
+
+}
+
+package CouchePersistante.DonneesParties {
+
+class PartiesDAO {
+
+}
+
+class PartiesEntity {
+    - id : Integer[1]
+    - pseudoJoueur1 : String[1]
+    - pseudoJoueur2 : String[1]
+    - numVainqueur : String[1]
+    __
+    + PartiesEntity()
+    __
+    + getid() : Integer[1]
+    + getPseudoJoueur1() : String[1]
+    + getPseudoJoueur2() : String[1]
+    + getNumVainqueur() : Integer[1]
+    + setid(Integer[1])
+    + setPseudoJoueur1(String[1])
+    + setPseudoJoueur2(String[1])
+    + setNumVainqueur(Integer[1])
+}
+
+}
+
+
+}
+
+
+PartiesDAO --|> AbstractDAO
+JoueursDAO --|> AbstractDAO
+
+AbstractDAO ..|> IDAO
+
+AbstractDAO --> "1" PartiesEntity
+AbstractDAO --> "1" JoueursEntity
+
+DAO o--> "2" IDAO
+
+CoucheMetier --> DAO
+
+@enduml DAO

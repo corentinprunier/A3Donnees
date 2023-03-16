@@ -1,0 +1,194 @@
+package fr.ensma.a3.ia.carnetadressesdal;
+
+import java.sql.SQLException;
+import java.util.List;
+import java.util.Optional;
+
+import fr.ensma.a3.ia.carnetadressesdal.dao.AdressePoiDAO;
+import fr.ensma.a3.ia.carnetadressesdal.dao.AdresseSqlDAO;
+import fr.ensma.a3.ia.carnetadressesdal.dao.ContactPoiDAO;
+import fr.ensma.a3.ia.carnetadressesdal.dao.ContactSqlDAO;
+import fr.ensma.a3.ia.carnetadressesdal.dao.Dao;
+import fr.ensma.a3.ia.carnetadressesdal.dao.IDao;
+import fr.ensma.a3.ia.carnetadressesdal.dao.entity.AdresseEntity;
+import fr.ensma.a3.ia.carnetadressesdal.dao.entity.ContactEntity;
+import fr.ensma.a3.ia.carnetadressesdal.dao.entity.ContactRiche;
+
+/**
+ * Test Dao
+ *
+ * @author Mikky Richard
+ */
+public class App {
+    public static void main(String[] args) {
+
+
+    	IDao<AdresseEntity> adrdao = new AdresseSqlDAO();
+    	AdresseEntity adrajout = new AdresseEntity();
+        adrajout.setNumRue(10);
+        adrajout.setNomRue("toumoche");
+        adrajout.setCodePostal(97000);
+        adrajout.setNomVille("PytonVille");
+        System.out.println("Création de l'élément : " + adrajout);
+    	adrdao.create(adrajout);
+    	
+    	System.out.println("Éléments dans la base Adresses:");
+        List<AdresseEntity> alladr = adrdao.getAll();
+        for (AdresseEntity ad : alladr) {
+            System.out.println(ad);
+        }
+    	
+    	IDao<ContactEntity> persdao = new ContactSqlDAO();
+//
+//    	ContactEntity persajout = new ContactEntity();
+//    	persajout.setNom("Caulet");
+//        persajout.setPrenom("Justine");
+//        persajout.setIdAdr(3);
+//        System.out.println("Création de l'élément : " + persajout);
+//
+//        persdao.create(persajout);
+    	
+    	
+    	System.out.println("Éléments dans la base Contact:");
+        List<ContactEntity> allpers = persdao.getAll();
+        for (ContactEntity ad : allpers) {
+            System.out.println(ad);
+        }
+        
+//        AdresseEntity adcherche = new AdresseEntity();
+//        adcherche.setNumRue(44);
+//        adcherche.setNomRue("rue Adelaide");
+//        adcherche.setCodePostal(83000);
+//        adcherche.setNomVille("AdaLand");
+//        System.out.println("Recherche par valeur de l'élément : " + adcherche);
+//        Optional<AdresseEntity> res1 = adrdao.getByValue(adcherche);
+//        if (res1.isPresent()) {
+//            System.out.println(res1.get());
+//        }
+//        System.out.println("Recherche par id de l'élément : id=1 ");
+//        res1 = adrdao.getById(1);
+//        if (res1.isPresent()) {
+//            System.out.println(res1.get());
+//        }
+//        AdresseEntity adrajout = new AdresseEntity();
+//        adrajout.setNumRue(10);
+//        adrajout.setNomRue("toumoche");
+//        adrajout.setCodePostal(97000);
+//        adrajout.setNomVille("PitonVille");
+//        System.out.println("Création de l'élément : " + adrajout);
+//        adrdao.create(adrajout);
+//        adrajout.setNomVille("PythonVille");
+//        System.out.println("Update du nom de la ville");
+//        adrdao.update(adrajout);
+//        System.out.println("Éléments dans la base :");
+//        alladr = adrdao.getAll();
+//        for (AdresseEntity ad : alladr) {
+//            System.out.println(ad);
+//        }
+//        System.out.println("Ajout d'un élément déjà en base :");
+//        adrdao.create(adrajout);
+//        System.out.println("Suppression de l'élément id = 3");
+//        adrdao.delete(adrdao.getById(3).get());
+//        System.out.println("Éléments dans la base :");
+//        alladr = adrdao.getAll();
+//        for (AdresseEntity ad : alladr) {
+//            System.out.println(ad);
+//        }
+//        System.out.println("\n");
+//        
+//        
+//        
+//        System.out.println("Éléments dans la base Contacts:");
+//        IDao<ContactEntity> persdao = new ContactSqlDAO();
+//        List<ContactEntity> allpers = persdao.getAll();
+//        for (ContactEntity pers : allpers) {
+//            System.out.println(pers);
+//        }
+//        ContactEntity perscherche = new ContactEntity();
+//        perscherche.setNom("RICHARD");
+//        perscherche.setPrenom("Michael");
+//        perscherche.setIdAdr(1);
+//        System.out.println("Recherche par valeur de l'élément : " + perscherche);
+//        Optional<ContactEntity> res2 = persdao.getByValue(perscherche);
+//        if (res2.isPresent()) {
+//            System.out.println(res2.get());
+//        }
+//        System.out.println("Recherche par id de l'élément : id=1 ");
+//        res2 = persdao.getById(1);
+//        if (res2.isPresent()) {
+//            System.out.println(res2.get());
+//        }
+//        ContactEntity persajout = new ContactEntity();
+//        persajout.setNom("Collet");
+//        persajout.setPrenom("Justine");
+//        persajout.setIdAdr(3);
+//        System.out.println("Création de l'élément : " + persajout);
+//        persdao.create(persajout);
+//        persajout.setNom("Caulet");
+//        System.out.println("Update du nom de famille");
+//        persdao.update(persajout);
+//        System.out.println("Éléments dans la base :");
+//        allpers = persdao.getAll();
+//        for (ContactEntity pers : allpers) {
+//            System.out.println(pers);
+//        }
+//        System.out.println("Ajout d'un élément déjà en base :");
+//        persdao.create(persajout);
+//        System.out.println("Suppression de l'élément id = 2");
+//        persdao.delete(persdao.getById(3).get());
+//        System.out.println("Éléments dans la base :");
+//        allpers = persdao.getAll();
+//        for (ContactEntity pers : allpers) {
+//            System.out.println(pers);
+//        }
+//        System.out.println("\n");
+//        
+//        
+//        
+//        
+//        System.out.println("Éléments dans la DAO global:");
+//        IDao<ContactRiche> contdao = new Dao(persdao,adrdao);
+//        List<ContactRiche> allcont = contdao.getAll();
+//        for (ContactRiche cont : allcont) {
+//            System.out.println(cont);
+//        }
+//        ContactRiche contcherche = new ContactRiche();
+//        contcherche.setAdresse(adcherche);
+//        contcherche.setPersonne(perscherche);
+//
+//        System.out.println("Recherche par valeur de l'élément : " + contcherche);
+//        Optional<ContactRiche> res3 = contdao.getByValue(contcherche);
+//        if (res3.isPresent()) {
+//            System.out.println(res3.get());
+//        }
+//        System.out.println("Recherche par id de l'élément : id=1 ");
+//        res3 = contdao.getById(1);
+//        if (res3.isPresent()) {
+//            System.out.println(res3.get());
+//        }
+//        ContactRiche contajout = new ContactRiche();
+//        contajout.setAdresse(adrajout);
+//        contajout.setPersonne(persajout);
+//        System.out.println("Création de l'élément : " + contajout);
+//        contdao.create(contajout);
+//        System.out.println("Update du Contact");
+//        
+//        contajout.setNomVille("Pulversheim");
+//        contdao.update(contajout);
+//        System.out.println("Éléments dans la DAO globale :");
+//        allcont = contdao.getAll();
+//        for (ContactRiche cont : allcont) {
+//            System.out.println(cont);
+//        }
+//        System.out.println("Ajout d'un élément déjà en base :");
+//        contdao.create(contajout);
+//        System.out.println("Suppression de l'élément id = 3");
+//        contdao.delete(contdao.getById(3).get());
+//        System.out.println("Éléments dans la base :");
+//        allcont = contdao.getAll();
+//        for (ContactRiche cont : allcont) {
+//            System.out.println(cont);
+//        }
+//        System.out.println("\n");
+    }
+}

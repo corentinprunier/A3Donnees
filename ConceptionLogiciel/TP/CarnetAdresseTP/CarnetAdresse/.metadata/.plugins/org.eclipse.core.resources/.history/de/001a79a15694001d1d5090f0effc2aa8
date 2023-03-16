@@ -1,0 +1,58 @@
+package fr.ensma.a3.ia.carnetadressesdal.dao;
+
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.Properties;
+
+
+public abstract class AbstractSqlDAO {
+
+	
+    private Connection connection = null;
+    private Statement statement = null;
+    private String FILE__NAME_PROP;
+ 
+    public AbstractSqlDAO(String dBPath) {
+    	Properties dbprops = new Properties();
+        try {
+            dbprops.load(getClass().getClassLoader().getResourceAsStream("db.properties"));
+            FILE__NAME_PROP = System.getProperty("user.dir") + dbprops.getProperty("excelpath");
+            System.out.println(FILE__NAME_PROP);
+        } catch (FileNotFoundException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        } catch (IOException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+    }
+ 
+    public void openBase() {
+        try {
+            Class.forName("org.sqlite.JDBC");
+            connection = DriverManager.getConnection("jdbc:sqlite:" + FILE__NAME_PROP);
+            statement = connection.createStatement();
+            System.out.println("Connexion a " + FILE__NAME_PROP + " avec succès");
+        } catch (ClassNotFoundException notFoundException) {
+            notFoundException.printStackTrace();
+            System.out.println("Erreur de connecxion");
+        } catch (SQLException sqlException) {
+            sqlException.printStackTrace();
+            System.out.println("Erreur de connecxion");
+        }
+    }
+ 
+    public void closeBase() {
+        try {
+            connection.close();
+            statement.close();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+}
+	

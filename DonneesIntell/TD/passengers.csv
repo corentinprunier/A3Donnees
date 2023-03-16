@@ -1,0 +1,1318 @@
+class,survived,title,surname,first name,sex,age,birthday,nationality,sibsp,parch,ticket,fare,cabin,boarded,lifeboat,body,home.dest
+1,1,Miss,Cherry,Gladys,female,30.0,1881-08-27,English,0,0,110152,86.5,B77,S,8,,"London, England"
+1,1,Miss,Maioni,Roberta,female,20.0,,English,0,0,110152,86.5,B79,S,8,,
+1,1,Countess,Rothes (of),(Lucy Noel Martha Dyer-Edwards),female,33.0,1878-12-25,Scottish,0,0,110152,86.5,B77,S,8,,"London  Vancouver, BC"
+1,0,Mr.,Taussig,Emil,male,52.0,,American,1,1,110413,79.65,E67,S,,,"New York, NY"
+1,1,Mrs.,Taussig,Emil (Tillie Mandelbaum),female,39.0,1872-12-18,American,1,1,110413,79.65,E67,S,8,,"New York, NY"
+1,1,Miss,Taussig,Ruth,female,18.0,1893-11-25,American,0,2,110413,79.65,E68,S,8,,"New York, NY"
+1,0,Mr.,Clifford,George Quincy,male,40.0,1871-11-20,American,0,0,110465,52.0,A14,S,,,"Stoughton, MA"
+1,0,Mr.,Porter,Walter Chamberlain,male,46.0,1865-05-13,American,0,0,110465,52.0,C110,S,,207.0,"Worcester, MA"
+1,0,Mr.,Maguire,John Edward,male,30.0,1882-02-07,American,0,0,110469,26.0,C106,S,,,"Brockton, MA"
+1,0,Mr.,Borebank,John James,male,42.0,,English,0,0,110489,26.55,D22,S,,,"London / Winnipeg, MB"
+1,1,Mr.,Bjornstrom-Steffansson,Mauritz Hakan,male,28.0,1883-11-09,Swedish,0,0,110564,26.55,C52,S,D,,"Stockholm, Sweden / Washington, DC"
+1,0,Mr.,Warren,Frank Manley,male,63.0,1848-05-10,American,1,0,110813,75.25,D37,C,,,"Portland, OR"
+1,1,Mrs.,Warren,Frank Manley (Anna Sophia Atkinson),female,60.0,1851-10-24,American,1,0,110813,75.25,D37,C,5,,"Portland, OR"
+1,1,Mr.,Salomon,Abraham L,male,43.0,1868-10-13,American,0,0,111163,26.0,,C,1,,"New York, NY"
+1,0,Mr.,Van der hoef,Wyckoff,male,61.0,1850-05-13,American,0,0,111240,33.5,B19,B,,245.0,"Brooklyn, NY"
+1,0,Mr.,Gee,Arthur H,male,47.0,,English,0,0,111320,38.5,E63,S,,275.0,"St Anne's-on-Sea, Lancashire"
+1,1,Miss,Hippach,Jean Gertrude,female,17.0,1894-09-30,American,0,1,111361,57.9792,B18,C,4,,"Chicago, IL"
+1,1,Mrs.,Hippach,Louis Albert (Ida Sophia Fischer),female,44.0,1867-11-25,American,0,1,111361,57.9792,B18,C,4,,"Chicago, IL"
+1,1,Mr.,Behr,Karl Howell,male,26.0,1885-05-30,American,0,0,111369,30.0,C148,C,5,,"New York, NY"
+1,1,Mr.,Homer,"Harry (""Mr E Haven"")",male,40.0,,American,0,0,111426,26.55,,S,15,,"Indianapolis, IN"
+1,1,Mr.,Brereton,"George Andrew (""George Arthur Brayton"")",male,37.0,1874-11-11,American,0,0,111427,26.55,,S,9,,"Los Angeles, CA"
+1,1,Mr.,Romaine,"Charles Hallace (""Mr C Rolmane"")",male,45.0,1866-07-11,English,0,0,111428,26.55,,S,9,,"New York, NY"
+1,0,Mr.,Andrews,Thomas Jr,male,39.0,1873-02-07,English,0,0,112050,0.0,A36,S,,,"Belfast, NI"
+1,0,Mr.,Chisholm,Roderick Robert Crispin,male,40.0,,Belgian,0,0,112051,0.0,,B,,,"Liverpool, England / Belfast"
+1,0,Mr.,Parr,William Henry Marsh,male,30.0,,Belgian,0,0,112052,0.0,,B,,,Belfast
+1,0,Mr.,Graham,George Edward,male,38.0,1873-06-11,Canadian,0,1,112053,30.0,B42,S,,147.0,"Winnipeg, MB"
+1,0,Mr.,Fry,Richard,male,39.0,,English,0,0,112058,0.0,B102,S,,,
+1,1,Mr.,Ismay,Joseph Bruce,male,49.0,1862-12-12,English,0,0,112058,0.0,B52 B54 B56,S,C,,Liverpool
+1,0,Mr.,Harrison,William,male,40.0,,English,0,0,112059,0.0,B94,S,,110.0,
+1,1,Mr.,Blank,Henry,male,39.0,1872-09-17,American,0,0,112277,31.0,A31,C,7,,"Glen Ridge, NJ"
+1,1,Mrs.,Lindstrom,Carl Johan (Sigrid Posse),female,55.0,1856-12-18,Swedish,0,0,112377,27.7208,,C,6,,"Stockholm, Sweden"
+1,1,Miss,Gibson,Dorothy Winifred,female,22.0,1889-05-17,American,0,1,112378,59.4,,C,7,,"New York, NY"
+1,1,Mrs.,Gibson,Leonard (Pauline C Boeson),female,44.0,,American,0,1,112378,59.4,,C,7,,"New York, NY"
+1,0,Dr.,Brewe,Arthur Jackson,male,45.0,,Irish,0,0,112379,39.6,,C,,,"Philadelphia, PA"
+1,1,Miss,Crosby,Harriet R,female,39.0,1872-10-08,American,0,2,112901,26.55,B26,S,7,,"Milwaukee, WI"
+1,0,Mr.,Klaber,Herman,male,41.0,,American,0,0,113028,26.55,C124,S,,,"Portland, OR"
+1,0,Mr.,Head,Christopher,male,42.0,1869-12-25,English,0,0,113038,42.5,B11,S,,,London / Middlesex
+1,0,Mr.,Partner,Austen,male,40.0,1871-11-30,English,0,0,113043,28.5,C124,S,,166.0,"Surbiton Hill, Surrey"
+1,0,Mr.,Julian,Henry Forbes,male,50.0,1861-05-09,Irish,0,0,113044,26.0,E60,S,,,London
+1,0,Major,Butt,Archibald Willingham,male,46.0,1865-09-25,American,0,0,113050,26.55,B38,S,,,"Washington, DC"
+1,0,Mr.,Foreman,Benjamin Laventall,male,30.0,,American,0,0,113051,27.75,C111,C,,,"New York, NY"
+1,0,Mr.,Brady,John Bertram,male,41.0,1870-12-03,American,0,0,113054,30.5,A21,S,,,"Pomeroy, WA"
+1,1,Mr.,Daly,Peter Denis,male,51.0,1860-07-07,English,0,0,113055,26.55,E17,S,A,,"Lima, Peru"
+1,0,Mr.,Smith,Richard William,male,57.0,,English,0,0,113056,26.0,A19,S,,,"Streatham, Surrey"
+1,0,Mr.,Carrau,Francisco M,male,28.0,,Uruguayan,0,0,113059,47.1,,S,,,"Montevideo, Uruguay"
+1,0,Mr.,Carrau,Jose Pedro,male,17.0,,Uruguayan,0,0,113059,47.1,,S,,,"Montevideo, Uruguay"
+1,0,Mr.,Long,Milton Clyde,male,29.0,1882-10-19,American,0,0,113501,30.0,D6,S,,126.0,"Springfield, MA"
+1,1,Miss,Gieger,Amalie Henriette,female,35.0,,American,0,0,113503,211.5,C130,C,4,,
+1,0,Mr.,Keeping,Edwin,male,33.0,,American,0,0,113503,211.5,C132,C,,45.0,
+1,0,Mr.,Widener,George Dunton,male,50.0,1861-06-16,American,1,1,113503,211.5,C80,C,,,"Elkins Park, PA"
+1,1,Mrs.,Widener,George Dunton (Eleanor Elkins),female,50.0,1861-09-21,American,1,1,113503,211.5,C80,C,4,,"Elkins Park, PA"
+1,0,Mr.,Widener,Harry Elkins,male,27.0,1885-01-03,American,0,2,113503,211.5,C82,C,,,"Elkins Park, PA"
+1,1,Miss,Bowerman,Elsie Edith,female,22.0,1889-12-18,English,0,1,113505,55.0,E33,S,6,,"St Leonards-on-Sea, England Ohio"
+1,1,Mrs.,Chibnall,(Edith Martha Bowerman),female,48.0,1864-02-27,English,0,1,113505,55.0,E33,S,6,,"St Leonards-on-Sea, England Ohio"
+1,0,Mr.,Ostby,Engelhart Cornelius,male,64.0,1847-12-18,American,0,1,113509,61.9792,B30,C,,234.0,"Providence, RI"
+1,1,Miss,Ostby,Helene Ragnhild,female,22.0,1889-11-30,American,0,1,113509,61.9792,B36,C,5,,"Providence, RI"
+1,0,Mr.,Williams-Lambert,Fletcher Fellows,male,43.0,,English,0,0,113510,35.0,C128,S,,,"London, England"
+1,0,Mr.,Stead,William Thomas,male,62.0,1849-07-05,English,0,0,113514,26.55,C87,S,,,"Wimbledon Park, London / Hayling Island, Hants"
+1,1,Miss,Icard,Amelie,female,39.0,1872-09-30,French,0,0,113572,80.0,B28,S,6,,
+1,1,Mrs.,Stone,George Nelson (Martha Evelyn),female,62.0,1850-01-29,American,0,0,113572,80.0,B28,S,6,,"Cincinatti, OH"
+1,1,Miss,Carter,Lucile Polk,female,14.0,1897-10-20,American,1,2,113760,120.0,B96 B98,S,4,,"Bryn Mawr, PA"
+1,1,Mr.,Carter,William Ernest,male,36.0,1875-06-19,American,1,2,113760,120.0,B96 B98,S,C,,"Bryn Mawr, PA"
+1,1,Mrs.,Carter,William Ernest (Lucile Polk),female,36.0,1875-10-08,American,1,2,113760,120.0,B96 B98,S,4,,"Bryn Mawr, PA"
+1,1,Master,Carter,William Thornton II,male,11.0,1900-09-14,American,1,2,113760,120.0,B96 B98,S,4,,"Bryn Mawr, PA"
+1,0,Mr.,Rood,Hugh Roscoe,male,38.0,1873-04-23,American,0,0,113767,50.0,A32,S,,,"Seattle, WA"
+1,0,Mr.,Marvin,Daniel Warner,male,18.0,,American,1,0,113773,53.1,D30,S,,,"New York, NY"
+1,1,Mrs.,Marvin,Daniel Warner (Mary Graham Carmichael Farquarson),female,18.0,1894-01-30,American,1,0,113773,53.1,D30,S,10,,"New York, NY"
+1,1,Mrs.,Pears,Thomas (Edith Wearne),female,22.0,1889-09-01,English,1,0,113776,66.6,C2,S,8,,"Isleworth, England"
+1,0,Mr.,Pears,Thomas Clinton,male,29.0,1882-05-07,English,1,0,113776,66.6,C2,S,,,"Isleworth, England"
+1,0,Mr.,Franklin,Thomas Parham,male,37.0,,English,0,0,113778,26.55,D34,S,,,"Westcliff-on-Sea, Essex"
+1,1,Col.,Gracie,Archibald IV,male,53.0,1859-01-17,American,0,0,113780,28.5,C51,S,B,,"Washington, DC"
+1,0,Miss,Allison,Helen Loraine,female,2.0,1909-06-05,Canadian,1,2,113781,151.55,C22 C26,S,,,"Montreal, PQ / Chesterville, ON"
+1,0,Mrs.,Allison,Hudson J C (Bessie Waldo Daniels),female,25.0,1886-11-14,Canadian,1,2,113781,151.55,C22 C26,S,,,"Montreal, PQ / Chesterville, ON"
+1,0,Mr.,Allison,Hudson Joshua Creighton,male,30.0,1881-12-18,Canadian,1,2,113781,151.55,C22 C26,S,,135.0,"Montreal, PQ / Chesterville, ON"
+1,1,Master,Allison,Hudson Trevor,male,0.9424657534246575,1911-05-07,Canadian,1,2,113781,151.55,C22 C26,S,11,,"Montreal, PQ / Chesterville, ON"
+1,1,Miss,Cleaver,Alice,female,22.0,1889-07-05,English,0,0,113781,151.55,,S,11,,
+1,1,Miss,Daniels,Sarah,female,33.0,,English,0,0,113781,151.55,,S,8,,
+1,1,Miss,Bonnell,Elizabeth,female,62.0,,English,0,0,113783,26.55,C103,S,8,,"Birkdale, England Cleveland, Ohio"
+1,0,Mr.,Blackwell,Stephen Weart,male,45.0,1866-09-06,American,0,0,113784,35.5,T,S,,,"Trenton, NJ"
+1,1,Major,Peuchen,Arthur Godfrey,male,52.0,1859-04-18,Canadian,0,0,113786,30.5,C104,S,6,,"Toronto, ON"
+1,0,Mr.,Molson,Harry Markland,male,55.0,1856-09-09,Canadian,0,0,113787,30.5,C30,S,,,"Montreal, PQ"
+1,1,Mr.,Sloper,William Thompson,male,28.0,1883-12-13,American,0,0,113788,35.5,A6,S,7,,"New Britain, CT"
+1,0,Mr.,Holverson,Alexander Oskar,male,42.0,1869-10-02,American,1,0,113789,52.0,,S,,38.0,"New York, NY"
+1,1,Mrs.,Holverson,Alexander Oskar (Mary Aline Towner),female,35.0,1876-09-21,American,1,0,113789,52.0,,S,8,,"New York, NY"
+1,0,Mr.,Rowe,Alfred G,male,59.0,1853-02-24,American,0,0,113790,26.55,,S,,109.0,London
+1,0,Mr.,Crafton,John Bertram,male,59.0,,American,0,0,113791,26.55,,S,,,"Roachdale, IN"
+1,0,Mr.,Smart,John Montgomery,male,56.0,,American,0,0,113792,26.55,,S,,,"New York, NY"
+1,1,Mr.,Seward,Frederic Kimber,male,34.0,1878-03-28,American,0,0,113794,26.55,,S,7,,"New York, NY"
+1,1,Miss,Willard,Constance,female,21.0,1890-06-06,American,0,0,113795,26.55,,S,8,,"Duluth, MN"
+1,0,Mr.,Harrington,Charles H,male,37.0,,English,0,0,113796,42.4,,S,,,
+1,0,Mr.,Moore,Clarence Bloomfield,male,47.0,1865-03-01,American,0,0,113796,42.4,,S,,,"Washington, DC"
+1,0,Mr.,Cairns,Alexander,male,28.0,,American,0,0,113798,31.0,,S,,,
+1,1,Miss,Serepeca,Augusta,female,30.0,,French,0,0,113798,31.0,,C,4,,
+1,0,Col.,Weir,John,male,59.0,1852-05-14,American,0,0,113800,26.55,,S,,,"England Salt Lake City, Utah"
+1,0,Mr.,Loring,Joseph Holland,male,30.0,1882-03-18,American,0,0,113801,45.5,,S,,,"London / New York, NY"
+1,0,Mr.,Futrelle,Jacques Heath,male,37.0,1875-04-09,American,1,0,113803,53.1,C123,S,,,"Scituate, MA"
+1,1,Mrs.,Futrelle,Jacques Heath (Lily May Peel),female,35.0,1876-05-26,American,1,0,113803,53.1,C123,S,D,,"Scituate, MA"
+1,1,Mr.,Daniel,Robert Williams,male,27.0,1884-09-11,American,0,0,113804,30.5,,S,3,,"Philadelphia, PA"
+1,1,Mr.,Chambers,Norman Campbell,male,27.0,1884-04-27,American,1,0,113806,53.1,E8,S,5,,"New York, NY / Ithaca, NY"
+1,1,Mrs.,Chambers,Norman Campbell (Bertha Griggs),female,32.0,1879-10-10,American,1,0,113806,53.1,E8,S,5,,"New York, NY / Ithaca, NY"
+1,0,Mr.,Wright,George,male,62.0,1849-10-26,American,0,0,113807,26.55,,S,,,"Halifax, NS"
+1,1,Mr.,Beckwith,Richard Leonard,male,37.0,1874-11-09,American,1,1,11751,52.5542,D35,S,5,,"New York, NY"
+1,1,Mrs.,Beckwith,Richard Leonard (Sallie Monypeny),female,46.0,1865-09-21,American,1,1,11751,52.5542,D35,S,5,,"New York, NY"
+1,1,Miss,Newsom,Helen Monypeny,female,19.0,1892-12-30,American,0,2,11752,26.2833,D47,S,5,,"New York, NY"
+1,1,Mr.,Kimball,Edwin Nelson Jr,male,42.0,1870-03-08,American,1,0,11753,52.5542,D19,S,5,,"Boston, MA"
+1,1,Mrs.,Kimball,Edwin Nelson Jr (Gertrude Parsons),female,45.0,1866-10-04,American,1,0,11753,52.5542,D19,S,5,,"Boston, MA"
+1,1,Sir,Duff Gordon,"Cosmo Edmund (""Mr Morgan"")",male,49.0,1862-07-22,English,1,0,11755,39.6,A16,C,1,,London / Paris
+1,1,Mr.,Harder,George Achilles,male,25.0,1886-10-22,American,1,0,11765,55.4417,E50,C,5,,"Brooklyn, NY"
+1,1,Mrs.,Harder,George Achilles (Dorothy Annan),female,21.0,1890-07-04,American,1,0,11765,55.4417,E50,C,5,,"Brooklyn, NY"
+1,1,Mrs.,Earnshaw,Boulton (Olive Potter),female,23.0,1888-09-09,American,0,1,11767,83.1583,C54,C,7,,"Mt Airy, Philadelphia, PA"
+1,1,Miss,Hays,Margaret Bechstein,female,24.0,1887-12-06,American,0,0,11767,83.1583,C54,C,7,,"New York, NY"
+1,1,Mrs.,Potter,Thomas Jr (Lily Alexenia Wilson),female,56.0,1855-08-15,American,0,1,11767,83.1583,C50,C,7,,"Mt Airy, Philadelphia, PA"
+1,1,Mrs.,Appleton,Edward Dale (Charlotte Lamson),female,53.0,1858-12-12,American,2,0,11769,51.4792,C101,S,D,,"Bayside, Queens, NY"
+1,1,Mrs.,Brown,John Murray (Caroline Lane Lamson),female,59.0,1852-07-08,American,2,0,11769,51.4792,C101,S,D,,"Belmont, MA"
+1,1,Mrs.,Cornell,Robert Clifford (Malvina Helen Lamson),female,55.0,1856-12-10,American,2,0,11770,25.7,C101,S,2,,"New York, NY"
+1,0,Mr.,Kent,Edward Austin,male,58.0,1854-02-19,American,0,0,11771,29.7,B37,C,,258.0,"Buffalo, NY"
+1,1,Mr.,Marechal,Pierre,male,29.0,1883-01-18,French,0,0,11774,29.7,C47,C,7,,"Paris, France"
+1,1,Mr.,Stengel,Charles Emil Henry,male,54.0,1857-11-19,American,1,0,11778,55.4417,C116,C,1,,"Newark, NJ"
+1,1,Mrs.,Stengel,Charles Emil Henry (Annie May Morris),female,44.0,1867-05-02,American,1,0,11778,55.4417,C116,C,5,,"Newark, NJ"
+1,1,Miss,Bazzani,Albina,female,32.0,,Italian,0,0,11813,76.2917,D15,C,8,,
+1,1,Mrs.,Bucknell,William Robert (Emma Eliza Ward),female,59.0,1852-08-28,American,0,0,11813,76.2917,D15,C,8,,"Philadelphia, PA"
+1,1,Mr.,Bishop,Dickinson H,male,25.0,1887-03-24,American,1,0,11967,91.0792,B49,C,7,,"Dowagiac, MI"
+1,1,Mrs.,Bishop,Dickinson H (Helen Walton),female,19.0,1892-05-19,American,1,0,11967,91.0792,B49,C,7,,"Dowagiac, MI"
+1,0,Mr.,Hays,Charles Melville,male,55.0,1856-05-16,Canadian,1,1,12749,93.5,B69,S,,307.0,"Montreal, PQ"
+1,1,Mrs.,Hays,Charles Melville (Clara Jennings Gregg),female,52.0,1859-10-13,Canadian,1,1,12749,93.5,B69,S,3,,"Montreal, PQ"
+1,0,Mr.,Payne,Vivian Ponsonby,male,23.0,,Canadian,0,0,12749,93.5,B24,S,,,"Montreal, PQ"
+1,1,Miss,Perreault,Anne,female,33.0,1878-07-29,Canadian,0,0,12749,93.5,B73,S,3,,
+1,0,Mr.,Ross,John Hugo,male,36.0,1875-11-24,Canadian,0,0,13049,40.125,A10,C,,,"Winnipeg, MB"
+1,0,Mr.,Beattie,Thomson,male,36.0,1875-11-25,Canadian,0,0,13050,75.2417,C6,C,A,,"Winnipeg, MN"
+1,0,Mr.,McCaffry,Thomas Francis,male,46.0,1866-02-05,American,0,0,13050,75.2417,C6,C,,292.0,"Vancouver, BC"
+1,1,Col.,Simonius-Blumer,Oberst Alfons,male,56.0,1855-10-23,Swiss,0,0,13213,35.5,A26,S,3,,"Basel, Switzerland"
+1,1,Dr.,Stahelin-Maeglin,Max,male,32.0,1880-02-18,Swiss,0,0,13214,30.5,B50,S,3,,"Basel, Switzerland"
+1,1,Mr.,Mock,Philipp Edmund,male,30.0,1881-08-16,American,1,0,13236,57.75,C78,C,11,,"New York, NY"
+1,1,Mrs.,Schabert,Paul (Emma Mock),female,35.0,1876-05-23,American,1,0,13236,57.75,C28,C,11,,"New York, NY"
+1,1,Miss,Andrews,Kornelia Theodosia,female,63.0,1848-08-12,American,1,0,13502,77.9583,D7,S,10,,"Hudson, NY"
+1,1,Mrs.,Hogeboom,John C (Anna Andrews),female,51.0,1860-05-05,American,1,0,13502,77.9583,D11,S,10,,"Hudson, NY"
+1,1,Miss,Longley,Gretchen Fiske,female,21.0,1890-09-01,American,0,0,13502,77.9583,D9,S,10,,"Hudson, NY"
+1,0,Mr.,Silvey,William Baird,male,50.0,,American,1,0,13507,55.9,E44,C,,,"Duluth, MN"
+1,1,Mrs.,Silvey,William Baird (Alice Munger),female,39.0,1872-10-19,American,1,0,13507,55.9,E44,C,11,,"Duluth, MN"
+1,0,Mr.,Clark,Walter Miller,male,27.0,1884-05-13,American,1,0,13508,136.7792,C89,C,,,"Los Angeles, CA"
+1,1,Mrs.,Clark,Walter Miller (Virginia McDowell),female,26.0,1885-05-30,American,1,0,13508,136.7792,C89,C,4,,"Los Angeles, CA"
+1,0,Mr.,Millet,Francis Davis,male,65.0,1846-11-03,American,0,0,13509,26.55,E38,C,,249.0,"East Bridgewater, MA"
+1,1,Mr.,Frolicher-Stehli,Maxmillian,male,60.0,1851-09-24,Swiss,1,1,13567,79.2,B41,C,5,,"Zurich, Switzerland"
+1,1,Mrs.,Frolicher-Stehli,Maxmillian (Margaretha Emerentia Stehli),female,48.0,1864-02-15,Swiss,1,1,13567,79.2,B41,C,5,,"Zurich, Switzerland"
+1,1,Miss,Frolicher,Hedwig Margaritha,female,22.0,1889-08-13,Swiss,0,2,13568,49.5,B39,C,5,,"Zurich, Switzerland"
+1,0,Mr.,Smith,Lucien Philip,male,24.0,1887-08-14,American,1,0,13695,60.0,C31,C,,,"Huntington, WV"
+1,1,Mrs.,Smith,Lucien Philip (Mary Eloise Hughes),female,18.0,1893-08-07,American,1,0,13695,60.0,C31,C,6,,"Huntington, WV"
+1,0,Mr.,Birnbaum,Jakob,male,24.0,1887-05-27,Polish ,0,0,13905,26.0,,C,,148.0,"San Francisco, CA"
+1,1,Miss,Burns,Elizabeth Margaret,female,41.0,1870-12-15,American,0,0,16966,134.5,E40,C,3,,
+1,1,Mr.,Spedden,Frederic Oakley,male,45.0,1867-01-09,American,1,1,16966,134.5,E34,C,3,,"Tuxedo Park, NY"
+1,1,Mrs.,Spedden,Frederic Oakley (Margaretta Corning Stone),female,39.0,1872-11-19,American,1,1,16966,134.5,E34,C,3,,"Tuxedo Park, NY"
+1,1,Master,Spedden,Robert Douglas,male,6.0,1905-11-19,American,0,2,16966,134.5,E34,C,3,,"Tuxedo Park, NY"
+1,1,Miss,Wilson,Helen Alice,female,31.0,1881-02-12,American,0,0,16966,134.5,E39 E41,C,3,,
+1,1,Mr.,Hawksford,Walter James,male,45.0,1867-01-30,English,0,0,16988,30.0,D45,S,3,,"Kingston, Surrey"
+1,1,Miss,Fleming,Margaret,female,42.0,,American,0,0,17421,110.8833,,C,4,,
+1,0,Mr.,Thayer,John Borland,male,49.0,1862-04-21,American,1,1,17421,110.8833,C68,C,,,"Haverford, PA"
+1,1,Mrs.,Thayer,John Borland (Marian Longstreth Morris),female,39.0,1872-11-09,American,1,1,17421,110.8833,C68,C,4,,"Haverford, PA"
+1,1,Mr.,Thayer,John Borland Jr,male,17.0,1894-12-24,American,0,2,17421,110.8833,C70,C,B,,"Haverford, PA"
+1,1,Mr.,Goldenberg,Samuel L,male,47.0,1864-09-08,American,1,0,17453,89.1042,C92,C,5,,"Paris, France / New York, NY"
+1,1,Mrs.,Goldenberg,Samuel L (Edwiga Grabowska),female,40.0,,American,1,0,17453,89.1042,C92,C,5,,"Paris, France / New York, NY"
+1,0,Mr.,Hilliard,Herbert Henry,male,44.0,1867-06-29,American,0,0,17463,51.8625,E46,S,,,"Brighton, MA"
+1,0,Mr.,McCarthy,Timothy J,male,55.0,,American,0,0,17463,51.8625,E46,S,,175.0,"Dorchester, MA"
+1,0,Mr.,Kenyon,Frederick R,male,41.0,1871-03-14,American,1,0,17464,51.8625,D21,S,,,"Southington / Noank, CT"
+1,1,Mrs.,Kenyon,Frederick R (Marion),female,31.0,1880-07-05,American,1,0,17464,51.8625,D21,S,8,,"Southington / Noank, CT"
+1,1,Dr.,Leader,Alice (Farnham),female,49.0,1862-05-10,American,0,0,17465,25.9292,D17,S,8,,"New York, NY"
+1,1,Mrs.,Swift,Frederick Joel (Margaret Welles Barron),female,46.0,1865-09-30,American,0,0,17466,25.9292,D17,S,8,,"Brooklyn, NY"
+1,1,Mr.,Dick,Albert Adrian,male,31.0,1880-07-29,Canadian,1,0,17474,57.0,B20,S,3,,"Calgary, AB"
+1,1,Mrs.,Dick,Albert Adrian (Vera Gillespie),female,17.0,1894-06-12,Canadian,1,0,17474,57.0,B20,S,3,,"Calgary, AB"
+1,0,Mr.,Lindeberg-Lind,"Erik Gustaf (""Mr Edward Lingrey"")",male,42.0,1869-06-18,Swedish,0,0,17475,26.55,,S,,,"Stockholm, Sweden"
+1,0,Mr.,Smith,James Clinch,male,56.0,1856-04-03,American,0,0,17764,30.6958,A7,C,,,"St James, Long Island, NY"
+1,1,Mrs.,Cassebeer,Henry Arthur Jr (Eleanor Genevieve Fosdick),female,36.0,,American,0,0,17770,27.7208,,C,5,,"New York, NY"
+1,1,Miss,Barber,"Ellen ""Nellie""",female,26.0,,English,0,0,19877,78.85,,S,6,,
+1,0,Mr.,Cavendish,Tyrell William,male,36.0,1875-10-12,English,1,0,19877,78.85,C46,S,,172.0,"Little Onn Hall, Staffs"
+1,1,Mrs.,Cavendish,Tyrell William (Julia Florence Siegel),female,25.0,1886-11-03,English,1,0,19877,78.85,C46,S,6,,"Little Onn Hall, Staffs"
+1,0,Mr.,Case,Howard Brown,male,48.0,,English,0,0,19924,26.0,,S,,,"Ascot, Berkshire / Rochester, NY"
+1,1,Miss,Minahan,Daisy E,female,33.0,1879-01-09,American,1,0,19928,90.0,C78,Q,14,,"Green Bay, WI"
+1,0,Dr.,Minahan,William Edward,male,44.0,1867-04-20,American,2,0,19928,90.0,C78,Q,,230.0,"Fond du Lac, WI"
+1,1,Mrs.,Minahan,William Edward (Lillian E Thorpe),female,37.0,1875-02-07,American,1,0,19928,90.0,C78,Q,14,,"Fond du Lac, WI"
+1,1,Mr.,Hoyt,Frederick Maxfield,male,38.0,1873-09-15,American,1,0,19943,90.0,C93,S,D,,"New York, NY /  Stamford CT"
+1,1,Mrs.,Hoyt,Frederick Maxfield (Jane Anne Forby),female,31.0,1881-02-28,American,1,0,19943,90.0,C93,S,D,,"New York, NY /  Stamford CT"
+1,1,Mr.,Woolner,Hugh,male,46.0,,English,0,0,19947,35.5,C52,S,D,,"London, England"
+1,1,Miss,Fortune,Alice Elizabeth,female,24.0,1887-05-10,Canadian,3,2,19950,263.0,C23 C25 C27,S,10,,"Winnipeg, MB"
+1,0,Mr.,Fortune,Charles Alexander,male,19.0,1892-10-13,Canadian,3,2,19950,263.0,C23 C25 C27,S,,,"Winnipeg, MB"
+1,1,Miss,Fortune,Ethel Flora,female,28.0,1883-09-22,Canadian,3,2,19950,263.0,C23 C25 C27,S,10,,"Winnipeg, MB"
+1,1,Miss,Fortune,Mabel Helen,female,23.0,1888-11-03,Canadian,3,2,19950,263.0,C23 C25 C27,S,10,,"Winnipeg, MB"
+1,0,Mr.,Fortune,Mark,male,64.0,1847-11-02,Canadian,1,4,19950,263.0,C23 C25 C27,S,,,"Winnipeg, MB"
+1,1,Mrs.,Fortune,Mark (Mary McDougald),female,60.0,1851-05-06,Canadian,1,4,19950,263.0,C23 C25 C27,S,10,,"Winnipeg, MB"
+1,1,Mr.,Anderson,Harry,male,47.0,1864-10-20,American,0,0,19952,26.55,E12,S,3,,"New York, NY"
+1,0,Mr.,Reuchlin,Jonkheer John George,male,37.0,1874-12-06,Dutch,0,0,19972,0.0,,C,,,"Rotterdam, Netherlands"
+1,1,Mr.,Saalfeld,Adolphe,male,47.0,,English,0,0,19988,30.5,C106,S,3,,"Manchester, England"
+1,1,Mr.,Taylor,Elmer Zebley,male,48.0,1864-03-13,American,1,0,19996,52.0,C126,S,5,,"London /  East Orange, NJ"
+1,1,Mrs.,Taylor,Elmer Zebley (Juliet Cummins Wright),female,49.0,1862-11-30,American,1,0,19996,52.0,C126,S,5,,"London /  East Orange, NJ"
+1,1,Mr.,Snyder,John Pillsbury,male,24.0,1888-01-08,American,1,0,21228,82.2667,B45,S,7,,"Minneapolis, MN"
+1,1,Mrs.,Snyder,John Pillsbury (Nelle Stevenson),female,23.0,1889-01-15,American,1,0,21228,82.2667,B45,S,7,,"Minneapolis, MN"
+1,1,Miss,Allen,Elisabeth Walton,female,29.0,1882-10-01,American,0,0,24160,211.3375,B5,S,2,,"St Louis, MO"
+1,1,Miss,Kreuchen,Emilie,female,29.0,1882-10-01,German,0,0,24160,211.3375,,S,2,,
+1,1,Miss,Madill,Georgette Alexandra,female,16.0,1896-03-15,American,0,1,24160,211.3375,B5,S,2,,"St Louis, MO"
+1,1,Mrs.,Robert,Edward Scott (Elisabeth Walton McMillan),female,43.0,1868-08-05,American,0,1,24160,211.3375,B3,S,2,,"St Louis, MO"
+1,1,Mr.,Tucker,Gilbert Milligan Jr,male,31.0,1880-11-03,American,0,0,2543,28.5375,C53,C,7,,"Albany, NY"
+1,1,Mr.,Barkworth,Algernon Henry Wilson,male,47.0,,English,0,0,27042,30.0,A23,S,B,,"Hessle, Yorks"
+1,1,Master,Dodge,Washington,male,4.0,1907-09-23,American,0,2,33638,81.8583,A34,S,5,,"San Francisco, CA"
+1,1,Dr.,Dodge,Washington,male,52.0,1859-06-03,American,1,1,33638,81.8583,A34,S,13,,"San Francisco, CA"
+1,1,Mrs.,Dodge,Washington (Ruth Vidaver),female,38.0,1874-03-27,American,1,1,33638,81.8583,A34,S,5,,"San Francisco, CA"
+1,0,Mr.,Newell,Arthur Webster,male,58.0,1854-01-30,American,0,2,35273,113.275,D48,C,,122.0,"Lexington, MA"
+1,1,Miss,Newell,Madeleine,female,31.0,1880-10-10,American,1,0,35273,113.275,D36,C,6,,"Lexington, MA"
+1,1,Miss,Newell,Marjorie,female,23.0,1889-02-12,American,1,0,35273,113.275,D36,C,6,,"Lexington, MA"
+1,0,Mr.,White,Percival Wayland,male,54.0,,American,0,1,35281,77.2875,D26,S,,,"Brunswick, ME"
+1,0,Mr.,White,Richard Frasar,male,21.0,,American,0,1,35281,77.2875,D26,S,,169.0,"Brunswick, ME"
+1,1,Miss,Bonnell,Caroline,female,30.0,1882-04-03,American,0,0,36928,164.8667,C7,S,8,,"Youngstown, OH"
+1,0,Mr.,Wick,George Dennick,male,57.0,1854-06-24,American,1,1,36928,164.8667,,S,,,"Youngstown, OH"
+1,1,Mrs.,Wick,George Dennick (Mary Hitchcock),female,45.0,1866-10-12,American,1,1,36928,164.8667,,S,8,,"Youngstown, OH"
+1,1,Miss,Wick,Mary Natalie,female,31.0,1880-08-02,American,0,2,36928,164.8667,C7,S,8,,"Youngstown, OH"
+1,1,Miss,Eustis,Elizabeth Mussey,female,54.0,1858-03-01,American,1,0,36947,78.2667,D20,C,4,,"Brookline, MA"
+1,1,Mrs.,Stephenson,Walter Bertram (Martha Eustis),female,52.0,1860-03-13,American,1,0,36947,78.2667,D20,C,4,,"Haverford, PA"
+1,0,Mr.,Sutton,Frederick,male,61.0,1850-06-15,American,0,0,36963,32.3208,D50,S,,46.0,"Haddenfield, NJ"
+1,0,Mr.,Walker,William Anderson,male,48.0,1863-08-08,American,0,0,36967,34.0208,D46,S,,,"East Orange, NJ"
+1,0,Mr.,Harris,Henry Birkhardt,male,45.0,1866-12-01,American,1,0,36973,83.475,C83,S,,,"New York, NY"
+1,1,Mrs.,Harris,Henry Birkhardt (Irene Wallach),female,35.0,1876-06-15,American,1,0,36973,83.475,C83,S,D,,"New York, NY"
+1,0,Mr.,Colley,Edward Pomeroy,male,37.0,1875-04-15,Irish,0,0,5727,25.5875,E58,S,,,"Victoria, BC"
+1,0,Mr.,Hipkins,William Edward,male,55.0,1857-01-01,English,0,0,680,50.0,C39,S,,,London / Birmingham
+1,0,Mr.,Nicholson,Arthur Ernest,male,60.0,,English,0,0,693,26.0,,S,,263.0,"Isle of Wight, England"
+1,0,Mr.,Jones,Charles Cresson,male,46.0,1866-01-22,American,0,0,694,26.0,,S,,80.0,"Bennington, VT"
+1,0,Mr.,Carlsson,Frans Olof,male,33.0,1878-09-29,Swedish,0,0,695,5.0,B51 B53 B55,S,,,"New York, NY"
+1,0,Mr.,Davidson,Thornton,male,31.0,1880-05-17,Canadian,1,0,FC 12750,52.0,B71,C,,,"Montreal, PQ"
+1,1,Mrs.,Davidson,Thornton (Orian Hays),female,27.0,1884-11-18,Canadian,1,2,FC 12750,52.0,B71,C,3,,"Montreal, PQ"
+1,1,Mr.,Omont,Alfred Fernand,male,29.0,1882-09-25,French,0,0,FC 12998,25.7417,,C,7,,"Paris, France"
+1,0,Mr.,Baumann,John D,male,60.0,,American,0,0,PC 17318,25.925,,S,,,"New York, NY"
+1,1,Mr.,McGough,James Robert,male,35.0,1876-07-04,Irish,0,0,PC 17473,26.2875,E25,S,7,,"Philadelphia, PA"
+1,1,Mr.,Flynn,"John Irwin (""Irving"")",male,36.0,,American,0,0,PC 17474,26.3875,E25,S,5,,"Brooklyn, NY"
+1,1,Mr.,Silverthorne,Spencer Victor,male,35.0,1876-10-17,American,0,0,PC 17475,26.2875,E24,S,5,,"St Louis, MO"
+1,1,Mr.,Calderhead,Edward Pennington,male,42.0,1869-06-05,American,0,0,PC 17476,26.2875,E24,S,5,,"New York, NY"
+1,1,Mme,Aubart,Leontine Pauline,female,24.0,1887-05-20,French,0,0,PC 17477,69.3,B35,C,9,,"Paris, France"
+1,1,Mlle,Sagesser,Emma,female,24.0,1887-08-16,Swiss,0,0,PC 17477,69.3,B35,C,9,,
+1,1,Mlle,Mayne,"Berthe Antonine (""Mrs de Villiers"")",female,24.0,1887-07-21,Belgian,0,0,PC 17482,49.5042,C90,C,6,,"Belgium  Montreal, PQ"
+1,1,Miss,Bird,Ellen,female,31.0,1881-04-08,English,0,0,PC 17483,221.7792,C97,S,8,,
+1,0,Mr.,Farthing,John,male,57.0,,English,0,0,PC 17483,221.7792,C95,S,,,
+1,0,Mr.,Straus,Isidor,male,67.0,1845-02-06,American,1,0,PC 17483,221.7792,C55 C57,S,,96.0,"New York, NY"
+1,0,Mrs.,Straus,Isidor (Rosalie Ida Blun),female,63.0,1849-02-06,American,1,0,PC 17483,221.7792,C55 C57,S,,,"New York, NY"
+1,1,Lady,Duff Gordon,"(Lucille Christiana Sutherland) (""Mrs Morgan"")",female,48.0,1863-06-13,English,1,0,PC 17485,56.9292,A20,C,1,,London / Paris
+1,1,Miss,Francatelli,Laura Mabel,female,31.0,,English,0,0,PC 17485,56.9292,E36,C,1,,
+1,0,Miss,Evans,Edith Corse,female,36.0,1875-09-21,American,0,0,PC 17531,31.6792,A29,C,,,"New York, NY"
+1,1,Mrs.,Baxter,James (Helene DeLaudeniere Chaput),female,50.0,1862-03-29,Canadian,0,1,PC 17558,247.5208,B58 B60,C,6,,"Montreal, PQ"
+1,0,Mr.,Baxter,Quigg Edmond,male,24.0,1887-07-13,Canadian,0,1,PC 17558,247.5208,B58 B60,C,,,"Montreal, PQ"
+1,1,Mrs.,Douglas,Frederick Charles (Mary Helene Baxter),female,27.0,1885-04-04,Canadian,1,1,PC 17558,247.5208,B58 B60,C,6,,"Montreal, PQ"
+1,0,Mr.,Ovies y Rodriguez,Servando,male,36.0,1876-02-21,Spanish,0,0,PC 17562,27.7208,D43,C,,189.0,"?Havana, Cuba"
+1,1,Miss,Lurette,Elise,female,59.0,1852-11-16,French,0,0,PC 17569,146.5208,B80,C,6,,
+1,0,Mr.,Spencer,William Augustus,male,57.0,1855-01-07,American,1,0,PC 17569,146.5208,B78,C,,,"Paris, France"
+1,1,Mrs.,Spencer,William Augustus (Marie Eugenie),female,48.0,1864-02-14,French,1,0,PC 17569,146.5208,B78,C,6,,"Paris, France"
+1,1,Mr.,Harper,Henry Sleeper,male,48.0,1864-03-11,American,1,0,PC 17572,76.7292,D33,C,3,,"New York, NY"
+1,1,Mrs.,Harper,Henry Sleeper (Myna Haxtun),female,49.0,,American,1,0,PC 17572,76.7292,D33,C,3,,"New York, NY"
+1,1,Mr.,Hassab,Hammad,male,27.0,,Egyptian,0,0,PC 17572,76.7292,D49,C,3,,
+1,0,Mr.,Dulles,William Crothers,male,39.0,1872-12-19,American,0,0,PC 17580,29.7,A18,C,,133.0,"Philadelphia, PA"
+1,1,Miss,Graham,Margaret Edith,female,19.0,1893-02-16,American,0,0,PC 17582,153.4625,C125,S,3,,"Greenwich, CT"
+1,1,Mrs.,Graham,William Thompson (Edith Junkins),female,59.0,,American,0,1,PC 17582,153.4625,C91,S,3,,"Greenwich, CT"
+1,1,Miss,Shutes,Elizabeth W,female,40.0,1871-04-30,American,0,0,PC 17582,153.4625,C125,S,3,,"New York, NY / Greenwich CT"
+1,0,Mr.,Rosenshine,"George (""Mr George Thorne"")",male,46.0,,American,0,0,PC 17585,79.2,,C,,16.0,"New York, NY"
+1,1,Mrs.,Thorne,Gertrude Maybelle,female,38.0,,American,0,0,PC 17585,79.2,,C,D,,"New York, NY"
+1,0,Mr.,Roebling,Washington Augustus II,male,31.0,,American,0,0,PC 17590,50.4958,A24,S,,,"Trenton, NJ"
+1,0,Mr.,Brandeis,Emil,male,48.0,1864-03-15,American,0,0,PC 17591,50.4958,B10,C,,208.0,"Omaha, NE"
+1,1,Mrs.,Lines,Ernest H (Elizabeth Lindsey James),female,50.0,1861-06-15,American,0,1,PC 17592,39.4,D28,C,9,,"Paris, France"
+1,1,Miss,Lines,Mary Conover,female,16.0,1895-07-27,American,0,1,PC 17592,39.4,D28,C,9,,"Paris, France"
+1,0,Mr.,Giglio,Victor,male,24.0,,English,0,0,PC 17593,79.2,B86,C,,,
+1,0,Mr.,Guggenheim,Benjamin,male,46.0,1865-10-26,American,0,0,PC 17593,79.2,B82 B84,C,,,"New York, NY"
+1,1,Mr.,Chevre,Paul Romaine,male,45.0,1866-07-05,French,0,0,PC 17594,29.7,A9,C,7,,"Paris, France"
+1,0,Miss,Isham,Ann Elizabeth,female,50.0,1862-01-25,American,0,0,PC 17595,28.7125,C49,C,,,"Paris, France New York, NY"
+1,0,Mr.,Natsch,Charles H,male,37.0,,American,0,1,PC 17596,29.7,C118,C,,,"Brooklyn, NY"
+1,0,Mr.,Williams,Charles Duane,male,51.0,1860-08-11,American,0,1,PC 17597,61.3792,,C,,,"Geneva, Switzerland / Radnor, PA"
+1,1,Mr.,Williams,Richard Norris II,male,21.0,1891-01-29,Swiss,0,1,PC 17597,61.3792,,C,A,,"Geneva, Switzerland / Radnor, PA"
+1,1,Mrs.,Flegenheim,Alfred (Antoinette),female,40.0,,American,0,0,PC 17598,31.6833,,S,7,,"New York, NY"
+1,0,Mr.,Cumings,John Bradley,male,39.0,1872-09-26,American,1,0,PC 17599,71.2833,C85,C,,,"New York, NY"
+1,1,Mrs.,Cumings,John Bradley (Florence Briggs Thayer),female,35.0,1876-12-31,American,1,0,PC 17599,71.2833,C85,C,4,,"New York, NY"
+1,0,Mr.,Hoyt,William Fisher,male,43.0,1869-01-24,American,0,0,PC 17600,30.6958,,C,14,,"New York, NY"
+1,0,Don,Uruchurtu,Manuel E,male,40.0,,Maxican,0,0,PC 17601,27.7208,,C,,,"Mexico City, Mexico"
+1,0,Mr.,Rothschild,Martin,male,46.0,1865-12-12,American,1,0,PC 17603,59.4,,C,,,"New York, NY"
+1,1,Mrs.,Rothschild,Martin (Elizabeth L. Barrett),female,54.0,1858-02-10,American,1,0,PC 17603,59.4,,C,6,,"New York, NY"
+1,0,Mr.,Meyer,Edgar Joseph,male,28.0,1884-01-13,American,1,0,PC 17604,82.1708,,C,,,"New York, NY"
+1,1,Mrs.,Meyer,Edgar Joseph (Leila Saks),female,25.0,1886-09-28,American,1,0,PC 17604,82.1708,,C,6,,"New York, NY"
+1,0,Mr.,Stewart,Albert A,male,54.0,,American,0,0,PC 17605,27.7208,,C,,,"Gallipolis, Ohio / ? Paris / New York"
+1,1,Mrs.,Candee,Edward (Helen Churchill Hungerford),female,52.0,1859-10-05,American,0,0,PC 17606,27.4458,,C,6,,"Washington, DC"
+1,1,Mr.,Rheims,George Alexander Lucien,male,33.0,1879-01-06,French,0,0,PC 17607,39.6,,C,A,,"Paris /  New York, NY"
+1,1,Miss,Bowen,Grace Scott,female,45.0,1867-03-09,American,0,0,PC 17608,262.375,,C,4,,"Cooperstown, NY"
+1,1,Miss,Chaudanson,Victorine,female,36.0,1875-09-28,French,0,0,PC 17608,262.375,B61,C,4,,
+1,0,Mr.,Ryerson,Arthur Larned,male,61.0,1851-01-12,American,1,3,PC 17608,262.375,B57 B59 B63 B66,C,,,"Haverford, PA / Cooperstown, NY"
+1,1,Mrs.,Ryerson,Arthur Larned (Emily Maria Borie),female,48.0,1863-08-10,American,1,3,PC 17608,262.375,B57 B59 B63 B66,C,4,,"Haverford, PA / Cooperstown, NY"
+1,1,Miss,Ryerson,Emily Borie,female,18.0,1893-10-08,American,2,2,PC 17608,262.375,B57 B59 B63 B66,C,4,,"Haverford, PA / Cooperstown, NY"
+1,1,Master,Ryerson,John Borie,male,13.0,1898-12-16,American,2,2,PC 17608,262.375,B57 B59 B63 B66,C,4,,"Haverford, PA / Cooperstown, NY"
+1,1,Miss,Ryerson,"Susan Parker ""Suzette""",female,21.0,1890-08-03,American,2,2,PC 17608,262.375,B57 B59 B63 B66,C,4,,"Haverford, PA / Cooperstown, NY"
+1,0,Mr.,Artagaveytia,Ramon,male,71.0,,Uruguayan,0,0,PC 17609,49.5042,,C,,22.0,"Montevideo, Uruguay"
+1,1,Mrs.,Brown,James Joseph (Margaret Tobin),female,44.0,1867-07-18,American,0,0,PC 17610,27.7208,B4,C,6,,"Denver, CO"
+1,1,Dr.,Frauenthal,Henry William,male,49.0,1863-03-13,German,2,0,PC 17611,133.65,,S,5,,"New York, NY"
+1,1,Mrs.,Frauenthal,Henry William (Clara Heinsheimer),female,42.0,1869-12-01,German,1,0,PC 17611,133.65,,S,5,,"New York, NY"
+1,0,Mr.,Lewy,Ervin G,male,31.0,,American,0,0,PC 17612,27.7208,,C,,,"Chicago, IL"
+1,1,Miss,Rosenbaum,Edith Louise,female,34.0,1877-06-12,American,0,0,PC 17613,27.7208,A11,C,11,,"Paris, France"
+1,0,Mr.,Goldschmidt,George B,male,71.0,1840-10-16,American,0,0,PC 17754,34.6542,A5,C,,,"New York, NY"
+1,1,Mrs.,Cardeza,James Warburton Martinez (Charlotte Wardle Drake),female,58.0,1854-04-10,American,0,1,PC 17755,512.3292,B51 B53 B55,C,3,,"Germantown, Philadelphia, PA"
+1,1,Mr.,Cardeza,Thomas Drake Martinez,male,36.0,1875-05-10,American,0,1,PC 17755,512.3292,B51 B53 B55,C,3,,"Austria-Hungary / Germantown, Philadelphia, PA"
+1,1,Mr.,Lesueur,Gustave J,male,35.0,,French,0,0,PC 17755,512.3292,B101,C,3,,
+1,1,Miss,Ward,Anna,female,38.0,1874-01-08,American,0,0,PC 17755,512.3292,,C,3,,
+1,1,Mrs.,Compton,Alexander Taylor (Mary Eliza Ingersoll),female,64.0,1847-08-07,American,0,2,PC 17756,83.1583,E45,C,14,,"Lakewood, NJ"
+1,0,Mr.,Compton,Alexander Taylor Jr,male,37.0,1874-08-16,American,1,1,PC 17756,83.1583,E52,C,,,"Lakewood, NJ"
+1,1,Miss,Compton,Sara Rebecca,female,39.0,1872-04-30,American,1,1,PC 17756,83.1583,E49,C,14,,"Lakewood, NJ"
+1,0,Col.,Astor,John Jacob,male,47.0,1864-07-13,American,1,0,PC 17757,227.525,C62 C64,C,,124.0,"New York, NY"
+1,1,Mrs.,Astor,John Jacob (Madeleine Talmadge Force),female,18.0,1893-06-19,American,1,0,PC 17757,227.525,C62 C64,C,4,,"New York, NY"
+1,1,Miss,Bidois,Rosalie,female,46.0,1865-05-10,English,0,0,PC 17757,227.525,,C,4,,
+1,1,Miss,Endres,Caroline Louise,female,39.0,1872-06-14,American,0,0,PC 17757,227.525,C45,C,4,,"New York, NY"
+1,0,Mr.,Robbins,Victor,male,42.0,,American,0,0,PC 17757,227.525,,C,,,
+1,1,Dona,Oliva y Ocana,Fermina,female,39.0,1872-10-12,Spanish,0,0,PC 17758,108.9,C105,C,8,,
+1,0,Mr.,Penasco y Castellana,Victor de Satode,male,24.0,1887-10-24,Spanish,1,0,PC 17758,108.9,C65,C,,,"Madrid, Spain"
+1,1,Mrs.,Penasco y Castellana,Victor de Satode (Maria Josefa Perez de Soto y Vallejo),female,22.0,1889-09-03,Spanish,1,0,PC 17758,108.9,C65,C,8,,"Madrid, Spain"
+1,1,Mrs.,Greenfield,Leo David (Blanche Strouse),female,45.0,1867-02-21,American,0,1,PC 17759,63.3583,D10 D12,C,7,,"New York, NY"
+1,1,Mr.,Greenfield,William Bertram,male,23.0,1888-05-11,American,0,1,PC 17759,63.3583,D10 D12,C,7,,"New York, NY"
+1,1,Miss,Bessette,Amelia,female,39.0,1872-10-07,American,0,0,PC 17760,135.6333,C99,C,8,,
+1,0,Mr.,Ringhini,Sante,male,29.0,,Italian,0,0,PC 17760,135.6333,,C,,232.0,
+1,1,Mrs.,White,John Stuart (Ella Holmes),female,55.0,1856-12-18,American,0,0,PC 17760,135.6333,C32,C,8,,"New York, NY / Briarcliff Manor NY"
+1,1,Miss,Young,Marie Grice,female,36.0,1876-01-05,American,0,0,PC 17760,135.6333,C32,C,8,,"New York, NY / Washington, DC"
+1,0,Mr.,Douglas,Walter Donald,male,50.0,1861-04-21,American,1,0,PC 17761,106.425,C86,C,,62.0,"Deephaven, MN / Cedar Rapids, IA"
+1,1,Mrs.,Douglas,Walter Donald (Mahala Dutton),female,48.0,1864-01-26,American,1,0,PC 17761,106.425,C86,C,2,,"Deephaven, MN / Cedar Rapids, IA"
+1,1,Miss,Leroy,Berthe,female,27.0,1884-08-10,French,0,0,PC 17761,106.425,,C,2,,
+1,1,Mr.,Frauenthal,Isaac Gerald,male,43.0,1868-10-07,German,1,0,PC 17765,27.7208,D40,C,5,,"New York, NY"
+1,1,Mr.,Nourney,"Alfred (""Baron von Drachstedt"")",male,20.0,1892-02-26,German,0,0,SC/PARIS 2166,13.8625,D38,C,7,,"Cologne, Germany"
+1,0,Capt.,Crosby,Edward Gifford,male,70.0,1842-02-18,American,1,1,WE/P 5735,71.0,B22,S,,269.0,"Milwaukee, WI"
+1,1,Mrs.,Crosby,Edward Gifford (Catherine Elizabeth Halstead),female,64.0,1847-10-26,American,1,1,WE/P 5735,71.0,B22,S,7,,"Milwaukee, WI"
+1,0,Mr.,Chaffee,Herbert Fuller,male,46.0,1865-11-28,American,1,0,WEP 5734,61.175,E31,S,,,"Amenia, ND"
+1,1,Mrs.,Chaffee,Herbert Fuller (Carrie Constance Toogood),female,47.0,1864-08-28,American,1,0,WEP 5734,61.175,E31,S,4,,"Amenia, ND"
+2,0,Mr.,Turpin,William John Robert,male,30.0,,English,1,0,11668,21.0,,S,,,"Plymouth, England"
+2,0,Mrs.,Turpin,William John Robert (Dorothy Ann Wonnacott),female,27.0,,English,1,0,11668,21.0,,S,,,"Plymouth, England"
+2,0,Mr.,Gillespie,William Henry,male,34.0,,Irish,0,0,12233,13.0,,S,,,"Vancouver, BC"
+2,1,Mrs.,Clarke,Charles V (Ada Maria Winfield),female,28.0,,English,1,0,2003,26.0,,S,14,,"England / San Francisco, CA"
+2,0,Mr.,Clarke,Charles Valentine,male,29.0,1883-02-14,English,1,0,2003,26.0,,S,,,"England / San Francisco, CA"
+2,0,Mr.,Bowenur,Solomon,male,42.0,,English,0,0,211535,13.0,,S,,,London
+2,0,Rev.,Montvila,Juozas,male,27.0,1885-01-03,Lithuanian,0,0,211536,13.0,,S,,,"Worcester, MA"
+2,0,Mr.,Norman,Robert Douglas,male,27.0,1884-09-14,Scottish,0,0,218629,13.5,,S,,287.0,Glasgow
+2,0,Rev.,Kirkland,Charles Leonard,male,57.0,,American,0,0,219533,12.35,,Q,,,"Glasgow / Bangor, ME"
+2,0,Mr.,Bracken,James H,male,29.0,1882-06-09,American,0,0,220367,13.0,,S,,,"Lake Arthur, Chavez County, NM"
+2,1,Miss,Wright,Marion,female,26.0,1885-05-26,English,0,0,220844,13.5,,S,9,,"Yoevil, England / Cottage Grove, OR"
+2,1,Miss,Herman,Alice,female,24.0,1887-12-04,English,1,2,220845,65.0,,S,9,,"Somerset / Bernardsville, NJ"
+2,1,Miss,Herman,Kate,female,24.0,1887-12-04,English,1,2,220845,65.0,,S,9,,"Somerset / Bernardsville, NJ"
+2,0,Mr.,Herman,Samuel,male,50.0,,English,1,2,220845,65.0,,S,,,"Somerset / Bernardsville, NJ"
+2,1,Mrs.,Herman,Samuel (Jane Laver),female,48.0,,English,1,2,220845,65.0,,S,9,,"Somerset / Bernardsville, NJ"
+2,0,Mr.,Sweet,George Frederick,male,14.0,1897-04-16,English,0,0,220845,65.0,,S,,,"Somerset / Bernardsville, NJ"
+2,1,Mrs.,Kelly,"Florence ""Fannie""",female,45.0,,English,0,0,223596,13.5,,S,9,,"London / New York, NY"
+2,1,Miss,Keane,Nora A,female,46.0,1866-03-30,Irish,0,0,226593,12.35,E101,Q,10,,"Harrisburg, PA"
+2,0,Mr.,Angle,William A,male,31.0,,English,1,0,226875,26.0,,S,,,"Warwick, England"
+2,1,Mrs.,Angle,"William A (Florence ""Mary"" Agnes Hughes)",female,36.0,1876-03-08,English,1,0,226875,26.0,,S,11,,"Warwick, England"
+2,0,Mr.,Weisz,Leopold,male,37.0,,English,1,0,228414,26.0,,S,,293.0,"Bromsgrove, England / Montreal, PQ"
+2,1,Mrs.,Weisz,Leopold (Mathilde Francoise Pede),female,37.0,1874-05-24,English,1,0,228414,26.0,,S,10,,"Bromsgrove, England / Montreal, PQ"
+2,0,Mr.,Fox,Stanley Hubert,male,38.0,1874-04-13,American,0,0,229236,13.0,,S,,236.0,"Rochester, NY"
+2,1,Master,Navratil,Edmond Roger,male,2.0,1910-03-05,French,1,1,230080,26.0,F2,S,D,,"Nice, France"
+2,0,Mr.,Navratil,"Michel (""Louis M Hoffman"")",male,32.0,,French,0,2,230080,26.0,F2,S,,15.0,"Nice, France"
+2,1,Master,Navratil,Michel Marcel,male,3.0,1908-06-12,French,1,1,230080,26.0,F2,S,D,,"Nice, France"
+2,1,Mrs.,Becker,Allen Oliver (Nellie E Baumgardner),female,35.0,1876-06-19,English,0,3,230136,39.0,F4,S,11,,"Guntur, India / Benton Harbour, MI"
+2,1,Miss,Becker,Marion Louise,female,4.0,1907-12-28,English,2,1,230136,39.0,F4,S,11,,"Guntur, India / Benton Harbour, MI"
+2,1,Master,Becker,Richard F,male,1.0,1910-06-26,English,2,1,230136,39.0,F4,S,11,,"Guntur, India / Benton Harbour, MI"
+2,1,Miss,Becker,Ruth Elizabeth,female,12.0,1899-10-28,English,2,1,230136,39.0,F4,S,13,,"Guntur, India / Benton Harbour, MI"
+2,1,Mrs.,Parrish,(Lutie Davis),female,59.0,1852-07-16,American,0,1,230433,26.0,,S,12,,"Woodford County, KY"
+2,1,Mrs.,Shelley,William (Imanita Parrish Hall),female,25.0,,American,0,1,230433,26.0,,S,12,,"Deer Lodge, MT"
+2,1,Sra.,Reynaldo,Encarnacion,female,28.0,,Spanish,0,0,230434,13.0,,C,9,,Spain
+2,1,Miss,Doling,Elsie,female,18.0,1893-10-30,English,0,1,231919,23.0,,S,,,Southampton
+2,1,Mrs.,Doling,John T (Ada Julia Bone),female,34.0,,English,0,1,231919,23.0,,S,,,Southampton
+2,0,Mr.,Andrew,Edgardo Samuel,male,17.0,1895-03-28,Argentinian,0,0,231945,11.5,,S,,,"Buenos Aires, Argentina / New Jersey, NJ"
+2,0,Mr.,McCrie,James Matthew,male,30.0,,Canadian,0,0,233478,13.0,,S,,,"Sarnia, ON"
+2,0,Mr.,Troupiansky,Moses Aaron,male,23.0,,Russian,0,0,233639,13.0,,S,,,
+2,0,Mr.,Keane,Daniel,male,35.0,1876-06-25,Irish,0,0,233734,12.35,,Q,,,
+2,0,Mr.,Gill,John William,male,24.0,,English,0,0,233866,13.0,,S,,155.0,"Clevedon, England"
+2,0,Mr.,Milling,Jacob Christian,male,48.0,1863-10-25,Danish,0,0,234360,13.0,,S,,271.0,"Copenhagen, Denmark"
+2,1,Mrs.,Pinsky,(Rosa),female,32.0,,Russian,0,0,234604,13.0,,S,9,,Russia
+2,0,Mr.,Butler,Reginald Fenton,male,25.0,,English,0,0,234686,13.0,,S,,97.0,"Southsea, Hants"
+2,1,Miss,Slayter,Hilda Mary,female,30.0,1882-04-05,American,0,0,234818,12.35,,Q,13,,"Halifax, NS"
+2,0,Mr.,Lingane,John,male,61.0,,Irish,0,0,235509,12.35,,Q,,,
+2,0,Mr.,Fahlstrom,Arne Jonas,male,18.0,1893-07-05,Norwegian,0,0,236171,13.0,,S,,,"Oslo, Norway Bayonne, NJ"
+2,1,Mrs.,Bystrom,(Karolina),female,42.0,,American,0,0,236852,13.0,,S,,,"New York, NY"
+2,1,Miss,Bryhl,Dagmar Jenny Ingeborg,female,20.0,1891-10-02,Swedish,1,0,236853,26.0,,S,12,,"Skara, Sweden / Rockford, IL"
+2,0,Mr.,Bryhl,Kurt Arnold Gottfrid,male,25.0,1887-03-02,Swedish,1,0,236853,26.0,,S,,,"Skara, Sweden / Rockford, IL"
+2,0,Mr.,Enander,Ingvar,male,21.0,1890-12-26,Swedish,0,0,236854,13.0,,S,,,"Goteborg, Sweden / Rockford, IL"
+2,0,Mr.,McCrae,Arthur Gordon,male,32.0,1880-01-07,Australian,0,0,237216,13.5,,S,,209.0,"Sydney, Australia"
+2,0,Mrs.,Corbett,Walter H (Irene Colvin),female,30.0,1881-08-06,American,0,0,237249,13.0,,S,,,"Provo, UT"
+2,0,Rev.,Peruschitz,Joseph Maria,male,41.0,1871-03-21,German,0,0,237393,13.0,,S,,,
+2,0,Mr.,Sjostedt,Ernst Adolf,male,59.0,1852-09-09,Swedish,0,0,237442,13.5,,S,,,"Sault St Marie, ON"
+2,0,Mr.,Jarvis,John Denzil,male,47.0,,English,0,0,237565,15.0,,S,,,"North Evington, England"
+2,1,Miss,Davis,Mary,female,28.0,1883-05-18,English,0,0,237668,13.0,,S,13,,"London / Staten Island, NY"
+2,0,Mr.,Botsford,William Hull,male,25.0,1886-11-23,American,0,0,237670,13.0,,S,,,"Elmira, NY / Orange, NJ"
+2,0,Miss,Funk,Annie Clemmer,female,38.0,1874-04-12,American,0,0,237671,13.0,,S,,,"Janjgir, India / Pennsylvania"
+2,0,Mr.,Stanton,Samuel Ward,male,42.0,1870-01-08,American,0,0,237734,15.0458,,C,,,"New York, NY"
+2,0,Mr.,Malachard,Noel,male,25.0,1886-12-21,French,0,0,237735,15.0458,D,C,,,Paris
+2,0,Mr.,Nasser,Nicholas,male,28.0,,Syrian,1,0,237736,30.0708,,C,,43.0,"New York, NY"
+2,1,Mrs.,Nasser,Nicholas (Adele Achem),female,14.0,1898-03-19,Syrian,1,0,237736,30.0708,,C,,,"New York, NY"
+2,1,Mrs.,Christy,(Alice Frances),female,45.0,,English,0,2,237789,30.0,,S,12,,London
+2,1,Miss,Christy,Julie Rachel,female,25.0,,English,1,1,237789,30.0,,S,12,,London
+2,1,Mr.,Hosono,Masabumi,male,41.0,1870-10-15,Japanese,0,0,237798,13.0,,S,10,,"Tokyo, Japan"
+2,0,Mr.,Maybery,Frank Hubert,male,36.0,1875-11-30,English,0,0,239059,16.0,,S,,,"Weston-Super-Mare / Moose Jaw, SK"
+2,0,Mr.,Campbell,William,male,21.0,1890-11-05,Belgian,0,0,239853,0.0,,B,,,Belfast
+2,0,Mr.,Cunningham,Alfred Fleming,male,21.0,,Belgian,0,0,239853,0.0,,B,,,Belfast
+2,0,Mr.,Parkes,"Francis ""Frank""",male,18.0,,Belgian,0,0,239853,0.0,,B,,,Belfast
+2,0,Mr.,Frost,"Anthony Wood ""Archie""",male,38.0,,Belgian,0,0,239854,0.0,,B,,,Belfast
+2,0,Mr.,Knight,Robert J,male,39.0,,Belgian,0,0,239855,0.0,,B,,,Belfast
+2,0,Mr.,Watson,Ennis Hastings,male,18.0,,Irish,0,0,239856,0.0,,B,,,Belfast
+2,0,Mr.,Fynney,Joseph J,male,36.0,,English,0,0,239865,26.0,,S,,322.0,"Liverpool / Montreal, PQ"
+2,0,Mr.,Gaskell,Alfred,male,16.0,,English,0,0,239865,26.0,,S,,,"Liverpool / Montreal, PQ"
+2,0,Mr.,Lamb,John Joseph,male,31.0,,Irish,0,0,240261,10.7083,,Q,,,
+2,0,Mr.,Myles,Thomas Francis,male,63.0,1849-01-31,Irish,0,0,240276,9.6875,,Q,,,"Cambridge, MA"
+2,0,Mr.,Howard,Benjamin,male,63.0,,English,1,0,24065,26.0,,S,,,"Swindon, England"
+2,0,Mrs.,Howard,Benjamin (Ellen Truelove Arman),female,60.0,,English,1,0,24065,26.0,,S,,,"Swindon, England"
+2,1,Mrs.,Trout,William H (Jessie L),female,26.0,1885-11-01,American,0,0,240929,12.65,,S,9,,"Columbus, OH"
+2,0,Mr.,Hocking,Samuel James Metcalfe,male,36.0,,English,0,0,242963,13.0,,S,,,"Devonport, England"
+2,0,Mr.,Jacobsohn,Sidney Samuel,male,42.0,,English,1,0,243847,27.0,,S,,,London
+2,1,Mrs.,Jacobsohn,Sidney Samuel (Amy Frances Christy),female,24.0,1888-04-08,English,2,1,243847,27.0,,S,12,,London
+2,1,Miss,Garside,Ethel,female,34.0,,American,0,0,243880,13.0,,S,12,,"Brooklyn, NY"
+2,0,Rev.,Carter,Ernest Courtenay,male,54.0,1858-02-17,English,1,0,244252,26.0,,S,,,London
+2,0,Mrs.,Carter,Ernest Courtenay (Lilian Hughes),female,45.0,1867-03-03,English,1,0,244252,26.0,,S,,,London
+2,1,Mr.,Wilhelms,Charles,male,32.0,,English,0,0,244270,13.0,,S,9,,"London, England"
+2,0,Dr.,Pain,Alfred,male,23.0,1888-08-24,Canadian,0,0,244278,10.5,,S,,,"Hamilton, ON"
+2,0,Rev.,Byles,Thomas Roussel Davids,male,42.0,1870-02-26,English,0,0,244310,13.0,,S,,,London
+2,0,Mr.,Ashby,John,male,57.0,1854-06-29,American,0,0,244346,13.0,,S,,,"West Hoboken, NJ"
+2,0,Mr.,Beauchamp,Henry James,male,44.0,,English,0,0,244358,26.0,,S,,,England
+2,0,Mr.,Sharp,Percival James R,male,27.0,,English,0,0,244358,26.0,,S,,,"Hornsey, England"
+2,0,Mr.,de Brito,Jose Joaquim,male,32.0,,Portuguese,0,0,244360,13.0,,S,,,"Portugal / Sau Paulo, Brazil"
+2,0,Mr.,Sedgwick,Charles Frederick Waddington,male,25.0,,English,0,0,244361,13.0,,S,,,Liverpool
+2,0,Mr.,Kantor,Sinai,male,34.0,,Russian,1,0,244367,26.0,,S,,283.0,"Moscow / Bronx, NY"
+2,1,Mrs.,Kantor,Sinai (Miriam Sternin),female,24.0,,Russian,1,0,244367,26.0,,S,12,,"Moscow / Bronx, NY"
+2,0,Mr.,Nesson,Israel,male,26.0,,American,0,0,244368,13.0,F2,S,,,"Boston, MA"
+2,1,Mr.,Williams,Charles Eugene,male,23.0,1888-07-28,English,0,0,244373,13.0,,S,14,,"Harrow, England"
+2,0,Mr.,Schmidt,August,male,26.0,,American,0,0,248659,13.0,,S,,,"Newark, NJ"
+2,1,Mr.,Beesley,Lawrence,male,34.0,1877-12-31,English,0,0,248698,13.0,D56,S,13,,London
+2,1,Mrs.,Hewlett,(Mary D Kingcome),female,56.0,1855-07-08,English,0,0,248706,16.0,,S,13,,"India / Rapid City, SD"
+2,0,Mr.,Meyer,August,male,31.0,1880-05-26,English,0,0,248723,13.0,,S,,,"Harrow-on-the-Hill, Middlesex"
+2,0,Mr.,Giles,Ralph,male,24.0,1887-09-09,English,0,0,248726,13.5,,S,,297.0,"West Kensington, London"
+2,1,Miss,Harper,"Annie Jessie ""Nina""",female,6.0,1906-01-01,Scottish,0,1,248727,33.0,,S,11,,"Denmark Hill, Surrey / Chicago"
+2,0,Rev.,Harper,John,male,39.0,1872-05-29,Scottish,0,1,248727,33.0,,S,,,"Denmark Hill, Surrey / Chicago"
+2,1,Miss,Leitch,Jessie Wills,female,31.0,,English,0,0,248727,33.0,,S,11,,"London / Chicago, IL"
+2,0,Mr.,Chapman,Charles Henry,male,52.0,,American,0,0,248731,13.5,,S,,130.0,"Bronx, NY"
+2,1,Miss,Brown,"Amelia ""Mildred""",female,18.0,1893-08-18,English,0,0,248733,13.0,F33,S,11,,"London / Montreal, PQ"
+2,0,Mr.,Swane,George,male,19.0,1892-12-12,English,0,0,248734,13.0,F,S,,294.0,
+2,1,Mr.,Caldwell,Albert Francis,male,26.0,1885-09-08,American,1,1,248738,29.0,,S,13,,"Bangkok, Thailand / Roseville, IL"
+2,1,Mrs.,Caldwell,Albert Francis (Sylvia Mae Harbaugh),female,22.0,1889-07-23,American,1,1,248738,29.0,,S,13,,"Bangkok, Thailand / Roseville, IL"
+2,1,Master,Caldwell,Alden Gates,male,0.8493150684931506,1911-06-10,American,0,2,248738,29.0,,S,13,,"Bangkok, Thailand / Roseville, IL"
+2,0,Mr.,Collander,Erik Gustaf,male,27.0,1884-04-19,Finnish,0,0,248740,13.0,,S,,,"Helsinki, Finland Ashtabula, Ohio"
+2,0,Mr.,Aldworth,Charles Augustus,male,35.0,,English,0,0,248744,13.0,,S,,,"Bryn Mawr, PA, USA"
+2,0,Mr.,Harbeck,William H,male,44.0,,American,0,0,248746,13.0,,S,,35.0,"Seattle, WA / Toledo, OH"
+2,0,Miss,Yvois,"Henriette (""Mrs Harbeck"")",female,22.0,1889-04-22,French,0,0,248747,13.0,,S,,,Paris
+2,0,Mr.,Hodges,Henry Price,male,50.0,,English,0,0,250643,13.0,,S,,149.0,Southampton
+2,1,Mrs.,Mellinger,(Elizabeth Anne Maidment),female,41.0,1870-06-01,English,0,1,250644,19.5,,S,14,,"England / Bennington, VT"
+2,1,Miss,Mellinger,Madeleine Violet,female,13.0,1899-02-22,English,0,1,250644,19.5,,S,14,,"England / Bennington, VT"
+2,0,Mr.,Givard,Hans Kristensen,male,27.0,1884-11-29,Danish,0,0,250646,13.0,,S,,305.0,
+2,0,Mr.,Greenberg,Samuel,male,52.0,,American,0,0,250647,13.0,,S,,19.0,"Bronx, NY"
+2,0,Mr.,Ponesell,Martin,male,34.0,,Danish,0,0,250647,13.0,,S,,,"Denmark / New York, NY"
+2,1,Miss,Sinkkonen,Anna,female,30.0,,Finnish,0,0,250648,13.0,,S,10,,"Finland / Washington, DC"
+2,1,Master,Hamalainen,Viljo,male,1.0,,Finnish,1,1,250649,14.5,,S,4,,"Detroit, MI"
+2,1,Mrs.,Hamalainen,William (Anna),female,24.0,,Finnish,0,2,250649,14.5,,S,4,,"Detroit, MI"
+2,0,Miss,Hiltunen,Marta,female,18.0,,Finnish,1,1,250650,13.0,,S,,,"Kontiolahti, Finland / Detroit, MI"
+2,0,Rev.,Lahtinen,William,male,35.0,1876-04-23,American,1,1,250651,26.0,,S,,,"Minneapolis, MN"
+2,0,Mrs.,Lahtinen,William (Anna Sylfven),female,34.0,1878-02-18,American,1,1,250651,26.0,,S,,,"Minneapolis, MN"
+2,1,Miss,Silven,Lyyli Karoliina,female,17.0,1894-06-11,Finnish,0,2,250652,13.0,,S,16,,"Finland / Minneapolis, MN"
+2,0,Mr.,Hale,Reginald,male,31.0,,American,0,0,250653,13.0,,S,,75.0,"Auburn, NY"
+2,0,Mr.,Brailey,William Theodore Ronald,male,24.0,1887-10-25,English,0,0,250654,0.0,E,S,,,
+2,0,Mr.,Bricoux,Roger Marie Leon Joseph,male,20.0,1891-06-01,French,0,0,250654,0.0,E,S,,,
+2,0,Mr.,Clarke,John Frederick Preston,male,28.0,1883-07-28,English,0,0,250654,0.0,E,S,,,
+2,0,Mr.,Hartley,Wallace Henry,male,33.0,1878-06-02,English,0,0,250654,0.0,E,S,,,
+2,0,Mr.,Hume,John Law,male,21.0,1890-08-09,English,0,0,250654,0.0,E,S,,,
+2,0,Mr.,Krins,Georges Alexandre,male,23.0,1889-03-18,Belgian,0,0,250654,0.0,E,S,,,
+2,0,Mr.,Taylor,Percy Cornelius,male,40.0,1872-03-20,English,0,0,250654,0.0,E,S,,,
+2,0,Mr.,Woodward,John Wesley,male,32.0,1879-09-11,English,0,0,250654,0.0,E,S,,,
+2,0,Mr.,Morley,"Henry Samuel (""Mr Henry Marshall"")",male,38.0,1873-05-03,English,0,0,250655,26.0,,S,,,
+2,1,Miss,Phillips,"Kate Florence (""Mrs Kate Louise Phillips Marshall"")",female,19.0,1893-01-01,English,0,0,250655,26.0,,S,11,,"Worcester, England"
+2,1,Mrs.,Quick,Frederick Charles (Jane Richards),female,33.0,1878-08-31,English,0,2,26360,26.0,,S,11,,"Plymouth, Devon / Detroit, MI"
+2,1,Miss,Quick,Phyllis May,female,2.0,1909-07-27,English,1,1,26360,26.0,,S,11,,"Plymouth, Devon / Detroit, MI"
+2,1,Miss,Quick,Winifred Vera,female,8.0,1904-01-23,English,1,1,26360,26.0,,S,11,,"Plymouth, Devon / Detroit, MI"
+2,0,Mr.,Hold,Stephen,male,44.0,1868-01-24,English,1,0,26707,26.0,,S,,,"England / Sacramento, CA"
+2,1,Mrs.,Hold,Stephen (Annie Margaret Hill),female,29.0,,English,1,0,26707,26.0,,S,10,,"England / Sacramento, CA"
+2,1,Miss,Webber,Susan,female,37.0,1874-07-02,English,0,0,27267,13.0,E101,S,12,,"England / Hartford, CT"
+2,1,Miss,Buss,Kate,female,36.0,1875-12-28,English,0,0,27849,13.0,,S,9,,"Sittingbourne, England / San Diego, CA"
+2,0,Mr.,Rogers,Reginald Harry,male,18.0,1893-07-17,English,0,0,28004,10.5,,S,,,
+2,1,Mr.,Collett,Sidney C Stuart,male,25.0,1887-01-08,English,0,0,28034,10.5,,S,9,,"London / Fort Byron, NY"
+2,0,Mr.,Giles,Edgar,male,22.0,,English,1,0,28133,11.5,,S,,,"Cornwall / Camden, NJ"
+2,0,Mr.,Giles,Frederick Edward,male,21.0,,English,1,0,28134,11.5,,S,,,"Cornwall / Camden, NJ"
+2,0,Mr.,Slemen,Richard James,male,35.0,1876-12-16,English,0,0,28206,10.5,,S,,,Cornwall
+2,0,Mr.,Otter,Richard,male,38.0,1873-07-20,American,0,0,28213,13.0,,S,,,"Middleburg Heights, OH"
+2,0,Mr.,Drew,James Vivian,male,42.0,1869-05-04,English,1,1,28220,32.5,,S,,,"Greenport, NY"
+2,1,Mrs.,Drew,James Vivian (Lulu Thorne Christian),female,34.0,1878-03-19,English,1,1,28220,32.5,,S,10,,"Greenport, NY"
+2,1,Master,Drew,Marshall Brines,male,8.0,1904-03-30,English,0,2,28220,32.5,,S,10,,"Greenport, NY"
+2,0,Mr.,Veal,James,male,40.0,,American,0,0,28221,13.0,,S,,,"Barre, Co Washington, VT"
+2,0,Mr.,Matthews,William John,male,31.0,,English,0,0,28228,13.0,,S,,,"St Austall, Cornwall"
+2,0,Mr.,Downton,William James,male,55.0,1856-12-18,American,0,0,28403,26.0,,S,,,"Holley, NY"
+2,0,Mr.,McKane,Peter David,male,46.0,1865-12-20,American,0,0,28403,26.0,,S,,,"Rochester, NY"
+2,1,Miss,Bentham,Lilian W,female,19.0,1892-07-23,American,0,0,28404,13.0,,S,12,,"Rochester, NY"
+2,0,Mr.,Carbines,William,male,19.0,,English,0,0,28424,13.0,,S,,18.0,"St Ives, Cornwall / Calumet, MI"
+2,0,Mr.,Berriman,William John,male,23.0,,English,0,0,28425,13.0,,S,,,"St Ives, Cornwall / Calumet, MI"
+2,1,Mrs.,Ball,(Ada E Hall),female,36.0,1875-05-09,American,0,0,28551,13.0,D,S,10,,"Bristol, Avon / Jacksonville, FL"
+2,0,Mr.,Gale,Harry,male,38.0,,English,1,0,28664,21.0,,S,,,"Cornwall / Clear Creek, CO"
+2,0,Mr.,Gale,Shadrach,male,33.0,1878-07-17,English,1,0,28664,21.0,,S,,,"Cornwall / Clear Creek, CO"
+2,0,Mr.,Pengelly,Frederick William,male,19.0,,English,0,0,28665,10.5,,S,,,"Gunnislake, England / Butte, MT"
+2,0,Mr.,Ware,William Jeffery,male,23.0,,English,1,0,28666,10.5,,S,,,
+2,0,Dr.,Moraweck,Ernest,male,54.0,,American,0,0,29011,14.0,,S,,,"Frankfort, KY"
+2,1,Mr.,Beane,Edward,male,32.0,1879-11-19,English,1,0,2908,26.0,,S,13,,"Norwich / New York, NY"
+2,1,Mrs.,Beane,Edward (Ethel Clarke),female,19.0,1892-11-15,English,1,0,2908,26.0,,S,13,,"Norwich / New York, NY"
+2,1,Mrs.,Wells,"Arthur Henry (""Addie"" Dart Trevaskis)",female,29.0,1883-01-17,American,0,2,29103,23.0,,S,14,,"Cornwall / Akron, OH"
+2,1,Miss,Wells,Joan,female,4.0,1908-02-26,American,1,1,29103,23.0,,S,14,,"Cornwall / Akron, OH"
+2,1,Master,Wells,Ralph Lester,male,2.0,1909-12-15,American,1,1,29103,23.0,,S,14,,"Cornwall / Akron, OH"
+2,0,Mr.,Hocking,Richard George,male,24.0,,English,2,1,29104,11.5,,S,,,"Cornwall / Akron, OH"
+2,1,Mrs.,Hocking,Elizabeth (Eliza Needs),female,54.0,1858-04-12,English,1,3,29105,23.0,,S,4,,"Cornwall / Akron, OH"
+2,1,Miss,Hocking,"Ellen ""Nellie""",female,20.0,1891-11-05,English,2,1,29105,23.0,,S,4,,"Cornwall / Akron, OH"
+2,1,Master,Richards,George Sibley,male,0.8301369863013699,1911-06-17,English,1,1,29106,18.75,,S,4,,"Cornwall / Akron, OH"
+2,1,Mrs.,Richards,Sidney (Emily Hocking),female,24.0,1887-04-22,English,2,3,29106,18.75,,S,4,,"Cornwall / Akron, OH"
+2,1,Master,Richards,William Rowe,male,3.0,1909-04-01,English,1,1,29106,18.75,,S,4,,"Cornwall / Akron, OH"
+2,0,Mr.,Cotterill,"Henry ""Harry""",male,20.0,,English,0,0,29107,11.5,,S,,,"Penzance, Cornwall / Akron, OH"
+2,0,Mr.,Bailey,Percy Andrew,male,19.0,,English,0,0,29108,11.5,,S,,,"Penzance, Cornwall / Akron, OH"
+2,0,Mr.,Faunthorpe,Harry,male,31.0,1880-10-30,English,1,0,2926,26.0,,S,,286.0,"England / Philadelphia, PA"
+2,1,Mrs.,Faunthorpe,Lizzie (Elizabeth Anne Wilkinson),female,35.0,,English,1,0,2926,26.0,,S,16,,
+2,1,Miss,Brown,Edith Eileen,female,15.0,1896-10-27,South African,0,2,29750,39.0,,S,14,,"Cape Town, South Africa / Seattle, WA"
+2,0,Mr.,Brown,Thomas William Solomon,male,60.0,,South African,1,1,29750,39.0,,S,,,"Cape Town, South Africa / Seattle, WA"
+2,1,Mrs.,Brown,Thomas William Solomon (Elizabeth Catherine Ford),female,40.0,,South African,1,1,29750,39.0,,S,14,,"Cape Town, South Africa / Seattle, WA"
+2,0,Mr.,Eitemiller,George Floyd,male,23.0,,English,0,0,29751,13.0,,S,,,"England / Detroit, MI"
+2,0,Mr.,Renouf,Peter Henry,male,33.0,1878-04-27,American,1,0,31027,21.0,,S,,,"Elizabeth, NJ"
+2,1,Mrs.,Renouf,Peter Henry (Lillian Jefferys),female,30.0,1882-02-26,American,3,0,31027,21.0,,S,12,,"Elizabeth, NJ"
+2,0,Mr.,Gavey,Lawrence,male,26.0,1886-04-07,English,0,0,31028,10.5,,S,,,"Guernsey / Elizabeth, NJ"
+2,1,Miss,Smith,Marion Elsie,female,49.0,1863-01-10,English,0,0,31418,13.0,,S,9,,
+2,1,Miss,Troutt,"Edwina Celia ""Winnie""",female,27.0,1884-06-08,English,0,0,34218,10.5,E101,S,16,,"Bath, England / Massachusetts"
+2,0,Mr.,Fillbrook,Joseph Charles,male,18.0,,English,0,0,CA 15185,10.5,,S,,,"Cornwall / Houghton, MI"
+2,0,Mr.,Reeves,David,male,36.0,,English,0,0,CA 17248,10.5,,S,,,"Brighton, Sussex"
+2,0,Mr.,Kvillner,Johan Henrik Johannesson,male,31.0,1881-04-11,Swedish,0,0,CA 18723,10.5,,S,,165.0,"Sweden / Arlington, NJ"
+2,0,Mr.,Wheadon,Edward H,male,66.0,,English,0,0,CA 24579,10.5,,S,,,"Guernsey, England / Edgewood, RI"
+2,0,Mr.,Mitchell,Henry Michael,male,71.0,,English,0,0,CA 24580,10.5,,S,,,"Guernsey / Montclair, NJ and/or Toledo, Ohio"
+2,0,Mr.,Sobey,Samuel James Hayden,male,26.0,,English,0,0,CA 29178,13.0,,S,,,"Cornwall / Houghton, MI"
+2,1,Mrs.,Nye,(Elizabeth Ramell),female,29.0,1882-05-27,English,0,0,CA 29395,10.5,F33,S,11,,"Folkstone, Kent / New York, NY"
+2,0,Mr.,Leyson,Robert William Norman,male,25.0,,English,0,0,CA 29566,10.5,,S,,108.0,
+2,0,Mr.,Gilbert,William,male,47.0,,English,0,0,CA 30769,10.5,,S,,,Cornwall
+2,1,Miss,Rugg,Emily,female,21.0,1890-12-19,English,0,0,CA 31026,10.5,,S,12,,"Guernsey / Wilmington, DE"
+2,0,Mr.,Denbury,Herbert,male,25.0,,English,0,0,CA 31029,31.5,,S,,,"Guernsey / Elizabeth, NJ"
+2,0,Mr.,Jefferys,Clifford Thomas,male,24.0,1888-04-08,English,2,0,CA 31029,31.5,,S,,,"Guernsey / Elizabeth, NJ"
+2,0,Mr.,Jefferys,Ernest Wilfred,male,22.0,,English,2,0,CA 31029,31.5,,S,,,"Guernsey / Elizabeth, NJ"
+2,0,Mr.,Baimbrigge,Charles Robert,male,24.0,,English,0,0,CA 31030,10.5,,S,,,Guernsey
+2,0,Mr.,Ware,John James,male,45.0,,English,1,0,CA 31352,21.0,,S,,,"Bristol, England / New Britain, CT"
+2,1,Mrs.,Ware,John James (Florence Louise Long),female,31.0,1880-10-29,English,0,0,CA 31352,21.0,,S,10,,"Bristol, England / New Britain, CT"
+2,0,Mr.,Collyer,Harvey,male,31.0,1880-11-26,English,1,1,CA 31921,26.25,,S,,,"Bishopstoke, Hants / Fayette Valley, ID"
+2,1,Mrs.,Collyer,Harvey (Charlotte Annie Tate),female,31.0,1880-10-01,English,1,1,CA 31921,26.25,,S,14,,"Bishopstoke, Hants / Fayette Valley, ID"
+2,1,Miss,Collyer,"Marjorie ""Lottie""",female,8.0,1904-01-28,English,0,2,CA 31921,26.25,,S,14,,"Bishopstoke, Hants / Fayette Valley, ID"
+2,0,Mr.,Jenkin,Stephen Curnow,male,32.0,1879-11-05,American,0,0,CA 33111,10.5,,S,,,"St Ives, Cornwall / Houghton, MI"
+2,1,Mrs.,Davies,John Morgan (Elizabeth Agnes Mary White),female,48.0,1863-11-23,English,0,2,CA 33112,36.75,,S,14,,"St Ives, Cornwall / Hancock, MI"
+2,1,Master,Davies,John Morgan Jr,male,8.0,1903-07-13,English,1,1,CA 33112,36.75,,S,14,,"St Ives, Cornwall / Hancock, MI"
+2,0,Mr.,Nicholls,Joseph Charles,male,19.0,1892-07-24,English,1,1,CA 33112,36.75,,S,,101.0,"Cornwall / Hancock, MI"
+2,1,Miss,Sincock,Maude,female,20.0,1891-04-17,English,0,0,CA 33112,36.75,,S,11,,"Cornwall / Hancock, MI"
+2,1,Miss,Watt,Bertha J,female,12.0,1899-09-11,Scottish,0,0,CA 33595,15.75,,S,9,,"Aberdeen / Portland, OR"
+2,1,Mrs.,Watt,"James (Elizabeth ""Bessie"" Inglis Milne)",female,40.0,,Scottish,0,0,CA 33595,15.75,,S,9,,"Aberdeen / Portland, OR"
+2,0,Mr.,Andrew,Frank Thomas,male,27.0,,English,0,0,CA 34050,10.5,,S,,,"Cornwall, England Houghton, MI"
+2,1,Mrs.,Lemore,(Amelia Milley),female,39.0,,American,0,0,CA 34260,10.5,F33,S,14,,"Chicago, IL"
+2,1,Mr.,Portaluppi,Emilio Ilario Giuseppe,male,30.0,1881-10-15,Italian,0,0,CA 34644,12.7375,,C,14,,"Milford, NH"
+2,1,Miss,West,Barbara J,female,0.8958904109589041,1911-05-24,English,1,2,CA 34651,27.75,,S,10,,"Bournmouth, England"
+2,1,Miss,West,Constance Mirium,female,4.0,1907-08-13,English,1,2,CA 34651,27.75,,S,10,,"Bournmouth, England"
+2,0,Mr.,West,Edwy Arthur,male,36.0,1875-11-20,English,1,2,CA 34651,27.75,,S,,,"Bournmouth, England"
+2,1,Mrs.,West,Edwy Arthur (Ada Mary Worth),female,33.0,1879-02-17,English,1,2,CA 34651,27.75,,S,10,,"Bournmouth, England"
+2,0,Mr.,Banfield,Frederick James,male,28.0,1884-02-29,English,0,0,CA/SOTON 34068,10.5,,S,,,"Plymouth, Dorset / Houghton, MI"
+2,1,Miss,Cameron,Clear Annie,female,35.0,1877-03-08,English,0,0,FCC 13528,21.0,,S,14,,"Mamaroneck, NY"
+2,1,Miss,Walcroft,Nellie,female,36.0,1875-12-09,English,0,0,FCC 13528,21.0,,S,14,,"Mamaroneck, NY"
+2,0,Mr.,Hart,Benjamin,male,47.0,1864-12-25,English,1,1,FCC 13529,26.25,,S,,,"Ilford, Essex / Winnipeg, MB"
+2,1,Mrs.,Hart,Benjamin (Esther Ada Bloomfield),female,48.0,1863-05-13,English,1,1,FCC 13529,26.25,,S,14,,"Ilford, Essex / Winnipeg, MB"
+2,1,Miss,Hart,Eva Miriam,female,7.0,1905-01-31,English,0,2,FCC 13529,26.25,,S,14,,"Ilford, Essex / Winnipeg, MB"
+2,1,Miss,Toomey,Ellen,female,48.0,1864-02-02,Irish,0,0,FCC 13531,10.5,,S,9,,"Indianapolis, IN"
+2,0,Mrs.,Corey,Percy C (Mary Phyllis Elizabeth Miller),female,30.0,,American,0,0,FCC 13534,21.0,,S,,,"Upper Burma, India Pittsburgh, PA"
+2,0,Mrs.,Karnes,J Frank (Claire Bennett),female,28.0,,American,0,0,FCC 13534,21.0,,S,,,"India / Pittsburgh, PA"
+2,0,Mr.,Stokes,Philip Joseph,male,25.0,,English,0,0,FCC 13540,10.5,,S,,81.0,"Catford, Kent / Detroit, MI"
+2,0,Mr.,Abelson,Samuel,male,30.0,,Russian,1,0,P/PP 3381,24.0,,C,,,"Russia New York, NY"
+2,1,Mrs.,Abelson,Samuel (Hannah Wizosky),female,28.0,,Russian,1,0,P/PP 3381,24.0,,C,10,,"Russia New York, NY"
+2,0,Mr.,Parker,Clifford Richard,male,28.0,,English,0,0,SC 14888,10.5,,S,,,"St Andrews, Guernsey"
+2,1,Miss,Lehmann,Bertha,female,17.0,1895-03-31,Swiss,0,0,SC 1748,12.0,,C,12,,"Berne, Switzerland / Central City, IA"
+2,0,Mr.,Mangiavacchi,Serafino Emilio,male,30.0,,American,0,0,SC/A3 2861,15.5792,,C,,,"New York, NY"
+2,0,Mr.,Chapman,John Henry,male,37.0,,English,1,0,SC/AH 29037,26.0,,S,,17.0,"Cornwall / Spokane, WA"
+2,0,Mrs.,Chapman,John Henry (Sara Elizabeth Lawry),female,29.0,,English,1,0,SC/AH 29037,26.0,,S,,,"Cornwall / Spokane, WA"
+2,0,Mr.,Louch,Charles Alexander,male,50.0,,English,1,0,SC/AH 3085,26.0,,S,,121.0,"Weston-Super-Mare, Somerset"
+2,1,Mrs.,Louch,Charles Alexander (Alice Adelaide Slow),female,42.0,,English,1,0,SC/AH 3085,26.0,,S,14,,"Weston-Super-Mare, Somerset"
+2,1,Mrs.,Jerwan,Amin S (Marie Marthe Thuillard),female,23.0,1888-05-28,American,0,0,SC/AH BASEL 541,13.7917,D,C,11,,"New York, NY"
+2,1,Mrs.,Mallet,Albert (Marie Antonie Magnin),female,24.0,1887-12-12,French,1,1,SC/PARIS 2079,37.0042,,C,10,,"Paris / Montreal, PQ"
+2,0,Mr.,Mallet,Albert Denis Pierre,male,31.0,,French,1,1,SC/PARIS 2079,37.0042,,C,,,"Paris / Montreal, PQ"
+2,1,Master,Mallet,Andre Clement,male,1.0,1910-06-11,French,0,2,SC/PARIS 2079,37.0042,,C,10,,"Paris / Montreal, PQ"
+2,1,Mrs.,Laroche,Joseph (Juliette Marie Louise Lafargue),female,22.0,1889-10-20,French,1,2,SC/PARIS 2123,41.5792,,C,14,,Paris / Haiti
+2,0,Mr.,Laroche,Joseph Philippe Lemercier,male,25.0,1886-05-26,Haitian,1,2,SC/PARIS 2123,41.5792,,C,,,Paris / Haiti
+2,1,Miss,Laroche,Louise,female,1.0,1910-07-02,French,1,2,SC/PARIS 2123,41.5792,,C,14,,Paris / Haiti
+2,1,Miss,Laroche,Simonne Marie Anne Andree,female,3.0,1909-02-19,French,1,2,SC/PARIS 2123,41.5792,,C,14,,Paris / Haiti
+2,0,Mr.,Pernot,Rene,male,39.0,1872-09-07,French,0,0,SC/PARIS 2131,15.05,,C,,,
+2,0,Mr.,Richard,Emile,male,23.0,1888-08-23,French,0,0,SC/PARIS 2133,15.0458,,C,,,"Paris / Montreal, PQ"
+2,1,Mr.,Padro y Manent,Julian,male,27.0,,Spanish,0,0,SC/PARIS 2146,13.8625,,C,9,,"Spain / Havana, Cuba"
+2,1,Mr.,Pallas y Castello,Emilio,male,29.0,,Spanish,0,0,SC/PARIS 2147,13.8583,,C,9,,"Spain / Havana, Cuba"
+2,1,Miss,Duran y More,Florentina,female,30.0,,Spanish,1,0,SC/PARIS 2148,13.8583,,C,12,,"Barcelona, Spain / Havana, Cuba"
+2,1,Miss,Duran y More,Asuncion,female,27.0,,Spanish,1,0,SC/PARIS 2149,13.8583,,C,12,,"Barcelona, Spain / Havana, Cuba"
+2,0,Mr.,Wheeler,"Edwin ""Frederick""",male,24.0,,English,0,0,SC/PARIS 2159,12.875,,S,,,
+2,0,Mr.,Levy,Rene Jacques,male,36.0,1875-07-07,French,0,0,SC/PARIS 2163,12.875,D,C,,,"Montreal, PQ"
+2,0,Mr.,del Carlo,Sebastiano,male,29.0,1883-03-11,Italian,1,0,SC/PARIS 2167,27.7208,,C,,295.0,"Lucca, Italy / California"
+2,1,Mrs.,del Carlo,Sebastiano (Argenia Genovesi),female,24.0,1887-11-06,Italian,1,0,SC/PARIS 2167,27.7208,,C,12,,"Lucca, Italy / California"
+2,0,Mr.,Pulbaum,Franz,male,27.0,1884-10-14,German,0,0,SC/PARIS 2168,15.0333,,C,,,Paris
+2,0,Mr.,Hunt,George Henry,male,33.0,,American,0,0,SCO/W 1585,12.275,,S,,,"Philadelphia, PA"
+2,1,Miss,Ilett,Bertha,female,17.0,1894-10-12,English,0,0,SO/C 14885,10.5,,S,,,Guernsey
+2,1,Miss,Phillips,Alice Frances Louisa,female,21.0,1891-01-26,English,0,1,SO/PP 2,21.0,,S,12,,"Ilfracombe, Devon"
+2,0,Mr.,Phillips,Escott Robert,male,43.0,,English,0,1,SO/PP 2,21.0,,S,,,"Ilfracombe, Devon"
+2,0,Mrs.,Mack,(Mary),female,57.0,,English,0,0,SO/PP 3,10.5,E77,S,,52.0,"Southampton / New York, NY"
+2,0,Mr.,Mudd,Thomas Charles,male,16.0,,English,0,0,SO/PP 3,10.5,,S,,,"Halesworth, England"
+2,0,Mr.,Davies,Charles Henry,male,19.0,,English,0,0,SOC 14879,73.5,,S,,,"Lyndhurst, England"
+2,0,Mr.,Deacon,Percy William,male,18.0,,English,0,0,SOC 14879,73.5,,S,,,
+2,0,Mr.,Dibden,William,male,18.0,1893-10-29,English,0,0,SOC 14879,73.5,,S,,,"New Forest, England"
+2,0,Mr.,Hickman,Leonard Mark,male,24.0,1887-09-18,English,2,0,SOC 14879,73.5,,S,,,"West Hampstead, London / Neepawa, MB"
+2,0,Mr.,Hickman,Lewis,male,30.0,1881-08-29,English,2,0,SOC 14879,73.5,,S,,256.0,"West Hampstead, London / Neepawa, MB"
+2,0,Mr.,Hickman,Stanley George,male,21.0,,English,2,0,SOC 14879,73.5,,S,,,"West Hampstead, London / Neepawa, MB"
+2,0,Mr.,Hood,Ambrose Jr,male,21.0,,English,0,0,SOC 14879,73.5,,S,,,"New Forest, England"
+2,0,Rev.,Bateman,Robert James,male,51.0,1860-10-14,American,0,0,SOP 1166,12.525,,S,,174.0,"Jacksonville, FL"
+2,1,Mr.,Mellors,William John,male,19.0,,English,0,0,SW/PP 751,10.5,,S,B,,"Chelsea, London"
+2,1,Mr.,Harris,George,male,62.0,,English,0,0,SW/PP 752,10.5,,S,15,,London
+2,0,Mr.,Harris,Walter,male,30.0,1881-10-02,English,0,0,W/C 14208,10.5,,S,,,"Walthamstow, England"
+2,1,Miss,Ridsdale,Lucy,female,50.0,,American,0,0,W/C 14258,10.5,,S,13,,"London, England / Marietta, Ohio and Milwaukee, WI"
+2,1,Mr.,Oxenham,Percy Thomas,male,22.0,1889-10-04,English,0,0,W/C 14260,10.5,,S,13,,"Pondersend, England / New Durham, NJ"
+2,0,Mr.,Coleridge,Reginald Charles,male,29.0,,English,0,0,W/C 14263,10.5,,S,,,"Hartford, Huntingdonshire"
+2,1,Mrs.,Cook,Arthur Henry (Selena Rogers),female,22.0,1890-04-06,American,0,0,W/C 14266,10.5,F33,S,14,,Pennsylvania
+3,0,Mr.,Lockyer,Edward,male,31.0,,English,0,0,1222,7.8792,,S,,153.0,
+3,0,Mr.,Keane,"Andrew ""Andy""",male,23.0,,Irish,0,0,12460,7.75,,Q,,,
+3,1,Miss,O'Driscoll,Bridget,female,27.0,1885-01-17,Irish,0,0,14311,7.75,,Q,D,,
+3,1,Miss,Kelly,Mary,female,22.0,1890-02-19,Irish,0,0,14312,7.75,,Q,D,,
+3,1,Miss,Jermyn,Annie,female,26.0,,Irish,0,0,14313,7.75,,Q,D,,
+3,0,Mr.,Gilinski,Eliezer,male,23.0,,English,0,0,14973,8.05,,S,,47.0,
+3,1,Mr.,Bing,Lee,male,32.0,,English,0,0,1601,56.4958,,S,C,,"Hong Kong New York, NY"
+3,1,Mr.,Chip,Chang,male,32.0,,English,0,0,1601,56.4958,,S,C,,"Hong Kong New York, NY"
+3,1,Mr.,Foo,Choong,male,32.0,,English,0,0,1601,56.4958,,S,13,,"Hong Kong New York, NY"
+3,1,Mr.,Hee,Ling,male,24.0,,English,0,0,1601,56.4958,,S,C,,
+3,1,Mr.,Lam,Ali,male,38.0,,English,0,0,1601,56.4958,,S,C,,
+3,0,Mr.,Lam,Len,male,23.0,,English,0,0,1601,56.4958,,S,,,
+3,1,Mr.,Lang,Fang,male,26.0,,English,0,0,1601,56.4958,,S,14,,
+3,0,Mr.,Ling,Lee,male,28.0,,English,0,0,1601,56.4958,,S,,,
+3,0,Mr.,Conlon,Thomas Henry,male,31.0,,Irish,0,0,21332,7.7333,,Q,,,"Philadelphia, PA"
+3,0,Mr.,Green,George Henry,male,51.0,,English,0,0,21440,8.05,,S,,,"Dorking, Surrey, England"
+3,0,Mr.,Allum,Owen George,male,18.0,,English,0,0,2223,8.3,,S,,259.0,"Windsor, England New York, NY"
+3,1,Mr.,Leeni,"Fahim (""Philip Zenni"")",male,25.0,1886-10-25,Syrian,0,0,2620,7.225,,C,6,,
+3,0,Mr.,Thomas,Charles P,male,31.0,,Syrian,1,0,2621,6.4375,,C,,,
+3,0,Master,Betros,Seman,male,9.0,,Syrian,0,0,2622,7.2292,,C,,,
+3,0,Mr.,Badt,Mohamed,male,40.0,,Syrian,0,0,2623,7.225,,C,,,
+3,0,Mr.,Lahoud,Sarkis,male,30.0,,Turkish,0,0,2624,7.225,,C,,,
+3,1,Mrs.,Thomas,"Alexander (Thamine ""Thelma"")",female,16.0,1895-12-25,Syrian,1,1,2625,8.5167,,C,14,,
+3,1,Master,Thomas,Assad Alexander,male,0.43561643835616437,1911-11-08,Syrian,0,1,2625,8.5167,,C,16,,
+3,1,Mrs.,Moussa,(Mantoura Boulos),female,35.0,,Syrian,0,0,2626,7.2292,,C,C,,
+3,0,Miss,Attalah,Malake,female,18.0,,Syrian,0,0,2627,14.4583,,C,,,
+3,0,Mr.,Yousseff,Gerious,male,30.0,,Syrian,0,0,2627,14.4583,,C,,,
+3,0,Mr.,Youseff,Gerious,male,45.0,,Syrian,0,0,2628,7.225,,C,,312.0,
+3,0,Mr.,Razi,Raihed,male,30.0,,Syrian,0,0,2629,7.2292,,C,,,
+3,0,Mr.,Emir,Farred Chehab,male,29.0,,Syrian,0,0,2631,7.225,,C,,,
+3,0,Mr.,Toufik,Nakli,male,17.0,,Syrian,0,0,2641,7.2292,,C,,,
+3,0,Mr.,Yousif,Wazli,male,25.0,,Syrian,0,0,2647,7.225,,C,,,
+3,0,Mr.,Betros,Tannous,male,20.0,,Syrian,0,0,2648,4.0125,,C,,,Syria
+3,1,Mrs.,Masselmani,Fatima,female,22.0,1890-01-12,Syrian,0,0,2649,7.225,,C,C,,
+3,1,Mrs.,Touma,Darwis (Hanne Youssef Razi),female,27.0,1885-04-10,Syrian,0,2,2650,15.2458,,C,C,,
+3,1,Master,Touma,Georges Youssef,male,8.0,1904-02-09,Syrian,1,1,2650,15.2458,,C,C,,
+3,1,Miss,Touma,Maria Youssef,female,9.0,1902-10-16,Syrian,1,1,2650,15.2458,,C,C,,
+3,1,Master,Nicola-Yarred,Elias,male,12.0,1900-04-12,Syrian,1,0,2651,11.2417,,C,C,,
+3,1,Miss,Nicola-Yarred,Jamila,female,14.0,1898-04-15,Syrian,1,0,2651,11.2417,,C,C,,
+3,0,Mr.,Nasr,Mustafa,male,20.0,,Syrian,0,0,2652,7.2292,,C,,,
+3,1,Miss,Nakid,Mariayam,female,1.0,,Syrian,0,2,2653,15.7417,,C,C,,
+3,1,Mr.,Nakid,Sahid,male,21.0,,Syrian,1,1,2653,15.7417,,C,C,,
+3,1,Mrs.,Nakid,"Said (Waika ""Mary"" Mowad)",female,19.0,1892-11-18,Syrian,1,1,2653,15.7417,,C,C,,
+3,1,Mr.,Krekorian,Neshan,male,25.0,1886-05-12,Syrian,0,0,2654,7.2292,F E57,C,10,,
+3,0,Mr.,Mardirosian,Sarkis,male,25.0,,Turkish,0,0,2655,7.2292,F E46,C,,,
+3,0,Mr.,Zakarian,Mapriededer,male,22.0,,Turkish,0,0,2656,7.225,,C,,304.0,
+3,1,Mrs.,Abrahim,Joseph (Sophie Halaut Easu),female,18.0,1894-02-10,Syrian,0,0,2657,7.2292,,C,C,,"Greensburg, PA"
+3,1,Mr.,Vartanian,David,male,22.0,1890-04-15,Turkish,0,0,2658,7.225,,C,A,,
+3,0,Mr.,Yasbeck,Antoni,male,27.0,,Syrian,1,0,2659,14.4542,,C,,,
+3,1,Mrs.,Yasbeck,Antoni (Selini Alexander),female,15.0,1896-07-15,Syrian,1,0,2659,14.4542,,C,C,,
+3,0,Mr.,Khalil,Betros,male,25.0,,Syrian,1,0,2660,14.4542,,C,,,
+3,0,Mrs.,Khalil,"Betros (Zahie ""Maria"" Elias)",female,20.0,,Syrian,1,0,2660,14.4542,,C,,,
+3,1,Mrs.,Moubarek,"George (Omine ""Amenia"" Alexander)",female,24.0,,Syrian,0,2,2661,15.2458,,C,C,,
+3,1,Master,Moubarek,Gerios,male,7.0,1904-11-27,Syrian,1,1,2661,15.2458,,C,C,,
+3,1,Master,Moubarek,"Halim Gonios (""William George"")",male,4.0,1907-07-15,Syrian,1,1,2661,15.2458,,C,C,,
+3,0,Mr.,Samaan,Elias,male,17.0,,Syrian,2,0,2662,21.6792,,C,,,
+3,0,Mr.,Samaan,Hanna,male,40.0,,Syrian,2,0,2662,21.6792,,C,,,
+3,0,Mr.,Samaan,Youssef,male,15.0,,Syrian,2,0,2662,21.6792,,C,,,
+3,1,Mr.,Barah,Hanna Assi,male,27.0,1885-04-10,Syrian,0,0,2663,7.2292,,C,15,,
+3,0,Mr.,Boulos,Hanna,male,18.0,,Syrian,0,0,2664,7.225,,C,,,Syria
+3,0,Miss,Zabour,Hileni,female,16.0,,Syrian,1,0,2665,14.4542,,C,,328.0,
+3,0,Miss,Zabour,Thamine,female,19.0,,Syrian,1,0,2665,14.4542,,C,,,
+3,1,Miss,Baclini,Eugenie,female,4.0,,Syrian,2,1,2666,19.2583,,C,C,,"Syria New York, NY"
+3,1,Miss,Baclini,Helene Barbara,female,0.7616438356164383,1911-07-12,Syrian,2,1,2666,19.2583,,C,C,,"Syria New York, NY"
+3,1,Miss,Baclini,Marie Catherine,female,5.0,1906-09-21,Syrian,2,1,2666,19.2583,,C,C,,"Syria New York, NY"
+3,1,Mrs.,Baclini,Solomon (Latifa Qurban),female,20.0,,Syrian,0,3,2666,19.2583,,C,C,,"Syria New York, NY"
+3,1,Miss,Najib,"Adele Kiamie ""Jane""",female,15.0,1896-11-14,Syrian,0,0,2667,7.225,,C,C,,
+3,1,Miss,Peter,Anna,female,2.0,1909-08-21,American,1,1,2668,22.3583,F E69,C,D,,
+3,1,Mrs.,Peter,Catherine (Catherine Rizk),female,23.0,,American,0,2,2668,22.3583,,C,D,,
+3,1,Master,Peter,Michael J,male,4.0,1907-05-11,American,1,1,2668,22.3583,,C,D,,
+3,0,Mr.,Sirayanian,Orsen,male,22.0,,Turkish,0,0,2669,7.2292,,C,,,
+3,0,Mr.,Zakarian,Ortin,male,27.0,,Turkish,0,0,2670,7.225,,C,,,
+3,0,Mr.,Saad,Amin,male,30.0,,Syrian,0,0,2671,7.2292,,C,,,
+3,0,Mr.,Saad,Khalil,male,27.0,,Syrian,0,0,2672,7.225,,C,,,
+3,0,Mr.,Torfa,Assad,male,20.0,,Syrian,0,0,2673,7.2292,,C,,,
+3,0,Mr.,Elias,Dibo,male,29.0,,Syrian,0,0,2674,7.225,,C,,,
+3,0,Mr.,Elias,Joseph,male,39.0,,Syrian,0,2,2675,7.2292,,C,,,"Syria Ottawa, ON"
+3,0,Mr.,Saade,Jean Nassr,male,20.0,,Syrian,0,0,2676,7.225,,C,,,
+3,1,Mr.,Mamee,Hanna,male,20.0,,Syrian,0,0,2677,7.2292,,C,15,,
+3,0,Master,Boulos,Akar,male,9.0,,Syrian,1,1,2678,15.2458,,C,,,"Syria Kent, ON"
+3,0,Mrs.,Boulos,Joseph (Sultana),female,40.0,,Syrian,0,2,2678,15.2458,,C,,,"Syria Kent, ON"
+3,0,Miss,Boulos,Nourelain,female,7.0,,Syrian,1,1,2678,15.2458,,C,,,"Syria Kent, ON"
+3,0,Mr.,Baccos,Raffull,male,21.0,,Syrian,0,0,2679,7.225,,C,,,
+3,0,Mr.,Chronopoulos,Apostolos,male,26.0,,Greek,1,0,2680,14.4542,,C,,,Greece
+3,0,Mr.,Chronopoulos,Demetrios,male,21.0,,Greek,1,0,2680,14.4542,,C,,,Greece
+3,0,Mr.,Thomas,John,male,34.0,1877-07-02,Syrian,0,0,2681,6.4375,,C,,,
+3,0,Mr.,Katavelas,"Vassilios (""Catavelas Vassilios"")",male,19.0,,Greek,0,0,2682,7.2292,,C,,58.0,
+3,0,Mr.,Lemberopolous,Peter L,male,30.0,,Greek,0,0,2683,6.4375,,C,,196.0,
+3,0,Mr.,Thomas,Tannous,male,16.0,,Syrian,0,0,2684,7.225,,C,,,
+3,0,Mr.,Ibrahim Shawah,Yousseff,male,45.0,,Syrian,0,0,2685,7.2292,,C,,,
+3,0,Mr.,Doharr,Tannous,male,28.0,,Syrian,0,0,2686,7.2292,,C,,,
+3,1,Miss,Ayoub,Banoura,female,15.0,,Syrian,0,0,2687,7.2292,,C,C,,"Syria Youngstown, OH"
+3,1,Mrs.,Whabee,George Joseph (Shawneene Abi-Saab),female,38.0,1874-03-29,Syrian,0,0,2688,7.2292,,C,C,,
+3,0,Mr.,Caram,Joseph,male,28.0,,Syrian,1,0,2689,14.4583,,C,,,"Ottawa, ON"
+3,0,Mrs.,Caram,Joseph (Maria Elias),female,18.0,,Syrian,1,0,2689,14.4583,,C,,,"Ottawa, ON"
+3,0,Mr.,Elias,Joseph Jr,male,17.0,,Syrian,1,1,2690,7.2292,,C,,,
+3,0,Mrs.,Barbara,(Catherine David),female,45.0,,Syrian,0,1,2691,14.4542,,C,,,"Syria Ottawa, ON"
+3,0,Miss,Barbara,Saiide,female,18.0,,Syrian,0,1,2691,14.4542,,C,,,"Syria Ottawa, ON"
+3,0,Mr.,Assaf,Gerios,male,21.0,,Syrian,0,0,2692,7.225,,C,,,"Ottawa, ON"
+3,0,Mr.,Hanna,Mansour,male,35.0,,Syrian,0,0,2693,7.2292,,C,,188.0,
+3,0,Mr.,Attalah,Sleiman,male,27.0,,Syrian,0,0,2694,7.225,,C,,,"Ottawa, ON"
+3,0,Mr.,Elias,Tannous,male,15.0,,Syrian,1,1,2695,7.2292,,C,,,Syria
+3,1,Mrs.,Assaf Khalil,"Mariana (""Miriam"")",female,45.0,,Syrian,0,0,2696,7.225,,C,C,,"Ottawa, ON"
+3,0,Mr.,Novel,Mansouer,male,20.0,,Syrian,0,0,2697,7.2292,,C,,181.0,
+3,0,Mr.,Daher,Shedid,male,19.0,,Turkish,0,0,2698,7.225,,C,,9.0,
+3,1,Mr.,Albimona,Nassef Cassem,male,27.0,1884-09-29,Syrian,0,0,2699,18.7875,,C,15,,"Syria Fredericksburg, VA"
+3,0,Mr.,Hassan,Houssein G N,male,11.0,,Syrian,0,0,2699,18.7875,,C,,,
+3,0,Mr.,Kassem,Fared,male,18.0,,,0,0,2700,7.2292,,C,,,
+3,0,Mr.,Johanson,Jakob Alfred,male,34.0,1877-06-11,Finnish,0,0,3101264,6.4958,,S,,143.0,
+3,1,Miss,Sjoblom,Anna Sofia,female,18.0,1894-04-14,Finnish,0,0,3101265,7.4958,,S,16,,
+3,0,Mr.,Wiklund,Karl Johan,male,21.0,,Finnish,1,0,3101266,6.4958,,S,,,
+3,0,Mr.,Wiklund,Jakob Alfred,male,17.0,1894-09-15,Finnish,1,0,3101267,6.4958,,S,,314.0,
+3,0,Mr.,Gustafsson,Anders Vilhelm,male,37.0,1875-04-05,Finnish,2,0,3101276,7.925,,S,,98.0,"Ruotsinphytaa, Finland New York, NY"
+3,0,Mr.,Gustafsson,Johan Birger,male,28.0,1883-06-15,Finnish,2,0,3101277,7.925,,S,,,"Ruotsinphytaa, Finland New York, NY"
+3,0,Mr.,Backstrom,Karl Alfred,male,32.0,1880-01-14,Finnish,1,0,3101278,15.85,,S,,,"Ruotsinphytaa, Finland New York, NY"
+3,1,Mrs.,Backstrom,Karl Alfred (Maria Mathilda Gustafsson),female,33.0,1878-07-28,Finnish,3,0,3101278,15.85,,S,D,,"Ruotsinphytaa, Finland New York, NY"
+3,1,Miss,Andersson,Erna Alexandra,female,16.0,,Finnish,4,2,3101281,7.925,,S,D,,"Ruotsinphyhtaa, Finland New York, NY"
+3,0,Master,Panula,Eino Viljami,male,1.0,1911-03-10,Finnish,4,1,3101295,39.6875,,S,,,
+3,0,Mr.,Panula,Ernesti Arvid,male,16.0,1895-05-18,Finnish,4,1,3101295,39.6875,,S,,,
+3,0,Mr.,Panula,Jaako Arnold,male,15.0,1897-02-08,Finnish,4,1,3101295,39.6875,,S,,,
+3,0,Mrs.,Panula,Juha (Maria Emilia Ojala),female,41.0,1870-12-01,Finnish,0,5,3101295,39.6875,,S,,,
+3,0,Master,Panula,Juha Niilo,male,7.0,1904-09-01,Finnish,4,1,3101295,39.6875,,S,,,
+3,0,Master,Panula,Urho Abraham,male,2.0,1909-04-25,Finnish,4,1,3101295,39.6875,,S,,,
+3,0,Miss,Riihivouri,"Susanna Juhantytar ""Sanni""",female,22.0,1889-04-23,Finnish,0,0,3101295,39.6875,,S,,,
+3,0,Mr.,Salonen,Johan Werner,male,39.0,,Swedish,0,0,3101296,7.925,,S,,,
+3,0,Miss,Nieminen,Manta Josefina,female,29.0,1882-12-15,Finnish,0,0,3101297,7.925,,S,,,
+3,1,Mrs.,Hirvonen,Alexander (Helga E Lindqvist),female,22.0,1890-01-02,Finnish,1,1,3101298,12.2875,,S,15,,
+3,1,Miss,Hirvonen,Hildur E,female,2.0,1910-02-15,Finnish,0,1,3101298,12.2875,,S,15,,
+3,1,Mr.,Moss,Albert Johan,male,29.0,1882-12-14,Norwegian,0,0,312991,7.775,,S,B,,
+3,0,Mr.,Birkeland,Hans Martin Monsen,male,21.0,1890-12-19,Norwegian,0,0,312992,7.775,,S,,,"Brennes, Norway New York"
+3,0,Mr.,Rommetvedt,Knud Paust,male,49.0,1863-02-11,Norwegian,0,0,312993,7.775,,S,,,
+3,0,Mr.,Smiljanic,Mile,male,37.0,,Croatian,0,0,315037,8.6625,,S,,,
+3,0,Mr.,Zimmerman,Leo,male,29.0,1883-02-20,German,0,0,315082,7.875,,S,,,
+3,0,Mr.,Strilic,Ivan,male,27.0,,Croatian,0,0,315083,8.6625,,S,,,
+3,0,Miss,Cacic,Marija,female,30.0,,Croatian,0,0,315084,8.6625,,S,,,
+3,0,Miss,Oreskovic,Jelka,female,23.0,,Croatian,0,0,315085,8.6625,,S,,,
+3,0,Mr.,Calic,Petar,male,17.0,,Croatian,0,0,315086,8.6625,,S,,,
+3,0,Miss,Cacic,Manda,female,21.0,,Croatian,0,0,315087,8.6625,,S,,,
+3,0,Mr.,Dimic,Jovan,male,42.0,,Croatian,0,0,315088,8.6625,,S,,,
+3,0,Mr.,Cacic,Luka,male,38.0,,Croatian,0,0,315089,8.6625,,S,,,Croatia
+3,0,Mr.,Culumovic,Jeso,male,17.0,,Croatian,0,0,315090,8.6625,,S,,,Austria-Hungary
+3,0,Mr.,Cacic,Jego Grga,male,18.0,,Croatian,0,0,315091,8.6625,,S,,,
+3,0,Mr.,Pokrnic,Tome,male,24.0,,Croatian,0,0,315092,8.6625,,S,,,
+3,0,Mr.,Calic,Jovo,male,17.0,,Croatian,0,0,315093,8.6625,,S,,,
+3,0,Mr.,Oreskovic,Luka,male,20.0,,Croatian,0,0,315094,8.6625,,S,,,
+3,0,Mr.,Pokrnic,Mate,male,17.0,,Croatian,0,0,315095,8.6625,,S,,,
+3,0,Miss,Oreskovic,Marija,female,20.0,,Croatian,0,0,315096,8.6625,,S,,,
+3,0,Mr.,Pasic,Jakob,male,21.0,,Slovakian,0,0,315097,8.6625,,S,,,
+3,1,Mr.,Lulic,Nikola,male,29.0,1883-02-24,Croatian,0,0,315098,8.6625,,S,15,,
+3,0,Mr.,Kink,Vincenz,male,26.0,1885-07-25,Swiss,2,0,315151,8.6625,,S,,,
+3,0,Miss,Kink,Maria,female,23.0,,Swiss,2,0,315152,8.6625,,S,,,
+3,1,Mr.,Kink-Heilmann,Anton,male,29.0,1883-03-07,Swiss,3,1,315153,22.025,,S,2,,
+3,1,Mrs.,Kink-Heilmann,Anton (Luise Heilmann),female,26.0,1886-03-21,Swiss,1,1,315153,22.025,,S,2,,
+3,1,Miss,Kink-Heilmann,Louise Gretchen,female,4.0,1908-04-08,Swiss,0,2,315153,22.025,,S,2,,
+3,0,Mr.,Wirz,Albert,male,17.0,1894-05-19,Swiss,0,0,315154,8.6625,,S,,131.0,
+3,0,Mr.,Thomson,Alexander Morrison,male,39.0,1873-02-23,English,0,0,32302,8.05,,S,,,
+3,0,Mr.,Keefe,Arthur,male,44.0,1867-09-30,English,0,0,323592,7.25,,S,A,,
+3,0,Mr.,Beavan,William Thomas,male,18.0,1893-05-01,English,0,0,323951,8.05,,S,,,England
+3,0,Mr.,Barton,David John,male,22.0,1890-01-18,English,0,0,324669,8.05,,S,,,"England New York, NY"
+3,0,Miss,Buckley,Katherine,female,22.0,1889-06-03,Irish,0,0,329944,7.2833,,Q,,299.0,"Co Cork, Ireland Roxbury, MA"
+3,0,Miss,Barry,Julia,female,26.0,,Irish,0,0,330844,7.8792,,Q,,,"New York, NY"
+3,0,Mr.,Moran,James,male,22.0,,Irish,0,0,330877,8.4583,,Q,,,
+3,0,Miss,O'Sullivan,Bridget Mary,female,21.0,1890-05-18,Irish,0,0,330909,7.6292,,Q,,,
+3,0,Mr.,Foley,Joseph,male,19.0,,Irish,0,0,330910,7.8792,,Q,,,"Ireland Chicago, IL"
+3,0,Mr.,Kelly,James,male,45.0,,Irish,0,0,330911,7.8292,,Q,,70.0,
+3,1,Miss,O'Leary,"Hanora ""Norah""",female,16.0,1895-06-10,Irish,0,0,330919,7.8292,,Q,13,,
+3,1,Mr.,Buckley,Daniel,male,21.0,1890-09-28,Irish,0,0,330920,7.8208,,Q,13,,"Kingwilliamstown, Co Cork, Ireland New York, NY"
+3,1,Miss,McGowan,"Anna ""Annie""",female,14.0,1897-07-05,Irish,0,0,330923,8.0292,,Q,13,,
+3,0,Miss,Mahon,Bridget Delia,female,20.0,1892-03-06,Irish,0,0,330924,7.8792,,Q,,,
+3,1,Miss,McGovern,Mary,female,22.0,,Irish,0,0,330931,7.8792,,Q,13,,
+3,1,Miss,McDermott,Brigdet Delia,female,31.0,1881-03-08,Irish,0,0,330932,7.7875,,Q,13,,
+3,0,Miss,Peters,Katie,female,26.0,,Irish,0,0,330935,8.1375,,Q,,,
+3,1,Miss,Devaney,Margaret Delia,female,19.0,1892-05-03,Irish,0,0,330958,7.8792,,Q,C,,"Kilmacowen, Co Sligo, Ireland New York, NY"
+3,1,Miss,O'Dwyer,"Ellen ""Nellie""",female,26.0,,Irish,0,0,330959,7.8792,,Q,10,,
+3,0,Miss,Burns,Mary Delia,female,17.0,1894-11-15,Irish,0,0,330963,7.8792,,Q,,,"Co Sligo, Ireland New York, NY"
+3,1,Miss,Shine,Ellen Natalia,female,20.0,1891-12-30,Irish,0,0,330968,7.7792,,Q,13,,
+3,0,Mr.,Linehan,Michael,male,21.0,,Irish,0,0,330971,7.8792,,Q,,,
+3,0,Miss,Connolly,Kate,female,35.0,,Irish,0,0,330972,7.6292,,Q,,,Ireland
+3,0,Mr.,O'Brien,Timothy,male,21.0,,Irish,0,0,330979,7.8292,,Q,,,
+3,1,Miss,Mockler,"Helen Mary ""Ellie""",female,23.0,1889-04-01,Irish,0,0,330980,7.8792,,Q,16,,
+3,0,Mr.,O'Connell,Patrick D,male,17.0,,Irish,0,0,334912,7.7333,,Q,,,
+3,1,Miss,Bradley,Bridget Delia,female,22.0,1890-01-10,Irish,0,0,334914,7.725,,Q,13,,"Kingwilliamstown, Co Cork, Ireland Glens Falls, NY"
+3,1,Miss,Riordan,"Johanna ""Hannah""",female,18.0,1894-01-27,Irish,0,0,334915,7.7208,,Q,13,,
+3,0,Mr.,Connaghton,Michael,male,31.0,,Irish,0,0,335097,7.75,,Q,,,"Ireland Brooklyn, NY"
+3,1,Miss,Smyth,Julia,female,17.0,1894-07-04,Irish,0,0,335432,7.7333,,Q,13,,
+3,1,Miss,Glynn,Mary Agatha,female,18.0,1893-07-02,Irish,0,0,335677,7.75,,Q,13,,"Co Clare, Ireland Washington, DC"
+3,0,Mr.,Duane,Frank,male,45.0,,Irish,0,0,336439,7.75,,Q,,,
+3,0,Mr.,Willer,"Aaron (""Abi Weller"")",male,37.0,,English,0,0,3410,8.7125,,C,,,
+3,0,Mr.,Paulner,Uscher,male,16.0,,,0,0,3411,8.7125,,C,,,
+3,0,Mr.,Adams,John,male,27.0,,English,0,0,341826,8.05,,S,,103.0,"Bournemouth, England"
+3,0,Mr.,Petersen,Marius,male,24.0,,English,0,0,342441,8.05,,S,,,
+3,0,Mr.,Reynolds,Harold J,male,21.0,,English,0,0,342684,8.05,,S,,,
+3,1,Miss,Roth,Sarah A,female,26.0,1885-10-10,English,0,0,342712,8.05,,S,C,,
+3,0,Mr.,Sawyer,Frederick Charles,male,24.0,,English,0,0,342826,8.05,,S,,284.0,
+3,0,Mrs.,Meek,Thomas (Annie Louise Rowley),female,31.0,,English,0,0,343095,8.05,,S,,,
+3,1,Miss,Salkjelsvik,Anna Kristine,female,21.0,1890-10-31,Norwegian,0,0,343120,7.65,,S,C,,
+3,0,Mr.,Pearce,Ernest,male,32.0,,English,0,0,343271,7.0,,S,,,
+3,0,Mr.,Celotti,Francesco,male,24.0,,Italian,0,0,343275,8.05,,S,,,London
+3,0,Mr.,Christmann,Emil,male,29.0,,English,0,0,343276,8.05,,S,,,
+3,0,Mr.,Nysveen,Johan Hansen,male,60.0,1851-09-17,Norwegian,0,0,345364,6.2375,,S,,,
+3,0,Mr.,Pedersen,Olaf,male,28.0,1883-05-15,Norwegian,0,0,345498,7.775,,S,,,
+3,1,Mr.,Midtsjo,Karl Albert,male,21.0,1890-08-04,Norwegian,0,0,345501,7.775,,S,15,,
+3,1,Mr.,de Messemaeker,Guillaume Joseph,male,36.0,1875-12-30,Belgian,1,0,345572,17.4,,S,15,,"Tampico, MT"
+3,1,Mrs.,de Messemaeker,Guillaume Joseph (Emma),female,36.0,1875-10-20,Belgian,1,0,345572,17.4,,S,13,,"Tampico, MT"
+3,0,Mr.,Vander Planke,Julius,male,31.0,1881-02-08,Belgian,3,0,345763,18.0,,S,,,
+3,0,Mrs.,Vander Planke,Julius (Emelia Maria Vandemoortele),female,31.0,1880-12-10,Belgian,1,0,345763,18.0,,S,,,
+3,0,Miss,Vander Planke,Augusta Maria,female,18.0,1893-12-30,Belgian,2,0,345764,18.0,,S,,,
+3,0,Mr.,Vander Planke,Leo Edmondus,male,15.0,1896-09-17,Belgian,2,0,345764,18.0,,S,,,
+3,0,Mr.,Vander Cruyssen,Victor,male,46.0,1865-10-10,Belgian,0,0,345765,9.0,,S,,,
+3,0,Mr.,Waelens,Achille,male,22.0,1889-05-14,Belgian,0,0,345767,9.0,,S,,,"Antwerp, Belgium / Stanton, OH"
+3,1,Mr.,Sap,Julius,male,21.0,1890-09-20,Belgian,0,0,345768,9.5,,S,11,,
+3,0,Mr.,Hampe,Leon,male,19.0,1892-09-17,Belgian,0,0,345769,9.5,,S,,,
+3,0,Mr.,Vande Walle,Nestor Cyriel,male,28.0,1883-09-23,Belgian,0,0,345770,9.5,,S,,,
+3,0,Mr.,Wittevrongel,Camille,male,36.0,1875-12-17,Belgian,0,0,345771,9.5,,S,,,
+3,0,Miss,Van Impe,Catharina,female,10.0,1901-07-22,Belgian,0,2,345773,24.15,,S,,,
+3,0,Mr.,Van Impe,Jean Baptiste,male,36.0,1875-07-18,Belgian,1,1,345773,24.15,,S,,,
+3,0,Mrs.,Van Impe,Jean Baptiste (Rosalie Paula Govaert),female,30.0,1881-08-25,Belgian,1,1,345773,24.15,,S,,,
+3,1,Mr.,de Mulder,Theodore,male,30.0,1881-09-15,Belgian,0,0,345774,9.5,,S,11,,"Belgium Detroit, MI"
+3,0,Mr.,Wenzel,Linhart,male,28.0,,Austrian,0,0,345775,9.5,,S,,298.0,
+3,0,Mr.,van Melkebeke,Philemon,male,23.0,,Belgian,0,0,345777,9.5,,S,,,
+3,0,Mr.,de Pelsmaeker,Alfons,male,16.0,1895-08-29,Belgian,0,0,345778,9.5,,S,,,
+3,1,Mr.,Sheerlinck,Jan Baptist,male,29.0,1883-01-26,Belgian,0,0,345779,9.5,,S,11,,
+3,0,Mr.,Vande Velde,Johannes Joseph,male,35.0,1876-08-04,Belgian,0,0,345780,9.5,,S,,,
+3,0,Mr.,Lievens,Rene Aime,male,24.0,1887-10-22,Belgian,0,0,345781,9.5,,S,,,
+3,0,Mr.,Vanden Steen,Leo Peter,male,28.0,1883-07-06,Belgian,0,0,345783,9.5,,S,,,
+3,0,Mr.,Braund,Lewis Richard,male,29.0,,English,1,0,3460,7.0458,,S,,,"Bridgerule, Devon"
+3,1,Mr.,Hyman,Abraham,male,34.0,,English,0,0,3470,7.8875,,S,C,,
+3,0,Miss,Strom,Telma Matilda,female,2.0,,Swedish,0,1,347054,10.4625,G6,S,,,
+3,0,Mrs.,Strom,Wilhelm (Elna Matilda Persson),female,29.0,1882-08-03,Swedish,1,1,347054,10.4625,G6,S,,,
+3,0,Mr.,Svensson,Johan,male,74.0,1837-05-17,Swedish,0,0,347060,7.775,,S,,,
+3,0,Mr.,Ekstrom,Johan,male,45.0,1866-07-29,Swedish,0,0,347061,6.975,,S,,,"Effington Rut, SD"
+3,0,Mr.,Johnson,Malkolm Joackim,male,33.0,1879-03-20,Swedish,0,0,347062,7.775,,S,,37.0,
+3,0,Mr.,Johansson,Karl Johan,male,31.0,1880-09-09,Swedish,0,0,347063,7.775,,S,,,
+3,0,Mr.,Widegren,Carl/Charles Peter,male,51.0,1861-03-06,English,0,0,347064,7.75,,S,,,
+3,0,Mr.,Larsson-Rondberg,Edvard A,male,22.0,1889-12-02,Swedish,0,0,347065,7.775,,S,,,
+3,1,Miss,Nilsson,Berta Olivia,female,18.0,1894-02-22,Swedish,0,0,347066,7.775,,S,D,,
+3,0,Mr.,Larsson,Bengt Edvin,male,29.0,1882-12-05,Swedish,0,0,347067,7.775,,S,,,
+3,0,Mr.,Bengtsson,John Viktor,male,26.0,1885-07-07,Swedish,0,0,347068,7.775,,S,,,"Krakudden, Sweden Moune, IL"
+3,0,Mr.,Gustafsson,Karl Gideon,male,19.0,1893-04-10,Swedish,0,0,347069,7.775,,S,,,"Myren, Sweden New York, NY"
+3,1,Mr.,Johansson Palmquist,Oskar Leander,male,26.0,1885-07-26,Swedish,0,0,347070,7.775,,S,15,,
+3,0,Miss,Lindahl,Agda Thorilda Viktoria,female,25.0,,Swedish,0,0,347071,7.775,,S,,,
+3,0,Mr.,Dyker,Adolf Fredrik,male,23.0,,Swedish,1,0,347072,13.9,,S,,,"West Haven, CT"
+3,1,Mrs.,Dyker,Adolf Fredrik (Anna Elisabeth Judith Andersson),female,22.0,1889-11-24,Swedish,1,0,347072,13.9,,S,16,,"West Haven, CT"
+3,0,Miss,Lindblom,Augusta Charlotta,female,45.0,1867-01-20,Swedish,0,0,347073,7.75,,S,,,
+3,0,Mr.,Eklund,Hans Linus,male,16.0,1895-10-30,Swedish,0,0,347074,7.775,,S,,,"Karberg, Sweden Jerome Junction, AZ"
+3,0,Mr.,Andersson,Johan Samuel,male,26.0,1885-12-11,American,0,0,347075,7.775,,S,,,"Hartford, CT"
+3,0,Mr.,Petterson,Johan Emil,male,25.0,1886-11-19,Swedish,1,0,347076,7.775,,S,,,
+3,0,Master,Asplund,Carl Edgar,male,5.0,1906-10-21,Swedish,4,2,347077,31.3875,,S,,,"Sweden  Worcester, MA"
+3,1,Mrs.,Asplund,Carl Oscar (Selma Augusta Emilia Johansson),female,38.0,1873-10-10,Swedish,1,5,347077,31.3875,,S,15,,"Sweden  Worcester, MA"
+3,0,Mr.,Asplund,Carl Oscar Vilhelm Gustafsson,male,40.0,1871-05-07,Swedish,1,5,347077,31.3875,,S,,142.0,"Sweden  Worcester, MA"
+3,0,Master,Asplund,Clarence Gustaf Hugo,male,9.0,1902-09-17,Swedish,4,2,347077,31.3875,,S,,,"Sweden Worcester, MA"
+3,1,Master,Asplund,Edvin Rojj Felix,male,3.0,1909-03-19,Swedish,4,2,347077,31.3875,,S,15,,"Sweden Worcester, MA"
+3,0,Master,Asplund,Filip Oscar,male,13.0,1898-12-12,Swedish,4,2,347077,31.3875,,S,,,"Sweden Worcester, MA"
+3,1,Miss,Asplund,Lillian Gertrud,female,5.0,1906-10-21,Swedish,4,2,347077,31.3875,,S,15,,"Sweden Worcester, MA"
+3,0,Mr.,Myhrman,Pehr Fabian Oliver Malkolm,male,18.0,1893-10-10,Swedish,0,0,347078,7.75,,S,,,
+3,1,Mr.,Olsson,Oscar Wilhelm,male,32.0,1879-09-08,Swedish,0,0,347079,7.775,,S,A,,
+3,0,Mr.,Danbom,Ernst Gilbert,male,34.0,1877-10-26,Swedish,1,1,347080,14.4,,S,,197.0,"Stanton, IA"
+3,0,Mrs.,Danbom,Ernst Gilbert (Anna Sigrid Maria Brogren),female,28.0,1884-03-10,Swedish,1,1,347080,14.4,,S,,,"Stanton, IA"
+3,0,Master,Danbom,Gilbert Sigvard Emanuel,male,0.4136986301369863,1911-11-16,Swedish,0,2,347080,14.4,,S,,,"Stanton, IA"
+3,1,Miss,Nysten,Anna Sofia,female,22.0,1890-01-22,Swedish,0,0,347081,7.75,,S,13,,
+3,0,Mr.,Andersson,Anders Johan,male,39.0,1873-01-21,Swedish,1,5,347082,31.275,,S,,,"Sweden Winnipeg, MN"
+3,0,Mrs.,Andersson,Anders Johan (Alfrida Konstantia Brogren),female,39.0,1872-12-25,Swedish,1,5,347082,31.275,,S,,,"Sweden Winnipeg, MN"
+3,0,Miss,Andersson,Ebba Iris Alfrida,female,6.0,1905-11-14,Swedish,4,2,347082,31.275,,S,,,"Sweden Winnipeg, MN"
+3,0,Miss,Andersson,Ellis Anna Maria,female,2.0,1910-01-19,Swedish,4,2,347082,31.275,,S,,,"Sweden Winnipeg, MN"
+3,0,Miss,Andersson,Ingeborg Constanzia,female,9.0,1902-04-16,Swedish,4,2,347082,31.275,,S,,,"Sweden Winnipeg, MN"
+3,0,Miss,Andersson,Sigrid Elisabeth,female,11.0,1900-04-16,Swedish,4,2,347082,31.275,,S,,,"Sweden Winnipeg, MN"
+3,0,Master,Andersson,Sigvard Harald Elias,male,4.0,1907-07-21,Swedish,4,2,347082,31.275,,S,,,"Sweden Winnipeg, MN"
+3,1,Mr.,Persson,Ernst Ulrik,male,25.0,1886-07-29,Swedish,1,0,347083,7.775,,S,15,,
+3,1,Miss,Ohman,Velin,female,22.0,1890-03-14,Swedish,0,0,347085,7.775,,S,C,,
+3,0,Miss,Henriksson,Jenny Lovisa,female,28.0,1883-12-21,Swedish,0,0,347086,7.775,,S,,,
+3,0,Miss,Pettersson,Ellen Natalia,female,18.0,1893-07-19,Swedish,0,0,347087,7.775,,S,,,
+3,0,Master,Skoog,Harald,male,5.0,1906-08-22,Swedish,3,2,347088,27.9,,S,,,
+3,0,Master,Skoog,Karl Thorsten,male,11.0,1900-07-13,Swedish,3,2,347088,27.9,,S,,,
+3,0,Miss,Skoog,Mabel,female,9.0,1902-07-22,Swedish,3,2,347088,27.9,,S,,,
+3,0,Miss,Skoog,Margit Elizabeth,female,2.0,1910-04-14,Swedish,3,2,347088,27.9,,S,,,
+3,0,Mr.,Skoog,Wilhelm,male,40.0,1872-04-06,Swedish,1,4,347088,27.9,,S,,,
+3,0,Mrs.,Skoog,William (Anna Bernhardina Karlsson),female,43.0,1868-11-13,Swedish,1,4,347088,27.9,,S,,,
+3,1,Mr.,Hedman,Oskar Arvid,male,27.0,1884-07-05,Swedish,0,0,347089,6.975,,S,15,,
+3,0,Mr.,Bjorklund,Ernst Herbert,male,18.0,1894-03-01,Swedish,0,0,347090,7.75,,S,,,"Stockholm, Sweden New York"
+3,0,Miss,Andersson,Ida Augusta Margareta,female,38.0,1873-11-24,Swedish,4,2,347091,7.775,,S,,,"Vadsbro, Sweden Ministee, MI"
+3,0,Mr.,Alexander,William,male,25.0,,English,0,0,3474,7.8875,,S,,,"England Albion, NY"
+3,0,Mr.,Olsson,Nils Johan Goransson,male,28.0,1883-05-13,Swedish,0,0,347464,7.8542,,S,,,
+3,0,Mr.,Karlsson,Julius Konrad Eugen,male,33.0,1878-09-29,Swedish,0,0,347465,7.8542,,S,,,
+3,0,Mr.,Andreasson,Paul Edvin,male,20.0,,Swedish,0,0,347466,7.8542,,S,,,"Sweden Chicago, IL"
+3,0,Mr.,Johansson,Nils,male,29.0,,Swedish,0,0,347467,7.8542,,S,,,
+3,0,Mr.,Augustsson,Albert,male,23.0,1889-02-10,Swedish,0,0,347468,7.8542,,S,,,"Krakoryd, Sweden Bloomington, IL"
+3,1,Miss,Lundin,Olga Elida,female,23.0,1889-01-09,Swedish,0,0,347469,7.8542,,S,10,,
+3,1,Miss,Nilsson,Helmina Josefina,female,26.0,1886-02-19,Swedish,0,0,347470,7.8542,,S,13,,
+3,0,Miss,Braf,Elin Ester Maria,female,20.0,1891-10-16,Swedish,0,0,347471,7.8542,,S,,,"Medeltorp, Sweden Chicago, IL"
+3,1,Miss,Johnson,Eleanor Ileen,female,1.0,1910-09-23,American,1,1,347742,11.1333,,S,15,,
+3,1,Master,Johnson,Harold Theodor,male,4.0,1908-01-28,American,1,1,347742,11.1333,,S,15,,
+3,1,Mrs.,Johnson,Oscar W (Elisabeth Vilhelmina Berg),female,26.0,1885-04-24,American,0,2,347742,11.1333,,S,15,,
+3,0,Mr.,Lundahl,Johan Svensson,male,51.0,,Swedish,0,0,347743,7.0542,,S,,,
+3,0,Mr.,Humblen,Adolf Mathias Nicolai Olsen,male,42.0,1869-05-28,Norwegian,0,0,348121,7.65,F G63,S,,120.0,
+3,1,Mr.,Abelseth,Olaus Jorgensen,male,25.0,1886-06-10,Norwegian,0,0,348122,7.65,F G63,S,A,,"Perkins County, SD"
+3,0,Mr.,Moen,Sigurd Hansen,male,27.0,1885-01-17,Norwegian,0,0,348123,7.65,F G73,S,,309.0,
+3,0,Mr.,Soholt,Peter Andreas Lauritz Andersen,male,19.0,1892-07-12,Norwegian,0,0,348124,7.65,F G73,S,,,
+3,1,Miss,Abelseth,Karen Marie,female,16.0,1895-09-14,Norwegian,0,0,348125,7.65,,S,16,,"Norway Los Angeles, CA"
+3,0,Mr.,Ivanoff,Kanio,male,20.0,,Bulgarian,0,0,349201,7.8958,,S,,,
+3,0,Mr.,Angheloff,Minko,male,26.0,,Bulgarian,0,0,349202,7.8958,,S,,,"Bulgaria Chicago, IL"
+3,0,Mr.,Dantcheff,Ristiu,male,25.0,,Bulgarian,0,0,349203,7.8958,,S,,,"Bulgaria Chicago, IL"
+3,0,Mr.,Jonkoff,Lalio,male,23.0,,Bulgarian,0,0,349204,7.8958,,S,,,
+3,0,Mr.,Stoytcheff,Ilia,male,19.0,,Bulgarian,0,0,349205,7.8958,,S,,,
+3,0,Mr.,Naidenoff,Penko,male,22.0,,Bulgarian,0,0,349206,7.8958,,S,,,
+3,0,Mr.,Mionoff,Stoytcho,male,28.0,,Bulgarian,0,0,349207,7.8958,,S,,,
+3,0,Mr.,Staneff,Ivan,male,23.0,,Bulgarian,0,0,349208,7.8958,,S,,,
+3,0,Mr.,Coleff,Satio,male,24.0,,Bulgarian,0,0,349209,7.4958,,S,,,
+3,0,Mr.,Coleff,Peju,male,36.0,,Bulgarian,0,0,349210,7.4958,,S,,,"Bulgaria Chicago, IL"
+3,0,Mr.,Minkoff,Lazar,male,21.0,,Bulgarian,0,0,349211,7.8958,,S,,,
+3,0,Mr.,Petroff,Nedelio,male,19.0,,Bulgarian,0,0,349212,7.8958,,S,,,
+3,0,Mr.,Markoff,Marin,male,35.0,,Bulgarian,0,0,349213,7.8958,,S,,,
+3,0,Mr.,Slabenoff,Petco,male,42.0,,Bulgarian,0,0,349214,7.8958,,S,,,
+3,0,Mr.,Petroff,"Pastcho (""Pentcho"")",male,29.0,,Bulgarian,0,0,349215,7.8958,,S,,,
+3,0,Mr.,Todoroff,Lalio,male,23.0,,Bulgarian,0,0,349216,7.8958,,S,,,
+3,0,Mr.,Laleff,Kristo,male,23.0,,Bulgarian,0,0,349217,7.8958,,S,,,
+3,0,Mr.,Nankoff,Minko,male,32.0,,Bulgarian,0,0,349218,7.8958,,S,,,
+3,0,Mr.,Danoff,Yoto,male,27.0,,Bulgarian,0,0,349219,7.8958,,S,,,"Bulgaria Chicago, IL"
+3,0,Mr.,Ilieff,Ylio,male,32.0,,,0,0,349220,7.8958,,S,,,
+3,0,Mr.,Mitkoff,Mito,male,23.0,,Bulgarian,0,0,349221,7.8958,,S,,,
+3,0,Mr.,Sdycoff,Todor,male,42.0,,Bulgarian,0,0,349222,7.8958,,S,,,
+3,0,Mr.,Radeff,Alexander,male,27.0,,Bulgarian,0,0,349223,7.8958,,S,,,
+3,0,Mr.,Bostandyeff,Guentcho,male,26.0,,Bulgarian,0,0,349224,7.8958,,S,,,"Bulgaria Chicago, IL"
+3,0,Mr.,Denkoff,Mitto,male,30.0,,Bulgarian,0,0,349225,7.8958,,S,,,"Bulgaria Coon Rapids, IA"
+3,0,Mr.,Dintcheff,Valtcho,male,43.0,,Bulgarian,0,0,349226,7.8958,,S,,,
+3,0,Mr.,Plotcharsky,Vasil,male,27.0,,,0,0,349227,7.8958,,S,,,
+3,0,Mr.,Dakic,Branko,male,19.0,,Austrian,0,0,349228,10.1708,,S,,,Austria
+3,0,Mr.,Cor,Ivan,male,27.0,,Croatian,0,0,349229,7.8958,,S,,,Austria
+3,0,Mr.,Cor,Bartol,male,35.0,,Croatian,0,0,349230,7.8958,,S,,,Austria
+3,0,Mr.,Cor,Liudevit,male,19.0,,Croatian,0,0,349231,7.8958,,S,,,Austria
+3,0,Mr.,Dika,Mirko,male,17.0,,Croatian,0,0,349232,7.8958,,S,,,
+3,0,Mr.,Mineff,Ivan,male,24.0,,Bulgarian,0,0,349233,7.8958,,S,,,
+3,0,Mr.,Nenkoff,Christo,male,22.0,,Bulgarian,0,0,349234,7.8958,,S,,,
+3,0,Mr.,Lyntakoff,Stanko,male,44.0,,Bulgarian,0,0,349235,7.8958,,S,,,
+3,0,Miss,Haas,Aloisia,female,24.0,1888-02-14,Swiss,0,0,349236,8.85,,S,,,
+3,0,Mr.,Arnold-Franchi,Josef,male,25.0,1887-03-24,Swiss,1,0,349237,17.8,,S,,,"Altdorf, Switzerland"
+3,0,Mrs.,Arnold-Franchi,Josef (Josefine Franchi),female,18.0,1893-08-17,Swiss,1,0,349237,17.8,,S,,,"Altdorf, Switzerland"
+3,0,Mr.,Demetri,Marinko,male,23.0,,Austrian,0,0,349238,7.8958,,S,,,
+3,0,Mr.,Stankovic,Ivan,male,33.0,,Croatian,0,0,349239,8.6625,,C,,,
+3,1,Mr.,Jalsevac,Ivan,male,30.0,,Croatian,0,0,349240,7.8958,,C,15,,
+3,0,Mr.,Drazenoic,Jozef,male,33.0,,Croatian,0,0,349241,7.8958,,C,,51.0,"Austria Niagara Falls, NY"
+3,0,Mr.,Pavlovic,Stefo,male,32.0,,Austrian,0,0,349242,7.8958,,S,,,
+3,0,Mr.,Hendekovic,Ignjac,male,30.0,,Croatian,0,0,349243,7.8958,,S,,306.0,
+3,1,Mrs.,Osman,Mara,female,31.0,,Austrian,0,0,349244,8.6833,,S,,,
+3,0,Miss,Petranec,Matilda,female,28.0,,Croatian,0,0,349245,7.8958,,S,,,
+3,0,Mr.,Karaic,Milan,male,30.0,,Croatian,0,0,349246,7.8958,,S,,,
+3,0,Mr.,Turcin,Stjepan,male,36.0,,Croatian,0,0,349247,7.8958,,S,,,
+3,0,Mr.,Balkic,Cerin,male,26.0,,Bosnian,0,0,349248,7.8958,,S,,,
+3,0,Mr.,Rekic,Tido,male,38.0,,Bosnian,0,0,349249,7.8958,,S,,,
+3,0,Mr.,Delalic,Redjo,male,25.0,,Bosnian,0,0,349250,7.8958,,S,,,
+3,0,Mr.,Sivic,Husein,male,40.0,,Bosnian,0,0,349251,7.8958,,S,,,
+3,0,Mr.,Vovk,Janko,male,22.0,,Austrian,0,0,349252,7.8958,,S,,,
+3,0,Mr.,Kraeff,Theodor,male,,,Bulgarian,0,0,349253,7.8958,,C,,,
+3,0,Mr.,Gheorgheff,Stanio,male,,,Bulgarian,0,0,349254,7.8958,,C,,,
+3,0,Mr.,Matinoff,Nicola,male,30.0,,Bulgarian,0,0,349255,7.8958,,C,,,
+3,1,Mr.,Karun,Franz,male,39.0,1872-12-02,Slovakian,0,1,349256,13.4167,,C,15,,
+3,1,Miss,Karun,Manca,female,5.0,,Slovakian,0,1,349256,13.4167,,C,15,,
+3,0,Mr.,Markun,Johann,male,33.0,,Croatian,0,0,349257,7.8958,,C,,,
+3,0,Master,Palsson,Gosta Leonard,male,2.0,1910-01-03,Swedish,3,1,349909,21.075,,S,,4.0,
+3,0,Mrs.,Palsson,Nils (Alma Cornelia Berglund),female,29.0,1882-08-03,Swedish,0,4,349909,21.075,,S,,206.0,
+3,0,Master,Palsson,Paul Folke,male,6.0,1906-04-14,Swedish,3,1,349909,21.075,,S,,,
+3,0,Miss,Palsson,Stina Viola,female,3.0,1908-06-19,Swedish,3,1,349909,21.075,,S,,,
+3,0,Miss,Palsson,Torborg Danira,female,8.0,1903-12-19,Swedish,3,1,349909,21.075,,S,,,
+3,0,Mr.,Lindell,Edvard Bengtsson,male,36.0,1876-01-31,Swedish,1,0,349910,15.55,,S,A,,
+3,0,Mrs.,Lindell,Edvard Bengtsson (Elin Gerda Persson),female,30.0,1881-08-25,Swedish,1,0,349910,15.55,,S,A,,
+3,0,Mr.,Aronsson,Ernst Axel Algot,male,24.0,1887-06-21,Swedish,0,0,349911,7.775,,S,,,"Sweden Joliet, IL"
+3,0,Mr.,Edvardsson,Gustaf Hjalmar,male,18.0,1893-12-17,Swedish,0,0,349912,7.775,,S,,,"Tofta, Sweden Joliet, IL"
+3,0,Mr.,Hansen,Henrik Juul,male,26.0,,Danish,1,0,350025,7.8542,,S,,,
+3,0,Mr.,Hansen,Claus Peter,male,41.0,1871-01-13,Danish,2,0,350026,14.1083,,S,,,
+3,1,Mrs.,Hansen,Claus Peter (Jennie L Howard),female,45.0,1866-12-20,Danish,1,0,350026,14.1083,,S,11,,
+3,0,Mr.,Hansen,Henry Damsgaard,male,21.0,,Danish,0,0,350029,7.8542,,S,,69.0,
+3,1,Mr.,Tenglin,Gunnar Isidor,male,25.0,1887-03-02,Swedish,0,0,350033,7.7958,,S,13,,
+3,1,Mr.,Jansson,Carl Olof,male,21.0,1890-05-17,Swedish,0,0,350034,7.7958,,S,A,,
+3,0,Mr.,Svensson,Olof,male,24.0,1887-05-30,Swedish,0,0,350035,7.7958,,S,,,
+3,0,Mr.,Fischer,Eberhard Thelander,male,18.0,1893-06-02,Swedish,0,0,350036,7.7958,,S,,,
+3,0,Mr.,Carlsson,August Sigfrid,male,28.0,1884-02-12,Swedish,0,0,350042,7.7958,,S,,,"Dagsas, Sweden Fower, MN"
+3,1,Mr.,Andersson,"August Edvard (""Wennerstrom"")",male,27.0,1884-04-24,Swedish,0,0,350043,7.7958,,S,A,,
+3,0,Mr.,Brobeck,Karl Rudolf,male,22.0,,Swedish,0,0,350045,7.7958,,S,,,"Sweden Worcester, MA"
+3,1,Miss,Andersen-Jensen,Carla Christine Nielsine,female,19.0,1893-02-13,Danish,1,0,350046,7.8542,,S,16,,
+3,0,Mr.,Jensen,Svend Lauritz,male,17.0,,Danish,1,0,350047,7.8542,,S,,,
+3,0,Mr.,Jensen,Niels Peder,male,48.0,,Danish,0,0,350048,7.0542,,S,,,
+3,0,Mr.,Jensen,Hans Peder,male,20.0,,Danish,0,0,350050,7.8542,,S,,,
+3,0,Mr.,Johansson,Erik,male,22.0,1889-10-14,Swedish,0,0,350052,7.7958,,S,,156.0,
+3,1,Mr.,Karlsson,Einar Gervasius,male,21.0,1890-06-19,Swedish,0,0,350053,7.7958,,S,13,,
+3,1,Mr.,Asplund,Johan Charles,male,23.0,1889-01-31,Swedish,0,0,350054,7.7958,,S,13,,"Oskarshamn, Sweden Minneapolis, MN"
+3,0,Mr.,Karlsson,Nils August,male,22.0,1889-08-14,Swedish,0,0,350060,7.5208,,S,,,
+3,1,Mr.,Lundstrom,Thure Edvin,male,32.0,1880-03-08,Swedish,0,0,350403,7.5792,,S,15,,
+3,0,Mr.,Klasen,Klas Albin,male,18.0,1893-07-17,Swedish,1,1,350404,7.8542,,S,,,
+3,0,Mrs.,Klasen,(Hulda Kristina Eugenia Lofqvist),female,36.0,1876-03-18,Swedish,0,2,350405,12.1833,,S,,,
+3,0,Miss,Klasen,Gertrud Emilia,female,1.0,1910-12-11,Swedish,1,1,350405,12.1833,,S,,,
+3,0,Miss,Vestrom,Hulda Amanda Adolfina,female,14.0,1897-07-11,Swedish,0,0,350406,7.8542,,S,,,
+3,0,Miss,Olsson,Elina,female,31.0,1881-01-26,Swedish,0,0,350407,7.8542,,S,,,
+3,0,Mr.,Jonsson,Nils Hilding,male,27.0,1885-02-05,Swedish,0,0,350408,7.8542,,S,,,
+3,0,Mr.,Carlsson,Carl Robert,male,24.0,1888-01-09,Swedish,0,0,350409,7.8542,,S,,,"Goteborg, Sweden Huntley, IL"
+3,0,Mr.,Nilsson,August Ferdinand,male,21.0,1890-10-19,Swedish,0,0,350410,7.8542,,S,,,
+3,0,Mr.,Vendel,Olof Edvin,male,20.0,1891-05-01,Swedish,0,0,350416,7.8542,,S,,,
+3,1,Mr.,Jonsson,Carl,male,32.0,,American,0,0,350417,7.8542,,S,15,,
+3,1,Miss,Gilnagh,"Katherine ""Katie""",female,17.0,1894-10-29,Irish,0,0,35851,7.7333,,Q,16,,"Co Longford, Ireland New York, NY"
+3,1,Miss,Mullens,"Katherine ""Katie""",female,21.0,1890-05-29,Irish,0,0,35852,7.7333,,Q,16,,
+3,0,Mr.,Garfirth,John,male,22.0,,English,0,0,358585,14.5,,S,,,
+3,0,Mr.,Patchett,George,male,19.0,,English,0,0,358585,14.5,,S,,,
+3,0,Mr.,Miles,Frank,male,23.0,,English,0,0,359306,8.05,,S,,,
+3,0,Mr.,Ware,Frederick,male,34.0,,English,0,0,359309,8.05,,S,,,
+3,0,Mr.,Scanlan,James,male,22.0,,Irish,0,0,36209,7.725,,Q,,,
+3,0,Mr.,Reed,James George,male,19.0,,English,0,0,362316,7.25,,S,,,
+3,1,Mrs.,Wilkes,James (Ellen Needs),female,47.0,1864-06-13,English,1,0,363272,7.0,,S,16,,
+3,0,Mr.,Goldsmith,Frank John,male,33.0,1879-01-27,English,1,1,363291,20.525,,S,,,"Strood, Kent, England Detroit, MI"
+3,1,Mrs.,Goldsmith,Frank John (Emily Alice Brown),female,31.0,1880-08-26,English,1,1,363291,20.525,,S,D,,"Strood, Kent, England Detroit, MI"
+3,1,Master,Goldsmith,"Frank John William ""Frankie""",male,9.0,1902-12-12,English,0,2,363291,20.525,,S,D,,"Strood, Kent, England Detroit, MI"
+3,0,Mr.,Theobald,Thomas Leonard,male,34.0,,English,0,0,363294,8.05,,S,,176.0,
+3,0,Mr.,Kelly,James,male,19.0,,English,0,0,363592,8.05,,S,,,
+3,0,Mr.,Niklasson,Samuel,male,28.0,1883-05-15,English,0,0,363611,8.05,,S,,,
+3,0,Mrs.,Risien,Samuel (Emma),female,58.0,,English,0,0,364498,14.5,,S,,,
+3,0,Mr.,Risien,Samuel Beard,male,69.0,1842-06-03,English,0,0,364498,14.5,,S,,,
+3,0,Mr.,Tomlin,Ernest Portage,male,22.0,1889-09-29,English,0,0,364499,8.05,,S,,50.0,
+3,0,Mr.,Coxon,Daniel,male,59.0,,English,0,0,364500,7.25,,S,,,"Merrill, WI"
+3,0,Mr.,Morley,William,male,34.0,,English,0,0,364506,8.05,,S,,,
+3,0,Mr.,Torber,Ernst William,male,41.0,,English,0,0,364511,8.05,,S,,,
+3,0,Mr.,Brocklebank,William Alfred,male,35.0,,English,0,0,364512,8.05,,S,,,"Broomfield, Chelmsford, England"
+3,1,Miss,Dowdell,Elizabeth,female,31.0,1880-09-06,English,0,0,364516,12.475,,S,13,,"Union Hill, NJ"
+3,1,Miss,Emanuel,Virginia Ethel,female,5.0,,English,0,0,364516,12.475,,S,13,,"New York, NY"
+3,0,Miss,Canavan,Mary,female,23.0,,Irish,0,0,364846,7.75,,Q,,,
+3,0,Miss,Bourke,Mary,female,40.0,,Irish,0,2,364848,7.75,,Q,,,"Ireland Chicago, IL"
+3,0,Mr.,Bourke,John,male,42.0,,Irish,1,1,364849,15.5,,Q,,,"Ireland Chicago, IL"
+3,0,Mrs.,Bourke,John (Catherine),female,32.0,,Irish,1,1,364849,15.5,,Q,,,"Ireland Chicago, IL"
+3,0,Miss,Mangan,Mary,female,32.0,1879-09-07,Irish,0,0,364850,7.75,,Q,,61.0,
+3,0,Mr.,Flynn,James,male,28.0,1883-09-13,Irish,0,0,364851,7.75,,Q,,,
+3,0,Miss,Donohoe,Bridget,female,21.0,1891-01-11,Irish,0,0,364856,7.75,,Q,,,
+3,0,Mr.,Canavan,Patrick,male,21.0,1890-09-12,Irish,0,0,364858,7.75,,Q,,,"Ireland Philadelphia, PA"
+3,0,Miss,Fleming,Honora,female,22.0,1890-04-09,Irish,0,0,364859,7.75,,Q,,,
+3,0,Mr.,Burke,Jeremiah,male,19.0,,Irish,0,0,365222,6.75,,Q,,,"Co Cork, Ireland Charlestown, MA"
+3,0,Miss,Hegarty,"Hanora ""Nora""",female,18.0,,Irish,0,0,365226,6.75,,Q,,,
+3,0,Mr.,Foley,William,male,20.0,,Irish,0,0,365235,7.75,,Q,,,Ireland
+3,0,Miss,Naughton,Hannah,female,21.0,1891-04-10,Irish,0,0,365237,7.75,,Q,,,
+3,0,Mr.,McEvoy,Michael,male,20.0,,Irish,0,0,36568,15.5,,Q,,,
+3,1,Miss,Murphy,Nora,female,34.0,,Irish,0,0,36568,15.5,,Q,16,,
+3,0,Mr.,O'Connor,Patrick,male,23.0,1888-05-30,Irish,0,0,366713,7.75,,Q,,,
+3,1,Miss,McCoy,Agnes,female,29.0,1882-06-29,Irish,2,0,367226,23.25,,Q,16,,
+3,1,Miss,McCoy,Alicia,female,26.0,1885-08-18,Irish,2,0,367226,23.25,,Q,16,,
+3,1,Mr.,McCoy,Bernard,male,24.0,1887-11-24,Irish,2,0,367226,23.25,,Q,16,,
+3,0,Mr.,Kiernan,John,male,25.0,,Irish,1,0,367227,7.75,,Q,,,
+3,1,Mr.,McCormack,Thomas Joseph,male,19.0,1892-12-11,Irish,0,0,367228,7.75,,Q,16,,
+3,0,Mr.,Kiernan,Philip,male,22.0,1890-01-24,Irish,1,0,367229,7.75,,Q,,,
+3,1,Miss,Murphy,"Katherine ""Kate""",female,18.0,1893-09-13,Irish,1,0,367230,15.5,,Q,16,,
+3,1,Miss,Murphy,Margaret Jane,female,25.0,1886-09-24,Irish,1,0,367230,15.5,,Q,16,,
+3,1,Miss,Carr,"Helen ""Ellen""",female,16.0,1895-07-28,Irish,0,0,367231,7.75,,Q,16,,"Co Longford, Ireland New York, NY"
+3,0,Mr.,Farrell,James,male,26.0,,Irish,0,0,367232,7.75,,Q,,68.0,"Aughnacliff, Co Longford, Ireland New York, NY"
+3,0,Mr.,Sadlier,Matthew,male,20.0,,Irish,0,0,367655,7.7292,,Q,,,
+3,0,Mr.,Flynn,John,male,42.0,,Irish,0,0,368323,6.95,,Q,,,
+3,0,Miss,Carr,Jeannie,female,45.0,1867-02-11,Irish,0,0,368364,7.75,,Q,,,"Co Sligo, Ireland Hartford, CT"
+3,1,Mr.,O'Keefe,Patrick,male,21.0,1890-07-15,Irish,0,0,368402,7.75,,Q,B,,
+3,0,Mr.,Fox,Patrick,male,28.0,1883-07-15,Irish,0,0,368573,7.75,,Q,,,"Ireland New York, NY"
+3,0,Mr.,Gallagher,Martin,male,29.0,1883-01-18,Irish,0,0,36864,7.7417,,Q,,,"New York, NY"
+3,0,Mr.,Kilgannon,Thomas J,male,22.0,1890-04-02,Irish,0,0,36865,7.7375,,Q,,,
+3,1,Miss,Mannion,Margareth,female,28.0,1883-11-01,Irish,0,0,36866,7.7375,,Q,16,,
+3,0,Miss,Doyle,Elizabeth,female,24.0,,Irish,0,0,368702,7.75,,Q,,,"Ireland New York, NY"
+3,0,Mr.,Mernagh,Robert,male,28.0,,Irish,0,0,368703,7.75,,Q,,,
+3,1,Mr.,Kennedy,John,male,24.0,1888-04-11,Irish,0,0,368783,7.75,,Q,15,,
+3,0,Miss,Rosblom,Salli Helena,female,2.0,1910-02-25,Finnish,1,1,370129,20.2125,,S,,,
+3,0,Mrs.,Rosblom,Viktor (Helena Wilhelmina),female,41.0,1870-04-22,Finnish,0,2,370129,20.2125,,S,,,
+3,0,Mr.,Rosblom,Viktor Richard,male,18.0,1894-04-08,Finnish,1,1,370129,20.2125,,S,,,
+3,0,Mr.,Carver,Alfred John,male,28.0,,English,0,0,370160,7.25,,S,,,"St Denys, Southampton, Hants"
+3,0,Mr.,Johnson,Alfred,male,49.0,,English,0,0,370160,7.25,,S,,,
+3,0,Mr.,Johnson,William Cahoone Jr,male,19.0,1892-10-01,English,0,0,370160,7.25,,S,,,
+3,0,Mr.,Leonard,Lionel,male,36.0,,American,0,0,370160,7.25,,S,,,
+3,0,Mr.,Storey,Thomas,male,59.0,,English,0,0,370160,7.25,,S,,261.0,
+3,1,Mr.,Tornquist,William Henry,male,26.0,1886-03-25,English,0,0,370160,7.25,,S,15,,
+3,0,Mr.,O'Brien,Thomas,male,27.0,,Irish,1,0,370365,15.5,,Q,,,
+3,1,Mrs.,O'Brien,"Thomas (Johanna ""Hannah"" Godfrey)",female,26.0,,Irish,1,0,370365,15.5,,Q,16,,
+3,0,Miss,McNeill,Bridget,female,27.0,,Irish,0,0,370368,7.75,,Q,,,
+3,0,Mr.,Connors,Patrick,male,66.0,,Irish,0,0,370369,7.75,,Q,,171.0,
+3,1,Miss,Madigan,"Margaret ""Maggie""",female,21.0,,Irish,0,0,370370,7.75,,Q,15,,
+3,0,Mr.,Lennon,Denis,male,20.0,1891-12-09,Irish,1,0,370371,15.5,,Q,,,
+3,0,Miss,Lennon,Mary,female,18.0,,Irish,1,0,370371,15.5,,Q,,,
+3,0,Mr.,McMahon,Martin,male,20.0,,Irish,0,0,370372,7.75,,Q,,,
+3,1,Miss,Connolly,Kate,female,23.0,1888-06-14,Irish,0,0,370373,7.75,,Q,13,,Ireland
+3,0,Mr.,Shaughnessy,Patrick,male,28.0,,Irish,0,0,370374,7.75,,Q,,,
+3,1,Miss,Healy,"Hanora ""Nora""",female,29.0,1883-02-06,Irish,0,0,370375,7.75,,Q,16,,
+3,0,Mr.,Dooley,Patrick,male,38.0,,Irish,0,0,370376,7.75,,Q,,,"Ireland New York, NY"
+3,0,Mr.,Horgan,John,male,22.0,,Irish,0,0,370377,7.75,,Q,,,
+3,0,Mr.,O'Connor,Maurice,male,16.0,,Irish,0,0,371060,7.75,,Q,,,
+3,0,Mr.,Colbert,Patrick,male,24.0,1887-11-05,Irish,0,0,371109,7.25,,Q,,,"Co Limerick, Ireland Sherbrooke, PQ"
+3,1,Miss,Moran,Bertha,female,28.0,1883-09-09,Irish,1,0,371110,24.15,,Q,16,,
+3,0,Mr.,Moran,Daniel J,male,27.0,,Irish,1,0,371110,24.15,,Q,,,
+3,0,Mr.,Ryan,Patrick,male,29.0,,Irish,0,0,371110,24.15,,Q,,,
+3,0,Mr.,Cribb,John Hatfield,male,45.0,,English,0,1,371362,16.1,,S,,,"Bournemouth, England Newark, NJ"
+3,1,Miss,Cribb,Laura Alice,female,16.0,1895-07-24,English,0,1,371362,16.1,,S,12,,"Bournemouth, England Newark, NJ"
+3,0,Mr.,Morrow,Thomas Rowan,male,31.0,,Irish,0,0,372622,7.75,,Q,,,
+3,0,Mr.,Allen,William Henry,male,39.0,,English,0,0,373450,8.05,,S,,,"Lower Clapton, Middlesex or Erdington, Birmingham"
+3,0,Mr.,Moutal,Rahamin Haim,male,28.0,,English,0,0,374746,8.05,,S,,,
+3,0,Mr.,Harmer,Abraham (David Lishin),male,25.0,,English,0,0,374887,7.25,,S,B,,
+3,0,Mr.,Shorney,Charles Joseph,male,22.0,1889-08-17,English,0,0,374910,8.05,,S,,,
+3,0,Mr.,Guest,Robert,male,23.0,,English,0,0,376563,8.05,,S,,,
+3,0,Mr.,Thorneycroft,Percival,male,37.0,,English,1,0,376564,16.1,,S,,,
+3,1,Mrs.,Thorneycroft,Percival (Florence Kate White),female,32.0,,English,1,0,376564,16.1,,S,10,,
+3,0,Mr.,McNamee,Neal,male,27.0,1884-08-29,Irish,1,0,376566,16.1,,S,,,
+3,0,Mrs.,McNamee,Neal (Eileen O'Leary),female,19.0,1892-12-16,Irish,1,0,376566,16.1,,S,,53.0,
+3,0,Miss,Henry,Delia,female,21.0,,Irish,0,0,382649,7.75,,Q,,,
+3,1,Miss,Daly,"Margaret Marcella ""Maggie""",female,30.0,,Irish,0,0,382650,6.95,,Q,15,,"Co Athlone, Ireland New York, NY"
+3,1,Mr.,Daly,Eugene Patrick,male,29.0,1883-01-23,Irish,0,0,382651,7.75,,Q,B,,"Co Athlone, Ireland New York, NY"
+3,0,Master,Rice,Albert,male,10.0,,Irish,4,1,382652,29.125,,Q,,,
+3,0,Master,Rice,Arthur,male,4.0,,Irish,4,1,382652,29.125,,Q,,,
+3,0,Master,Rice,Eric,male,7.0,,Irish,4,1,382652,29.125,,Q,,,
+3,0,Master,Rice,Eugene,male,2.0,1909-10-13,Irish,4,1,382652,29.125,,Q,,,
+3,0,Master,Rice,George Hugh,male,8.0,1903-11-30,Irish,4,1,382652,29.125,,Q,,,
+3,0,Mrs.,Rice,William (Margaret Norton),female,39.0,1872-10-06,Irish,0,5,382652,29.125,,Q,,327.0,
+3,1,Miss,Mulvihill,Bertha E,female,25.0,1886-09-10,Irish,0,0,382653,7.75,,Q,15,,
+3,0,Mr.,Tobin,Roger,male,21.0,,Irish,0,0,383121,7.75,F38,Q,,,
+3,1,Miss,McCarthy,"Catherine ""Katie""",female,25.0,,Irish,0,0,383123,7.75,,Q,15,,
+3,1,Mr.,Ryan,Edward,male,24.0,1888-01-28,Irish,0,0,383162,7.75,,Q,14,,
+3,0,Mr.,Smith,Thomas,male,26.0,,Irish,0,0,384461,7.75,,Q,,,
+3,0,Mr.,Davison,Thomas Henry,male,32.0,,English,1,0,386525,16.1,,S,,,"Liverpool, England Bedford, OH"
+3,1,Mrs.,Davison,Thomas Henry (Mary E Finck),female,34.0,1878-02-19,English,1,0,386525,16.1,,S,16,,"Liverpool, England Bedford, OH"
+3,1,Master,Aks,Philip Frank,male,0.8575342465753425,1911-06-07,English,0,1,392091,9.35,,S,11,,"London, England Norfolk, VA"
+3,1,Mrs.,Aks,Sam (Leah Rosen),female,18.0,1894-03-18,English,0,1,392091,9.35,,S,13,,"London, England Norfolk, VA"
+3,0,Mr.,Sirota,Maurice,male,20.0,,English,0,0,392092,8.05,,S,,,
+3,1,Mrs.,Moor,(Beila),female,29.0,1882-05-20,Russian,0,1,392096,12.475,E121,S,14,,
+3,1,Master,Moor,Meier,male,7.0,1904-11-15,Russian,0,1,392096,12.475,E121,S,14,,
+3,0,Mr.,Hart,Henry,male,29.0,,Irish,0,0,394140,6.8583,,Q,,,
+3,0,Mrs.,Lefebvre,Frank (Marie Daumont),female,40.0,1872-03-18,French,0,4,4133,25.4667,,S,,,
+3,0,Master,Lefebvre,Henry Forbes,male,5.0,1906-07-04,French,3,1,4133,25.4667,,S,,,
+3,0,Miss,Lefebvre,Ida,female,3.0,1908-12-26,French,3,1,4133,25.4667,,S,,,
+3,0,Miss,Lefebvre,Jeannie,female,8.0,1903-10-14,French,3,1,4133,25.4667,,S,,,
+3,0,Miss,Lefebvre,Mathilde,female,12.0,1899-05-04,French,3,1,4133,25.4667,,S,,,
+3,1,Mrs.,Turkula,(Hedwig),female,63.0,1848-06-06,Finnish,0,0,4134,9.5875,,S,15,,
+3,0,Miss,Laitinen,Kristina Sofia,female,37.0,,Finnish,0,0,4135,9.5875,,S,,,
+3,0,Miss,Jussila,Katriina,female,20.0,,Finnish,1,0,4136,9.825,,S,,,
+3,0,Miss,Jussila,Mari Aina,female,21.0,,Finnish,1,0,4137,9.825,,S,,,
+3,1,Miss,Turja,Anna Sofia,female,18.0,1893-06-20,Finnish,0,0,4138,9.8417,,S,15,,
+3,0,Mr.,Olsen,Karl Siegwart Andreas,male,42.0,1870-01-28,Norwegian,0,1,4579,8.4042,,S,,,
+3,0,Mr.,Bowen,"David John ""Dai""",male,20.0,1891-07-30,Welsh,0,0,54636,16.1,,S,,,"Treherbert, Cardiff, Wales"
+3,0,Mr.,Williams,Leslie,male,24.0,,Welsh,0,0,54636,16.1,,S,,14.0,
+3,0,Mr.,Hagland,Ingvald Olai Olsen,male,28.0,1884-02-08,Norwegian,1,0,65303,6.9667,,S,,,
+3,0,Mr.,Hagland,Konrad Mathias Reiersen,male,19.0,1892-06-17,Norwegian,1,0,65304,6.9667,,S,,,
+3,0,Mrs.,Rasmussen,(Lena Jacobsen Solvang),female,63.0,,Norwegian,0,0,65305,8.1125,,S,,,
+3,1,Mr.,Johannesen-Bratthammer,Bernt,male,29.0,1882-10-23,Norwegian,0,0,65306,8.1125,,S,13,,
+3,0,Mr.,Olsvigen,Thor Anderson,male,20.0,1892-02-07,Norwegian,0,0,6563,9.225,,S,,89.0,"Oslo, Norway Cameron, WI"
+3,0,Mr.,Salander,Karl Johan,male,24.0,1887-07-27,Swedish,0,0,7266,9.325,,S,,,
+3,0,Mr.,Odahl,Nils Martin,male,23.0,1888-10-22,Swedish,0,0,7267,9.225,,S,,,
+3,0,Mr.,Gustafsson,Alfred Ossian,male,19.0,1892-05-12,Finnish,0,0,7534,9.8458,,S,,,"Waukegan, Chicago, IL"
+3,0,Mr.,Osen,Olaf Elon,male,16.0,1895-09-24,Swedish,0,0,7534,9.2167,,S,,,
+3,1,Mr.,Svensson,Johan Cervin,male,14.0,1898-03-05,Swedish,0,0,7538,9.225,,S,13,,
+3,0,Mr.,Johansson,Gustaf Joel,male,33.0,1879-03-02,Swedish,0,0,7540,8.6542,,S,,285.0,
+3,0,Mr.,Larsson,August Viktor,male,29.0,1883-02-25,Swedish,0,0,7545,9.4833,,S,,,
+3,0,Mrs.,Ahlin,Johan (Johanna Persdotter Larsson),female,40.0,1871-06-21,Swedish,1,0,7546,9.475,,S,,,"Sweden Akeley, MN"
+3,1,Miss,Hellstrom,Hilda Maria,female,22.0,1889-12-07,Swedish,0,0,7548,8.9625,,S,C,,
+3,0,Miss,Dahlberg,Gerda Ulrika,female,22.0,1890-02-05,Swedish,0,0,7552,10.5167,,S,,,"Norrlot, Sweden Chicago, IL"
+3,0,Miss,Strandberg,Ida Sofia,female,22.0,1889-11-22,Finnish,0,0,7553,9.8375,,S,,,
+3,1,Mr.,Dahl,Karl Edwart,male,45.0,1866-07-22,Norwegian,0,0,7598,8.05,,S,15,,"Australia Fingal, ND"
+3,0,Mr.,Lane,Patrick,male,17.0,,Irish,0,0,7935,7.75,,Q,,,
+3,0,Mr.,Gronnestad,Daniel Danielsen,male,32.0,1879-08-08,Norwegian,0,0,8471,8.3625,,S,,,"Foresvik, Norway Portland, ND"
+3,0,Mr.,Kalvik,Johannes Halvorsen,male,21.0,1890-12-02,Norwegian,0,0,8475,8.4333,,S,,,
+3,0,Miss,McGowan,Katherine,female,42.0,1869-09-30,Irish,0,0,9232,7.75,,Q,,,
+3,1,Miss,Kelly,"Anna Katherine ""Annie Kate""",female,20.0,1892-01-14,Irish,0,0,9234,7.75,,Q,16,,
+3,1,Miss,Howard,May Elizabeth,female,26.0,1885-05-02,English,0,0,A 2 39186,8.05,,S,C,,
+3,0,Mr.,Rush,Alfred George John,male,17.0,1895-04-14,English,0,0,A/4 20589,8.05,,S,,,
+3,1,Miss,Badman,Emily Louisa,female,18.0,1894-01-19,English,0,0,A/4 31416,8.05,,S,C,,"London Skanteales, NY"
+3,0,Mr.,Wiseman,Phillippe,male,54.0,,English,0,0,A/4 34244,7.25,,S,,,
+3,0,Mr.,Nosworthy,Richard Cater,male,21.0,,English,0,0,A/4 39886,7.8,,S,,,
+3,0,Mr.,Stanley,Edward Roland,male,21.0,,English,0,0,A/4 45380,8.05,,S,,,
+3,0,Mr.,Davies,Alfred J,male,24.0,,English,2,0,A/4 48871,24.15,,S,,,"West Bromwich, England Pontiac, MI"
+3,0,Mr.,Davies,John Samuel,male,21.0,,English,2,0,A/4 48871,24.15,,S,,,"West Bromwich, England Pontiac, MI"
+3,0,Mr.,Lester,James,male,39.0,,English,0,0,A/4 48871,24.15,,S,,,
+3,0,Mr.,Davies,Joseph,male,17.0,,English,2,0,A/4 48873,8.05,,S,,,"West Bromwich, England Pontiac, MI"
+3,1,Mr.,Dorking,Edward Arthur,male,18.0,1893-06-18,English,0,0,A/5 10482,8.05,,S,B,,"England Oglesby, IL"
+3,0,Mr.,Charters,David,male,20.0,1891-06-05,Irish,0,0,A/5 13032,7.7333,,Q,,,"Ireland New York, NY"
+3,0,Mr.,Ford,Arthur,male,22.0,,English,0,0,A/5 1478,8.05,,S,,,"Bridgwater, Somerset, England"
+3,0,Mr.,Braund,Owen Harris,male,23.0,,English,1,0,A/5 21171,7.25,,S,,,"Bridgerule, Devon"
+3,0,Mr.,Dennis,Samuel,male,22.0,1889-06-17,English,0,0,A/5 21172,7.25,,S,,,
+3,0,Mr.,Lovell,"John Hall (""Henry"")",male,20.0,,English,0,0,A/5 21173,7.25,,S,,,
+3,0,Mr.,Perkin,John Henry,male,23.0,,English,0,0,A/5 21174,7.25,,S,,,
+3,0,Mr.,Dennis,William,male,26.0,,English,0,0,A/5 21175,7.25,,S,,,
+3,0,Mr.,Saundercock,William Henry,male,19.0,1892-09-18,English,0,0,A/5 2151,8.05,,S,,,
+3,0,Mr.,Cann,Ernest Charles,male,29.0,,English,0,0,A/5 2152,8.05,,S,,,
+3,0,Mr.,Williams,"Howard Hugh ""Harry""",male,28.0,,English,0,0,A/5 2466,8.05,,S,,,
+3,0,Mr.,Peduzzi,Joseph,male,24.0,1887-12-18,English,0,0,A/5 2817,8.05,,S,,,
+3,0,Mr.,Murdlin,Joseph,male,22.0,,English,0,0,A/5 3235,8.05,,S,,,
+3,0,Mr.,Lobb,William Arthur,male,31.0,,English,1,0,A/5 3336,16.1,,S,,,
+3,0,Mrs.,Lobb,William Arthur (Cordelia K Stanlick),female,26.0,,English,1,0,A/5 3336,16.1,,S,,,
+3,0,Mr.,Robins,Alexander A,male,50.0,1861-07-01,English,1,0,A/5 3337,14.5,,S,,119.0,
+3,0,Mrs.,Robins,Alexander A (Grace Charity Laury),female,47.0,1865-01-18,English,1,0,A/5 3337,14.5,,S,,7.0,
+3,0,Mr.,Nancarrow,William Henry,male,36.0,,English,0,0,A/5 3338,8.05,,S,,,
+3,0,Mr.,Cook,Jacob,male,43.0,,English,0,0,A/5 3536,8.05,,S,,,
+3,1,Mr.,Cohen,"Gurshon ""Gus""",male,18.0,1893-12-31,English,0,0,A/5 3540,8.05,,S,12,,"London Brooklyn, NY"
+3,0,Mr.,Rouse,Richard Henry,male,50.0,,English,0,0,A/5 3594,8.05,,S,,,
+3,0,Mr.,Elsbury,William James,male,47.0,,English,0,0,A/5 3902,7.25,,S,,,"Illinois, USA"
+3,0,Mr.,van Billiard,Austin Blyler,male,35.0,1877-02-08,American,0,2,A/5 851,14.5,,S,,255.0,
+3,0,Master,van Billiard,James William,male,10.0,1901-08-20,American,1,1,A/5 851,14.5,,S,,,
+3,0,Master,van Billiard,Walter John,male,9.0,1903-02-28,American,1,1,A/5 851,14.5,,S,,1.0,
+3,0,Mr.,Maisner,Simon,male,30.0,1882-02-07,English,0,0,A/S 2816,8.05,,S,,,
+3,0,Mr.,Moore,Leonard Charles,male,19.0,,English,0,0,A4 54510,8.05,,S,,,
+3,0,Mr.,Meo,Alfonzo,male,48.0,1864-01-25,English,0,0,A5 11206,8.05,,S,,201.0,
+3,0,Mr.,Somerton,Francis William,male,31.0,,English,0,0,A5 18509,8.05,,S,,,
+3,0,Mr.,Spector,Woolf,male,23.0,,English,0,0,A5 3236,8.05,,S,,,
+3,0,Miss,Hagardon,Kate,female,17.0,1894-05-22,Irish,0,0,AQ/3 30631,7.7333,,Q,,,
+3,0,Mr.,Mahon,John,male,27.0,1884-08-29,Irish,0,0,AQ/4 3130,7.75,,Q,,,
+3,1,Master,Olsen,Artur Karl,male,9.0,1903-02-06,Norwegian,0,1,C 17368,3.1708,,S,13,,
+3,1,Mr.,Madsen,Fridtjof Arne,male,24.0,1888-03-17,Norwegian,0,0,C 17369,7.1417,,S,13,,
+3,0,Mr.,Andersen,Albert Karvin,male,33.0,1878-04-25,Norwegian,0,0,C 4001,22.525,,S,,260.0,"Bergen, Norway"
+3,0,Mr.,Holthen,Johan Martin,male,18.0,1894-04-01,Norwegian,0,0,C 4001,22.525,,S,,,
+3,0,Mr.,Olsen,Henry Margido,male,28.0,1884-03-22,Norwegian,0,0,C 4001,22.525,,S,,173.0,
+3,0,Mr.,Holm,John Fredrik Alexander,male,43.0,1869-02-20,Swedish,0,0,C 7075,6.45,,S,,,
+3,0,Mr.,Adahl,Mauritz Nils Martin,male,30.0,1881-06-15,Swedish,0,0,C 7076,7.25,,S,,72.0,"Asarum, Sweden Brooklyn, NY"
+3,1,Miss,Landergren,Aurora Adelia,female,22.0,1889-06-19,Swedish,0,0,C 7077,7.25,,S,13,,
+3,0,Mr.,Goodwin,Charles Edward,male,14.0,,English,5,2,CA 2144,46.9,,S,,,"Wiltshire, England Niagara Falls, NY"
+3,0,Mr.,Goodwin,Charles Frederick,male,40.0,,English,1,6,CA 2144,46.9,,S,,,"Wiltshire, England Niagara Falls, NY"
+3,0,Mrs.,Goodwin,Frederick (Augusta Tyler),female,43.0,,English,1,6,CA 2144,46.9,,S,,,"Wiltshire, England Niagara Falls, NY"
+3,0,Master,Goodwin,Harold Victor,male,9.0,,English,5,2,CA 2144,46.9,,S,,,"Wiltshire, England Niagara Falls, NY"
+3,0,Miss,Goodwin,Jessie Allis,female,10.0,,English,5,2,CA 2144,46.9,,S,,,"Wiltshire, England Niagara Falls, NY"
+3,0,Miss,Goodwin,Lillian Amy,female,16.0,,English,5,2,CA 2144,46.9,,S,,,"Wiltshire, England Niagara Falls, NY"
+3,0,Master,Goodwin,Sidney Leonard,male,1.0,1910-09-09,English,5,2,CA 2144,46.9,,S,,,"Wiltshire, England Niagara Falls, NY"
+3,0,Master,Goodwin,William Frederick,male,11.0,,English,5,2,CA 2144,46.9,,S,,,"Wiltshire, England Niagara Falls, NY"
+3,1,Miss,Stanley,Amy Zillah Elsie,female,24.0,1888-01-04,English,0,0,CA 2314,7.55,,S,C,,
+3,1,Mrs.,Dean,Bertram (Eva Georgetta Light),female,32.0,1879-05-18,English,1,2,CA 2315,20.575,,S,10,,"Devon, England Wichita, KS"
+3,0,Mr.,Dean,Bertram Frank,male,25.0,1886-06-30,English,1,2,CA 2315,20.575,,S,,,"Devon, England Wichita, KS"
+3,1,Master,Dean,Bertram Vere,male,1.0,1910-05-21,English,1,2,CA 2315,20.575,,S,10,,"Devon, England Wichita, KS"
+3,1,Miss,Dean,"Elizabeth Gladys ""Millvina""",female,0.2,1912-02-02,English,1,2,CA 2315,20.575,,S,10,,"Devon, England Wichita, KS"
+3,0,Miss,Sage,Ada,female,10.0,1901-11-09,English,8,2,CA 2343,69.55,,S,,,
+3,0,Miss,Sage,Constance Gladys,female,8.0,,English,8,2,CA 2343,69.55,,S,,,
+3,0,Miss,Sage,"Dorothy Edith ""Dolly""",female,14.0,1897-10-13,English,8,2,CA 2343,69.55,,S,,,
+3,0,Mr.,Sage,Douglas Bullen,male,18.0,,English,8,2,CA 2343,69.55,,S,,,
+3,0,Mr.,Sage,Frederick,male,17.0,,English,8,2,CA 2343,69.55,,S,,,
+3,0,Mr.,Sage,George John Jr,male,45.0,,English,8,2,CA 2343,69.55,,S,,,
+3,0,Mrs.,Sage,John (Annie Bullen),female,45.0,,English,1,9,CA 2343,69.55,,S,,,
+3,0,Mr.,Sage,John George,male,20.0,,English,1,9,CA 2343,69.55,,S,,,
+3,0,Miss,Sage,Stella Anna,female,21.0,,English,8,2,CA 2343,69.55,,S,,,
+3,0,Master,Sage,Thomas Henry,male,5.0,,English,8,2,CA 2343,69.55,,S,,,
+3,0,Master,Sage,William Henry,male,13.0,,English,8,2,CA 2343,69.55,,S,,67.0,
+3,0,Master,Abbott,Eugene Joseph,male,14.0,1898-03-31,English,0,2,CA 2673,20.25,,S,,,"East Providence, RI"
+3,0,Mr.,Abbott,Rossmore Edward,male,16.0,1896-02-21,English,1,1,CA 2673,20.25,,S,,190.0,"East Providence, RI"
+3,1,Mrs.,Abbott,Stanton (Rosa Hunt),female,39.0,1873-01-14,English,1,1,CA 2673,20.25,,S,A,,"East Providence, RI"
+3,1,Master,Coutts,"Eden Leslie ""Neville""",male,3.0,1908-10-23,Irish,1,1,CA 37671,15.9,,S,2,,"England Brooklyn, NY"
+3,1,Mrs.,Coutts,"William (Winnie ""Minnie"" Treanor)",female,36.0,1876-02-02,Irish,0,2,CA 37671,15.9,,S,2,,"England Brooklyn, NY"
+3,1,Master,Coutts,"William Loch ""William""",male,9.0,1902-10-16,Irish,1,1,CA 37671,15.9,,S,2,,"England Brooklyn, NY"
+3,0,Mr.,MacKay,George William,male,30.0,,English,0,0,CA 42795,7.55,,S,,,
+3,0,Mr.,Warren,Charles William,male,30.0,,English,0,0,CA 49867,7.55,,S,,,
+3,0,Mr.,Abbing,Anthony,male,42.0,,English,0,0,CA 5547,7.55,,S,,,
+3,0,Mr.,Everett,Thomas James,male,39.0,1872-05-22,English,0,0,CA 6212,15.1,,S,,187.0,
+3,0,Mr.,Shellard,Frederick William,male,55.0,1857-04-03,English,0,0,CA 6212,15.1,,S,,,
+3,0,Mr.,Olsen,Ole Martin,male,27.0,,Norwegian,0,0,FA 265302,7.3125,,S,,,
+3,0,Mr.,Sadowitz,Harry,male,20.0,,English,0,0,LP 1588,7.575,,S,,,
+3,0,Mr.,Berglund,Karl Ivar Sven,male,22.0,1890-01-24,Finnish,0,0,PP 4348,9.35,,S,,,"Tranvik, Finland New York"
+3,1,Miss,Sandstrom,Beatrice Irene,female,1.0,1910-08-09,Swedish,1,1,PP 9549,16.7,G6,S,13,,
+3,1,Mrs.,Sandstrom,Hjalmar (Agnes Charlotta Bengtsson),female,24.0,1887-11-08,Swedish,0,2,PP 9549,16.7,G6,S,13,,
+3,1,Miss,Sandstrom,Marguerite Rut,female,4.0,1908-03-23,Swedish,1,1,PP 9549,16.7,G6,S,13,,
+3,0,Mr.,Rogers,William John,male,29.0,,English,0,0,SC/A4 23567,8.05,,S,,,
+3,0,Mr.,Davies,Evan,male,22.0,,English,0,0,SC/A4 23568,8.05,,S,,,
+3,0,Mr.,Lithman,Simon,male,20.0,,English,0,0,SO/PP 251,7.55,,S,,,
+3,0,Mr.,Willey,Edward,male,18.0,,English,0,0,SO/PP 751,7.55,,S,,,
+3,1,Mr.,Duquemin,Joseph,male,19.0,1892-11-24,English,0,0,SO/PP 752,7.55,,S,D,,"England Albion, NY"
+3,0,Mr.,Saether,Simon Sivertsen,male,43.0,1868-07-14,Norwegian,0,0,SOTON/OQ 3101262,7.25,,S,,32.0,
+3,0,Mr.,Goldsmith,Nathan,male,41.0,,English,0,0,SOTON/OQ 3101263,7.85,,S,,,"Philadelphia, PA"
+3,0,Mr.,Nirva,Iisakki Antino Aijo,male,41.0,1870-12-24,Finnish,0,0,SOTON/OQ 3101272,7.125,,S,,,"Finland Sudbury, ON"
+3,1,Mr.,Abrahamsson,Abraham August Johannes,male,19.0,1892-07-15,Finnish,0,0,SOTON/OQ 3101284,7.925,,S,15,,"Taalintehdas, Finland Hoboken, NJ"
+3,0,Mr.,Alhomaki,Ilmari Rudolf,male,19.0,1893-03-12,Finnish,0,0,SOTON/OQ 3101287,7.925,,S,,,"Salo, Finland Astoria, OR"
+3,0,Mr.,Jardim,Jose Neto,male,21.0,1890-07-27,Portuguese,0,0,SOTON/OQ 3101305,7.05,,S,,,
+3,0,Mr.,Goncalves,Manuel Estanslas,male,38.0,,Portuguese,0,0,SOTON/OQ 3101306,7.05,,S,,,Portugal
+3,0,Mr.,Coelho,Domingos Fernandeo,male,20.0,1891-06-19,Portuguese,0,0,SOTON/OQ 3101307,7.05,,S,,,Portugal
+3,1,Mr.,Finoli,Luigi,male,34.0,,Italian,0,0,SOTON/OQ 3101308,7.05,,S,15,,"Italy Philadelphia, PA"
+3,0,Mr.,Assam,Ali,male,23.0,,Argentinian,0,0,SOTON/OQ 3101309,7.05,,S,,,
+3,0,Mr.,Asim,Adola,male,35.0,,Syrian,0,0,SOTON/OQ 3101310,7.05,,S,,,
+3,0,Mr.,Ali,Ahmed,male,24.0,,Argentinian,0,0,SOTON/OQ 3101311,7.05,,S,,,
+3,0,Mr.,Ali,William,male,25.0,,Argentinian,0,0,SOTON/OQ 3101312,7.05,,S,,79.0,Argentina
+3,0,Mr.,Franklin,Charles (Charles Fardon),male,38.0,,English,0,0,SOTON/OQ 3101314,7.25,,S,,,
+3,0,Master,Peacock,Alfred Edward,male,0.6027397260273972,1911-09-08,English,1,1,SOTON/OQ 3101315,13.775,,S,,,
+3,0,Mrs.,Peacock,Benjamin (Edith Nile),female,26.0,,English,0,2,SOTON/OQ 3101315,13.775,,S,,,
+3,0,Miss,Peacock,Treasteall,female,4.0,,English,1,1,SOTON/OQ 3101315,13.775,,S,,,
+3,0,Mr.,Webber,James,male,66.0,,English,0,0,SOTON/OQ 3101316,8.05,,S,,,
+3,0,Mr.,Windelov,Einar,male,21.0,,English,0,0,SOTON/OQ 3101317,7.25,,S,,,
+3,0,Mr.,Sutehall,Henry Jr,male,25.0,1886-07-23,English,0,0,SOTON/OQ 392076,7.05,,S,,,
+3,1,Mr.,Pickard,Berk (Berk Trembisky),male,32.0,,English,0,0,SOTON/OQ 392078,8.05,E10,S,9,,
+3,0,Mr.,Simmons,John,male,39.0,,English,0,0,SOTON/OQ 392082,8.05,,S,,,
+3,1,Miss,Drapkin,Jennie,female,24.0,1887-06-20,English,0,0,SOTON/OQ 392083,8.05,,S,,,"London New York, NY"
+3,0,Mr.,Slocovski,Selman Francis,male,31.0,,English,0,0,SOTON/OQ 392086,8.05,,S,,,
+3,0,Miss,Meanwell,(Marion Ogden),female,63.0,,English,0,0,SOTON/OQ 392087,8.05,,S,,,
+3,1,Mr.,Sunderland,Victor Francis,male,20.0,1892-03-17,English,0,0,SOTON/OQ 392089,8.05,,S,B,,
+3,0,Mr.,Corn,Harry,male,30.0,,English,0,0,SOTON/OQ 392090,8.05,,S,,,London
+3,0,Mr.,Crease,Ernest James,male,19.0,,English,0,0,SP 3464,8.1583,,S,,,"Bristol, England Cleveland, OH"
+3,0,Mr.,Makinen,Kalle Edvard,male,29.0,1882-05-21,Finnish,0,0,STON/OQ 3101268,7.925,,S,,,
+3,1,Mr.,Sundman,Johan Julian,male,44.0,,Finnish,0,0,STON/OQ 3101269,7.925,,S,15,,
+3,0,Miss,Ilmakangas,Ida Livija,female,17.0,1894-11-14,Finnish,1,0,STON/OQ 3101270,7.925,,S,,,
+3,0,Miss,Ilmakangas,Pieta Sofia,female,25.0,1887-03-04,Finnish,1,0,STON/OQ 3101271,7.925,,S,,,
+3,0,Mr.,Rintamaki,Matti,male,35.0,1877-02-04,Finnish,0,0,STON/OQ 3101273,7.125,,S,,,
+3,0,Mr.,Kallio,Nikolai Erland,male,17.0,1894-12-18,Finnish,0,0,STON/OQ 3101274,7.125,,S,,,
+3,0,Mr.,Maenpaa,Matti Alexanteri,male,22.0,1889-10-07,Finnish,0,0,STON/OQ 3101275,7.125,,S,,,
+3,0,Mr.,Hakkarainen,Pekka Pietari,male,28.0,1884-01-01,Finnish,1,0,STON/OQ 3101279,15.85,,S,,,
+3,1,Mrs.,Hakkarainen,Pekka Pietari (Elin Matilda Dolck),female,24.0,1888-03-20,Finnish,1,0,STON/OQ 3101279,15.85,,S,15,,
+3,0,Mr.,Sivola,Antti Wilhelm,male,21.0,,Swedish,0,0,STON/OQ 3101280,7.925,,S,,,
+3,1,Miss,Heikkinen,Laina,female,16.0,1896-01-25,Finnish,0,0,STON/OQ 3101282,7.925,,S,14,,
+3,1,Miss,Honkanen,Eliina,female,27.0,,Finnish,0,0,STON/OQ 3101283,7.925,,S,,,
+3,1,Mr.,Lindqvist,Eino William,male,20.0,,Finnish,1,0,STON/OQ 3101285,7.925,,S,15,,
+3,1,Mr.,Jussila,Eiriik,male,32.0,1880-04-02,Finnish,0,0,STON/OQ 3101286,7.925,,S,15,,
+3,1,Mr.,Stranden,Juho,male,30.0,,Finnish,0,0,STON/OQ 3101288,7.925,,S,9,,
+3,1,Mr.,Niskanen,Juha,male,39.0,,Finnish,0,0,STON/OQ 3101289,7.925,,S,9,,
+3,0,Miss,Heininen,Wendla Maria,female,23.0,,Finnish,0,0,STON/OQ 3101290,7.925,,S,,,
+3,0,Mr.,Peltomaki,Nikolai Johannes,male,25.0,,Finnish,0,0,STON/OQ 3101291,7.925,,S,,,
+3,0,Mr.,Leinonen,Antti Gustaf,male,32.0,,Finnish,0,0,STON/OQ 3101292,7.925,,S,,,
+3,0,Mr.,Tikkanen,Juho,male,32.0,1879-06-24,Finnish,0,0,STON/OQ 3101293,7.925,,S,,,
+3,0,Mr.,Pekoniemi,Edvard,male,21.0,,Finnish,0,0,STON/OQ 3101294,7.925,,S,,,
+3,0,Mr.,Spinner,Henry John,male,32.0,,English,0,0,STON/OQ 369943,8.05,,S,,,
+3,0,Mr.,Johnston,Andrew Emslie,male,35.0,1876-05-14,English,1,2,W/C 6607,23.45,,S,,,
+3,0,Mrs.,Johnston,"Andrew Emslie (Elizabeth ""Lily"" Watson)",female,34.0,,English,1,2,W/C 6607,23.45,,S,,,
+3,0,Miss,Johnston,"Catherine Helen ""Carrie""",female,7.0,1905-02-19,English,1,2,W/C 6607,23.45,,S,,,
+3,0,Master,Johnston,"William Arthur ""Willie""",male,8.0,1903-09-14,English,1,2,W/C 6607,23.45,,S,,,
+3,0,Miss,Ford,"Doolina Margaret ""Daisy""",female,20.0,1891-06-13,English,2,2,W/C 6608,34.375,,S,,,"Rotherfield, Sussex, England Essex Co, MA"
+3,0,Mrs.,Ford,Edward (Margaret Ann Watson),female,48.0,,English,1,3,W/C 6608,34.375,,S,,,"Rotherfield, Sussex, England Essex Co, MA"
+3,0,Mr.,Ford,Edward Watson,male,18.0,,English,2,2,W/C 6608,34.375,,S,,,"Rotherfield, Sussex, England Essex Co, MA"
+3,0,Miss,Ford,"Robina Maggie ""Ruby""",female,7.0,1904-04-25,English,2,2,W/C 6608,34.375,,S,,,"Rotherfield, Sussex, England Essex Co, MA"
+3,0,Mr.,Ford,William Neal,male,16.0,,English,1,3,W/C 6608,34.375,,S,,,"Rotherfield, Sussex, England Essex Co, MA"
+3,0,Miss,Harknett,Alice Phoebe,female,21.0,1890-10-15,English,0,0,W/C 6609,7.55,,S,,,

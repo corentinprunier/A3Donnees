@@ -1,0 +1,152 @@
+package fr.ensma.a3.ia.carnetadressesdal.dao;
+
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Optional;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
+
+import fr.ensma.a3.ia.carnetadressesdal.dao.entity.AdresseEntity;
+
+public class AdresseSqlDAO extends AbstractSqlDAO<AdresseEntity> {
+	
+	private static Logger LOGGER = Logger.getLogger(AdresseSqlDAO.class.getName());
+
+    @Override
+    public Optional<AdresseEntity> getById(int id) {
+    	Connection connection = openBase();
+        String request = "SELECT * FROM Adresses WHERE idAdr =" + id;
+        ResultSet result = query(request,connection);
+        try {
+            if (result.next()) {
+            	AdresseEntity adr = new AdresseEntity();
+            	adr.setCodePostal(result.getInt("CodePostal"));
+            	adr.setIdAdr(result.getInt("idAdr"));
+            	adr.setNomRue(result.getString("NomRue"));
+            	adr.setNomVille(result.getString("NomVille"));
+            	adr.setNumRue(result.getInt("NumRue"));
+                closeBase(connection);
+                return Optional.of(adr);
+            }
+        } catch (SQLException e){
+        	e.printStackTrace();
+        }
+
+        closeBase(connection);
+        return Optional.empty();
+    }
+    
+    
+
+    @Override
+    public Optional<AdresseEntity> getByValue(AdresseEntity elem) {
+        List<AdresseEntity> listtemp = getAll();
+        for (AdresseEntity ad : listtemp) {
+            if (ad.equals(elem)) {
+                return Optional.of(ad);
+            }
+        }
+        return Optional.empty();
+    }
+
+    
+    
+    @Override
+    public List<AdresseEntity> getAll() {
+    	Connection connection = openBase();
+        ArrayList<AdresseEntity> listeadr = new ArrayList<AdresseEntity>();
+        ResultSet result = query("SELECT * FROM Adresses",connection);
+        try {
+            while (result.next()) {
+                AdresseEntity adr = new AdresseEntity();
+                adr.setIdAdr(result.getInt("idAdr"));
+                adr.setNumRue(result.getInt("numRue"));
+                adr.setNomRue(result.getString("nomRue"));
+                adr.setCodePostal(result.getInt("codePostal"));
+                adr.setNomVille(result.getString("nomVille"));
+                listeadr.add(adr);
+            }
+        } catch (SQLException e) {
+        	e.printStackTrace();
+        }
+
+        closeBase(connection);
+        return listeadr;
+    }
+    
+    
+    
+    @Override
+    public void create(AdresseEntity elem) {
+    	Connection connection = openBase();
+    	List<AdresseEntity> listtemp = getAll();
+    	if (tableExist("Adresses",connection)==false) {
+    		System.out.println("Création d'une nouvelle table");
+    		createTable("Adresses (idAdr INTEGER PRIMARY KEY, numRue INTEGER, nomRue TEXT, "
+    				+ "nomVille TEXT, codePostal INTEGER)",connection);
+    	}
+        if (getByValue(elem).isEmpty()) {
+        	elem.setIdAdr(listtemp.size() + 1);
+        	String request = "INSERT INTO Adresses (idAdr, numRue, nomRue, nomVille, codePostal)"
+        			+ " VALUES (" + elem.getIdAdr() + ", " + elem.getNumRue() + ", '" + elem.getNomRue() + "', '" 
+        			+ elem.getNomVille() + "', "+ elem.getCodePostal() + ")";
+            writeBase(request,connection);
+        } else {
+            // TODO : Prévoir une exception ...
+            LOGGER.log(Level.INFO, "Adresse deja dans la base ...");
+        }
+        closeBase(connection);
+    }
+    
+    
+    
+
+    @Override
+    public void update(AdresseEntity elem) {
+        if (getByValue(elem).isEmpty()) {
+        	Connection connection = openBase();
+        	ResultSet result = query("SELECT * FROM Adresses WHERE idAdr = " + elem.getIdAdr(),connection);
+        	try {
+            	if (result.next()) {
+    	            String request = "INSERT INTO Adresses (idAdr, numRue, nomRue, nomVille, codePostal)"
+    	            		+ " VALUES (" + elem.getIdAdr() + ", "  + elem.getNumRue() + ", '"  + elem.getNomRue() + "', '"
+    	            		+ elem.getNomVille() + "', " + elem.getCodePostal() + ") WHERE idAdr = " + elem.getIdAdr();
+    	            writeBase(request,connection);
+            	} else {
+            		// TODO : Prévoir une exception ...
+            		LOGGER.log(Level.INFO, "Adresse absente de la base ...");
+            	}
+        	} catch (SQLException e) {
+        		e.printStackTrace();
+        	}
+            closeBase(connection);
+        } else {
+            // TODO : Prévoir une exception ...
+            LOGGER.log(Level.INFO, "Adresse Deja dans la base ...");
+        }
+    }
+
+    
+    
+    
+    @Override
+    public void delete(AdresseEntity elem) {
+        
+        if (!getByValue(elem).isEmpty()) {
+        	Connection connection = openBase();
+        	String request = "DELETE FROM Adresses WHERE idAdr = " + elem.getIdAdr();
+        	removeBase(request,connection);
+            closeBase(connection);
+        }
+        else {
+            // TODO : Prévoir une exception ...
+            LOGGER.log(Level.INFO, "Adresse absent de la base ...");
+        }
+
+    }
+
+}

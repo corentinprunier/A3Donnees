@@ -1,0 +1,21 @@
+package fr.ensma.a3.ia;
+
+import java.util.Scanner;
+
+public class App 
+{
+    public static void main( String[] args )
+    {
+
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Que voulez vous faire ?");
+		System.out.println("Lire le carnet de contact.");
+		System.out.println("Lire le carnet d'adresse.");
+		System.out.println("Ajouter un contact.");
+		System.out.println("Modifier un contact.");
+		System.out.println("Supprimer un contact.");
+		String str = sc.nextLine();
+		System.out.println("Vous avez saisi : " + str);
+		
+    }
+}

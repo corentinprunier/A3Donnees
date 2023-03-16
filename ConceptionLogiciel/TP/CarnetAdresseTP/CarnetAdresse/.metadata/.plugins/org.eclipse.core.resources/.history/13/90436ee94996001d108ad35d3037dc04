@@ -1,0 +1,182 @@
+package fr.ensma.a3.ia;
+
+import java.util.List;
+import java.util.Scanner;
+
+import fr.ensma.a3.ia.carnetadressesdal.dao.AdresseSqlDAO;
+import fr.ensma.a3.ia.carnetadressesdal.dao.ContactSqlDAO;
+import fr.ensma.a3.ia.carnetadressesdal.dao.Dao;
+import fr.ensma.a3.ia.carnetadressesdal.dao.IDao;
+import fr.ensma.a3.ia.carnetadressesdal.dao.entity.AdresseEntity;
+import fr.ensma.a3.ia.carnetadressesdal.dao.entity.ContactEntity;
+import fr.ensma.a3.ia.carnetadressesdal.dao.entity.ContactRiche;
+
+public class App 
+{
+    public static void main( String[] args )
+    {
+
+		Scanner sc = new Scanner(System.in);
+		IDao<ContactEntity> persdao = new ContactSqlDAO();
+		IDao<AdresseEntity> adrdao = new AdresseSqlDAO();
+		
+		IDao<ContactRiche> contdao = new Dao(persdao,adrdao);
+		
+		
+		System.out.println("Que voulez vous faire ?");
+		System.out.println("Pour lire le carnet de contact, écrivez contact.");
+		System.out.println("Pour lire le carnet d'adresse, écrivez adresse.");
+		System.out.println("Pour ajouter un contact, écrivez ajouter.");
+		System.out.println("Pour modifier un contact, écrivez modifier.");
+		System.out.println("Pour supprimer un contact, écrivez supprimer.");
+		
+		String str = sc.nextLine();
+		
+		
+		
+		switch(str) {
+		
+		case "contact" :
+	    	System.out.println("Éléments dans la base Contact:");
+	        List<ContactEntity> allpers = persdao.getAll();
+	        for (ContactEntity ad : allpers) {
+	            System.out.println(ad);
+	        }
+
+		case "adresse" :
+	    	System.out.println("Éléments dans la base Adresse:");
+	        List<AdresseEntity> alladr = adrdao.getAll();
+	        for (AdresseEntity ad : alladr) {
+	            System.out.println(ad);
+	        }
+			
+		case "ajouter" :
+			
+			ContactRiche cont = new ContactRiche();
+			ContactEntity pers = new ContactEntity();
+
+			
+			System.out.println("Donnez le nom du contact:");
+			String nom = sc.nextLine();
+			pers.setNom(nom);
+			
+			System.out.println("Donnez le prénom du contact:");
+			String prenom = sc.nextLine();
+			pers.setPrenom(prenom);
+			
+			System.out.println("Le contact a-t-il une adresse ?");
+			String rep = sc.nextLine();
+			
+			cont.setPersonne(pers);
+			
+			if (rep.compareTo("oui") == 0) {
+				AdresseEntity adr = new AdresseEntity();
+				
+				System.out.println("Donnez le numéro de la rue:");
+				int num = sc.nextInt();
+				adr.setNumRue(num);
+				
+				System.out.println("Donnez le nom de la rue:");
+				String nomR = sc.nextLine();
+				adr.setNomRue(nomR);
+				
+				System.out.println("Donnez le nom de la ville:");
+				String nomV = sc.nextLine();
+				adr.setNomVille(nomV);
+				
+				System.out.println("Donnez le code postal:");
+				int cdp = sc.nextInt();
+				adr.setCodePostal(cdp);
+				
+				cont.setAdresse(adr);
+			}
+			
+			System.out.println("Création de l'élément : " + cont);
+	        contdao.create(cont);
+		
+	        
+		case "modifier" :
+
+			System.out.println("Donnez l'id du contact à modifier:");
+			int idU = sc.nextInt();
+			
+			ContactRiche contU = contdao.getById(idU).get();
+			ContactEntity persU = contU.getPersonne();
+			AdresseEntity adrU = contU.getAdresse();
+			
+			System.out.println("Que voulez vous modifier ?");
+			System.out.println("Pour le nom, écrivez nom.");
+			System.out.println("Pour le prénom, écrivez prenom.");
+			System.out.println("Pour le numéro de rue, écrivez numRue.");
+			System.out.println("Pour le nom de la rue, écrivez nomRue.");
+			System.out.println("Pour le nom de la ville, écrivez nomVille.");
+			System.out.println("Pour le code postal, écrivez codePostal.");
+			
+			String repU = sc.nextLine();
+			
+			switch(repU) {
+			
+			case "nom" :
+				
+				System.out.println("Donnez le nouveau nom du contact:");
+				String nomU = sc.nextLine();
+				persU.setNom(nomU);
+				contU.setPersonne(persU);
+				
+			case "prenom" :
+				
+				System.out.println("Donnez le nouveau prénom du contact:");
+				String prenomU = sc.nextLine();
+				persU.setPrenom(prenomU);
+				contU.setPersonne(persU);
+				
+			case "numRue" :
+				
+				System.out.println("Donnez le nouveau numéro de rue du contact:");
+				int numRueU = sc.nextInt();
+				adrU.setNumRue(numRueU);
+				contU.setAdresse(adrU);
+				
+			case "nomRue" :
+				
+				System.out.println("Donnez le nouveau nom de rue du contact:");
+				String nomRueU = sc.nextLine();
+				adrU.setNomRue(nomRueU);
+				contU.setAdresse(adrU);
+				
+			case "nomVille" :
+				
+				System.out.println("Donnez le nouveau nom de ville du contact:");
+				String nomVilleU = sc.nextLine();
+				adrU.setNomVille(nomVilleU);
+				contU.setAdresse(adrU);
+				
+			case "codePostal" :
+				
+				System.out.println("Donnez le nouveau code postal du contact:");
+				int cdpU = sc.nextInt();
+				adrU.setNumRue(cdpU);
+				contU.setAdresse(adrU);
+			
+			}
+			
+			contdao.update(contU);
+			
+
+
+	        
+		case "supprimer" :
+			
+			
+			System.out.println("Donnez l'id du contact à supprimer:");
+			int idD = sc.nextInt();
+			
+			System.out.println("Suppression de l'élément id = "+ idD);
+			contdao.delete(contdao.getById(idD).get());
+			
+			
+		}
+		
+		sc.close();
+    }
+}
